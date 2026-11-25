@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Inventaire des contenus de la future PWA Module 05",
+  "version": "1",
+  "status": "a-valider",
+  "date": "2026-07-27",
+  "sourceMethod": "08-PROMPTS-CODEX/Pack-MAÎTRE-ATELIER",
+  "scope": "/app-module-05/",
+  "categories": {
+    "essential": [
+      {"path":"./index.html","state":"a-construire-version-finale","strategy":"precache","comment":"Point d’entrée principal."},
+      {"path":"./offline.html","state":"a-creer-seance-20","strategy":"precache","comment":"Repli des navigations hors connexion."},
+      {"path":"./manifest.webmanifest","state":"a-creer-seance-20","strategy":"network","comment":"Décrit l’identité installable."},
+      {"path":"./service-worker.js","state":"a-creer-seance-20","strategy":"no-manual-cache","comment":"Pilote le cache et sa version."},
+      {"path":"./css/tokens.css","state":"a-creer","strategy":"precache","comment":"Variables de design."},
+      {"path":"./css/styles.css","state":"prototype-existant","strategy":"precache","comment":"Présentation principale."},
+      {"path":"./css/print.css","state":"a-creer","strategy":"precache","comment":"Impression des preuves."},
+      {"path":"./js/app.js","state":"prototype-partiel","strategy":"precache","comment":"Initialisation générale."},
+      {"path":"./js/data-loader.js","state":"a-creer","strategy":"precache","comment":"Chargement JSON et états."},
+      {"path":"./js/ui.js","state":"a-creer","strategy":"precache","comment":"Interactions accessibles."},
+      {"path":"./assets/images/logo-ln-ia.webp","state":"source-a-optimiser","strategy":"precache","comment":"Identité LN-IA."},
+      {"path":"./assets/icons/icon-192.png","state":"a-creer-seance-20","strategy":"precache","comment":"Icône d’installation."},
+      {"path":"./assets/icons/icon-512.png","state":"a-creer-seance-20","strategy":"precache","comment":"Icône d’installation."},
+      {"path":"./assets/icons/icon-maskable-512.png","state":"a-creer-seance-20","strategy":"precache","comment":"Icône adaptative."}
+    ],
+    "offlineUseful": [
+      {"path":"./data/module.json","strategy":"network-first-cache-fallback","comment":"Cadre du module."},
+      {"path":"./data/sessions.json","strategy":"network-first-cache-fallback","comment":"Séances 17 à 20."},
+      {"path":"./data/projects.json","strategy":"network-first-cache-fallback","comment":"Projets et filtres."},
+      {"path":"./data/prompts.json","strategy":"network-first-cache-fallback","comment":"Prompts validés."},
+      {"path":"./data/resources.json","strategy":"network-first-cache-fallback","comment":"Ressources publiques existantes."},
+      {"path":"./data/checklist.json","strategy":"precache-or-network-first","comment":"Structure de progression."},
+      {"path":"./data/evaluation.json","strategy":"precache-or-network-first","comment":"Grille sur 100 points."},
+      {"path":"./preparation-pwa.html","strategy":"cache-controlled-update","comment":"Support explicatif de la séance 19."}
+    ],
+    "frequentlyUpdated": [
+      "data/sessions.json",
+      "data/projects.json",
+      "data/prompts.json",
+      "data/resources.json",
+      "data/checklist.json",
+      "data/evaluation.json",
+      "CHANGELOG.md",
+      "cache-version"
+    ],
+    "excludedPatterns": [
+      "*.backup-*",
+      "rapport-*",
+      "prive/",
+      "*.env",
+      "tokens.json",
+      "credentials.json",
+      "node_modules/",
+      "*.zip",
+      "candidate-real-data",
+      "private-contacts",
+      "unvalidated-content"
+    ]
+  },
+  "editorialPriority": {
+    "P0": ["accueil","sessions-17-20","projects","prompts","resources","progress"],
+    "P1": ["evaluation","portfolio-proof","help-security"],
+    "P2": ["poster-gallery","pwa-installation"]
+  },
+  "humanDecisions": [
+    "nom-public",
+    "scope-app-module-05",
+    "contenus-p0",
+    "sessions-publishable",
+    "prompts-publishable",
+    "resources-downloadable",
+    "visuals-authorized",
+    "cache-strategy",
+    "local-data-policy",
+    "deployment-target"
+  ]
+}

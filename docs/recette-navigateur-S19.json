@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "name": "onze rubriques navigables",
+      "status": "réussi"
+    },
+    {
+      "name": "projection et notes des 22 vues",
+      "status": "réussi"
+    },
+    {
+      "name": "succès HTTP réel et six cartes",
+      "status": "réussi"
+    },
+    {
+      "name": "filtres et flashcard accessibles",
+      "status": "réussi"
+    },
+    {
+      "name": "scénario empty",
+      "status": "réussi"
+    },
+    {
+      "name": "scénario 404",
+      "status": "réussi"
+    },
+    {
+      "name": "scénario invalid-json",
+      "status": "réussi"
+    },
+    {
+      "name": "scénario not-array",
+      "status": "réussi"
+    },
+    {
+      "name": "scénario schema",
+      "status": "réussi"
+    },
+    {
+      "name": "scénario dangerous",
+      "status": "réussi"
+    },
+    {
+      "name": "réessayer puis restaurer succès",
+      "status": "réussi"
+    },
+    {
+      "name": "chargement lent visible et annulation",
+      "status": "réussi"
+    },
+    {
+      "name": "édition JSON et DOM sûr",
+      "status": "réussi"
+    },
+    {
+      "name": "lien dangereux refusé dans éditeur",
+      "status": "réussi"
+    },
+    {
+      "name": "syntaxe invalide et export bloqué",
+      "status": "réussi"
+    },
+    {
+      "name": "import JSON utilisateur",
+      "status": "réussi"
+    },
+    {
+      "name": "export données et carnet séparés",
+      "status": "réussi"
+    },
+    {
+      "name": "validation sans preuve refusée",
+      "status": "réussi"
+    },
+    {
+      "name": "revue complète puis modification",
+      "status": "réussi"
+    },
+    {
+      "name": "flashcards, navigation et mélange",
+      "status": "réussi"
+    },
+    {
+      "name": "quiz omissions, bonne réponse et remise à zéro",
+      "status": "réussi"
+    },
+    {
+      "name": "exports preuve, index, relais et ZIP",
+      "status": "réussi"
+    },
+    {
+      "name": "recherche ressources et zéro résultat",
+      "status": "réussi"
+    },
+    {
+      "name": "largeur mobile 375 : onze rubriques sans débordement",
+      "status": "réussi"
+    }
+  ],
+  "errors": []
+}

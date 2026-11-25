@@ -1,0 +1,125 @@
+{
+  "source": "C:\\DEV\\CHALLENGE-01-Juin-2026\\05-PROGRAMME-PEDAGOGIQUE\\MODULE-05\\05-EXEMPLES-CODE",
+  "files": [
+    {
+      "path": "mini-site-demonstration-seance-17-v1-a-valider/assets/images/affiche-presentation-module-05.png",
+      "sha256": "96ca430e9a72e1d17906ae2e2ff30b19647ebaa2bfc72c04be9103cae291a33a",
+      "bytes": 1897682
+    },
+    {
+      "path": "mini-site-demonstration-seance-17-v1-a-valider/assets/images/affiche-presentation-seance-17.png",
+      "sha256": "3df9fafcbfdb5d592d42852deb7f14dad580eddbb1d5392e6c5d771605117395",
+      "bytes": 1849747
+    },
+    {
+      "path": "mini-site-demonstration-seance-17-v1-a-valider/assets/images/logo-LN-IA.png",
+      "sha256": "c5deb19a2d80b8c53939844fbdcd3ed80ff5adcdd2f865e77f22ffa176e4c963",
+      "bytes": 856856
+    },
+    {
+      "path": "mini-site-demonstration-seance-17-v1-a-valider/css/styles.css",
+      "sha256": "a548b08925d252d7f480c8f93dd641d2728292289ea99d68c0be8a595fa6978a",
+      "bytes": 14357
+    },
+    {
+      "path": "mini-site-demonstration-seance-17-v1-a-valider/index.html",
+      "sha256": "76dcbc26ef7dfc5b867d8ee3809094bf7a0f1fa02db54ca7e9e5fad1c1b8ae6c",
+      "bytes": 12438
+    },
+    {
+      "path": "mini-site-demonstration-seance-17-v1-a-valider/js/app.js",
+      "sha256": "480871f12e228821481778349861b6be612229db490fb3c2ec4b038c4ea6ac4e",
+      "bytes": 1500
+    },
+    {
+      "path": "mini-site-demonstration-seance-17-v1-a-valider/README.md",
+      "sha256": "3ebab314a02f1a31d2a357eb7b65e76c214545403ea88a01eff780114626dab1",
+      "bytes": 3368
+    },
+    {
+      "path": "mini-site-json-seance-19-v1-a-valider/css/styles.css",
+      "sha256": "37c26b8fdc5f928bc81d10ff4a6c455eb2a1efa2e43dc47699fcc033084b6223",
+      "bytes": 1865
+    },
+    {
+      "path": "mini-site-json-seance-19-v1-a-valider/data/projets.json",
+      "sha256": "5e134d7f90d45768a72e80bdbd13870393a0a743a0cab8387f6506ee68d5c187",
+      "bytes": 524
+    },
+    {
+      "path": "mini-site-json-seance-19-v1-a-valider/data/pwa-content-inventory.json",
+      "sha256": "6f5d5a6a7feab266e46c04c97aebfdd8ca3dcfac4fe67fcf77c57ff25d8de198",
+      "bytes": 4027
+    },
+    {
+      "path": "mini-site-json-seance-19-v1-a-valider/index.html",
+      "sha256": "49d2fb425b751c567b0ac139bd2e6d0b9cdb9bc66cfa4b2ae4297e87871c10b1",
+      "bytes": 2021
+    },
+    {
+      "path": "mini-site-json-seance-19-v1-a-valider/js/app.js",
+      "sha256": "b289432bb3f1fefec33e897035e8b28b48c13d3936e340583b091cc3d0c8143b",
+      "bytes": 2000
+    },
+    {
+      "path": "mini-site-json-seance-19-v1-a-valider/preparation-pwa.html",
+      "sha256": "7ab843cedc50ae93cefb65f6f5c0251694aadb9afc45abd41366a4d90688b06a",
+      "bytes": 10270
+    },
+    {
+      "path": "mini-site-json-seance-19-v1-a-valider/preuve-19-json-pwa.md",
+      "sha256": "4b1653580e6fe0c917be131058b00b9eef32b5119e3ed863ac8d90ee9c0df1f2",
+      "bytes": 2380
+    },
+    {
+      "path": "mini-site-json-seance-19-v1-a-valider/README.md",
+      "sha256": "7df4898a37f628322b8049a4c75296bcb7344bbc2cb50dd23b1082ba5c4a1c40",
+      "bytes": 1554
+    },
+    {
+      "path": "mini-site-seance-19-V2/api.php",
+      "sha256": "833510458c960cfd7d4141fbc9682168b44c4345069c17a63bc9598a9b661bb2",
+      "bytes": 245
+    },
+    {
+      "path": "mini-site-seance-19-V2/css/styles.css",
+      "sha256": "fe1e1ba4e652e44c71743cbb596a2c16cd48418c118cf74c4e8e54fac31f914d",
+      "bytes": 4349
+    },
+    {
+      "path": "mini-site-seance-19-V2/data/projets.json",
+      "sha256": "9cf01916abbf187abd7cefbcf952a90869e480534bc1bc61a75720ac586a5e8f",
+      "bytes": 3897
+    },
+    {
+      "path": "mini-site-seance-19-V2/data/pwa-content-inventory.json",
+      "sha256": "6f5d5a6a7feab266e46c04c97aebfdd8ca3dcfac4fe67fcf77c57ff25d8de198",
+      "bytes": 4027
+    },
+    {
+      "path": "mini-site-seance-19-V2/index.html",
+      "sha256": "933b29e75222130e4d985b10c33a9e561adcb1def0bd5d32086871245461b4f6",
+      "bytes": 6055
+    },
+    {
+      "path": "mini-site-seance-19-V2/js/app.js",
+      "sha256": "929ff83afe03e42cde30ee5dc2866878092f3e5cacfa3e5180374aad39540bfe",
+      "bytes": 8594
+    },
+    {
+      "path": "mini-site-seance-19-V2/preparation-pwa.html",
+      "sha256": "7ab843cedc50ae93cefb65f6f5c0251694aadb9afc45abd41366a4d90688b06a",
+      "bytes": 10270
+    },
+    {
+      "path": "mini-site-seance-19-V2/preuve-19-json-pwa.md",
+      "sha256": "46722f5d8f6e47d6ec88a5717c72386773582374366e0fe83a23234d784d76f4",
+      "bytes": 1547
+    },
+    {
+      "path": "mini-site-seance-19-V2/README.md",
+      "sha256": "0965090b1282721d476b47ac6617a6c7b97ca74c7e7f066ea60d1b284ae8e2ef",
+      "bytes": 3323
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "name": "quatre séances alignées et boutons lisibles",
+      "status": "réussi"
+    },
+    {
+      "name": "recherche de ressources et résultat vide",
+      "status": "réussi"
+    },
+    {
+      "name": "séances indépendantes et valeurs conservées",
+      "status": "réussi"
+    },
+    {
+      "name": "validation incomplète refusée",
+      "status": "réussi"
+    },
+    {
+      "name": "revue complète et modification après validation",
+      "status": "réussi"
+    },
+    {
+      "name": "export JSON transversal et preuve S19 dédiés",
+      "status": "réussi"
+    },
+    {
+      "name": "export bilan des quatre séances",
+      "status": "réussi"
+    },
+    {
+      "name": "remise à zéro limitée à la séance courante",
+      "status": "réussi"
+    },
+    {
+      "name": "reprise JSON complète",
+      "status": "réussi"
+    },
+    {
+      "name": "ancien format rejeté sans perte",
+      "status": "réussi"
+    },
+    {
+      "name": "impression ouvre tous les détails puis les restaure",
+      "status": "réussi"
+    },
+    {
+      "name": "carnet mobile sans débordement à 375 px",
+      "status": "réussi"
+    },
+    {
+      "name": "laboratoire intégré : six ressources HTTP",
+      "status": "réussi"
+    },
+    {
+      "name": "flashcard du laboratoire : état aria",
+      "status": "réussi"
+    }
+  ],
+  "errors": []
+}

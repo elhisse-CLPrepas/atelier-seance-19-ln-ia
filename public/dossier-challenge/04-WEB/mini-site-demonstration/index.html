@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Démonstration pédagogique de la séance 17 du Module 05 LN-IA : comprendre HTML, CSS et JavaScript.">
+  <title>Séance 17 — Comprendre les fondations du Web</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Retour à l’accueil de la démonstration">
+      <img class="brand-logo" src="assets/images/logo-LN-IA.png" alt="Logo LN-IA" width="150" height="76">
+      <span><strong>LAB-NUMÉRIQUE-IA</strong><small>Challenge 100 jours · Module 05</small></span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a href="#affiche-seance">Affiche séance 17</a>
+      <a href="#roles">Les trois rôles</a>
+      <a href="#fichiers">Les fichiers</a>
+      <a href="#interaction">Interaction</a>
+      <a href="#processus">Local ou publié ?</a>
+      <a href="#synthese">Synthèse</a>
+      <a href="../../01-SUIVI/carnet-essai-S17.html">Carnet d’essai</a>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <div class="workshop-links" aria-label="Accès à l’atelier"><a href="../../index.html">Accueil du dossier</a><a href="../../index.html">Mon dossier Challenge</a><a href="../../01-SUIVI/carnet-essai-S17.html">Mon carnet d’essai</a></div>
+    <section id="accueil" class="hero" aria-labelledby="titre-principal">
+      <div class="hero-copy">
+        <p class="eyebrow">Séance 17 · COMPRENDRE</p>
+        <h1 id="titre-principal">Comprendre les fondations du Web</h1>
+        <p class="lead">Une démonstration guidée pour observer comment le contenu, le style et l’interaction coopèrent dans une page web.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#roles">Commencer l’observation</a>
+          <a class="button secondary" href="#processus">Distinguer local et publié</a>
+        </div>
+        <p class="status-line"><span aria-hidden="true">●</span> Support fourni · copie de travail S17 · À EXAMINER</p>
+      </div>
+      <figure class="hero-visual">
+        <img src="assets/images/affiche-presentation-module-05.png" alt="Affiche du Module 05 présentant les séances 17 à 20, de la compréhension du Web au livrable final">
+        <figcaption>Vision globale du Module 05. La publication annoncée sur l’affiche reste contrôlée et n’est pas réalisée pendant cette démonstration.</figcaption>
+      </figure>
+    </section>
+
+    <section class="principle" aria-label="Principe central">
+      <p><strong>HTML organise.</strong><strong>CSS présente.</strong><strong>JavaScript fait réagir.</strong><strong>L’humain contrôle.</strong></p>
+    </section>
+
+    <!-- Miniature pédagogique : l’image complète reste disponible dans une fenêtre agrandie. -->
+    <section id="affiche-seance" class="section poster-section" aria-labelledby="poster-title">
+      <div class="poster-copy">
+        <p class="eyebrow">Repère visuel de la séance</p>
+        <h2 id="poster-title">L’affiche résume le parcours à suivre</h2>
+        <p>Cette miniature ne remplace pas l’explication du formateur. Elle sert de carte de lecture avant la démonstration et rappelle les trois responsabilités essentielles.</p>
+        <div class="poster-comments" aria-label="Lecture commentée de l’affiche">
+          <article><span>1</span><div><h3>Observer</h3><p>Repérer le contenu, les couleurs et les réactions visibles avant de toucher au code.</p></div></article>
+          <article><span>2</span><div><h3>Expliquer</h3><p>Relier chaque élément à HTML, CSS, JavaScript ou au navigateur.</p></div></article>
+          <article><span>3</span><div><h3>Appliquer</h3><p>Préparer la preuve 17, puis cadrer le mini-site V1 de la séance 18.</p></div></article>
+        </div>
+        <p class="poster-note"><strong>À retenir :</strong> projet local ne signifie pas site publié. Le pilote humain conserve la décision de publication.</p>
+      </div>
+      <figure class="poster-thumbnail">
+        <button id="poster-open" class="poster-button" type="button" aria-haspopup="dialog" aria-controls="poster-dialog">
+          <img src="assets/images/affiche-presentation-seance-17.png" alt="Affiche de la séance 17 : comprendre les fondations du Web avec HTML, CSS et JavaScript" width="1003" height="1568" loading="lazy">
+          <span>Agrandir l’affiche</span>
+        </button>
+        <figcaption>Affiche officielle — Module 05, séance 17. Miniature volontairement limitée pour préserver la lecture de la page.</figcaption>
+      </figure>
+    </section>
+
+    <section id="roles" class="section" aria-labelledby="roles-title">
+      <div class="section-heading">
+        <p class="eyebrow">Qui fait quoi ?</p>
+        <h2 id="roles-title">Trois fichiers, trois responsabilités</h2>
+        <p>Chaque technologie a un rôle principal. Les distinguer aide à observer avant de modifier.</p>
+      </div>
+      <div class="role-grid">
+        <article class="role-card html-card">
+          <span class="role-code" aria-hidden="true">&lt;/&gt;</span>
+          <p class="role-label">Structure</p>
+          <h3>HTML organise</h3>
+          <p>Il donne du sens au contenu : titres, paragraphes, sections, cartes, boutons et pied de page.</p>
+          <dl><div><dt>Dans cette page</dt><dd>Le titre, les cartes et l’ordre des sections.</dd></div><div><dt>Question</dt><dd>Que doit comprendre le visiteur ?</dd></div></dl>
+        </article>
+        <article class="role-card css-card">
+          <span class="role-code" aria-hidden="true">#</span>
+          <p class="role-label">Présentation</p>
+          <h3>CSS présente</h3>
+          <p>Il contrôle les couleurs, les espacements, les tailles et l’adaptation aux différents écrans.</p>
+          <dl><div><dt>Dans cette page</dt><dd>Le bleu nuit, le doré, les cartes et le responsive.</dd></div><div><dt>Question</dt><dd>Comment rendre le message lisible ?</dd></div></dl>
+        </article>
+        <article class="role-card js-card">
+          <span class="role-code" aria-hidden="true">{ }</span>
+          <p class="role-label">Interaction</p>
+          <h3>JavaScript fait réagir</h3>
+          <p>Il écoute un événement, applique une règle et met à jour une partie de la page.</p>
+          <dl><div><dt>Dans cette page</dt><dd>Le bouton qui affiche ou masque une explication.</dd></div><div><dt>Question</dt><dd>Que doit-il se passer après le clic ?</dd></div></dl>
+        </article>
+      </div>
+    </section>
+
+    <section id="interaction" class="section interaction-section" aria-labelledby="interaction-title">
+      <div class="interaction-copy">
+        <p class="eyebrow">Observer un événement</p>
+        <h2 id="interaction-title">Cliquez, puis décrivez ce qui change</h2>
+        <p>Le bouton existe dans la structure HTML. CSS lui donne son apparence. JavaScript écoute le clic et change l’état de la zone explicative.</p>
+        <button id="explain-button" class="button primary" type="button" aria-expanded="false" aria-controls="event-explanation">Afficher l’explication</button>
+      </div>
+      <div id="event-explanation" class="event-panel" hidden>
+        <p class="event-kicker">Événement observé : <strong>clic</strong></p>
+        <ol>
+          <li>Le navigateur détecte l’action sur le bouton.</li>
+          <li>JavaScript reçoit l’événement.</li>
+          <li>La règle prévue modifie l’état de cette zone.</li>
+          <li>Le texte du bouton et son état accessible sont actualisés.</li>
+        </ol>
+        <p class="human-note"><strong>Contrôle humain :</strong> l’interaction fonctionne localement, mais elle ne publie et ne transmet aucune donnée.</p>
+      </div>
+      <noscript><p class="no-script">JavaScript est désactivé. Le contenu principal reste lisible ; seule la démonstration interactive n’est pas disponible.</p></noscript>
+    </section>
+
+    <section id="fichiers" class="section anatomy" aria-labelledby="anatomy-title">
+      <div class="section-heading">
+        <p class="eyebrow">Le navigateur assemble</p>
+        <h2 id="anatomy-title">Une arborescence simple et lisible</h2>
+      </div>
+      <div class="anatomy-layout">
+        <div class="file-tree" aria-label="Arborescence du mini-site">
+          <p><strong>mini-site-demonstration/</strong></p>
+          <p class="level-1"><span class="file-dot html-dot"></span>index.html <small>structure et contenu</small></p>
+          <p class="level-1"><span class="folder-dot"></span>css/</p>
+          <p class="level-2"><span class="file-dot css-dot"></span>styles.css <small>présentation</small></p>
+          <p class="level-1"><span class="folder-dot"></span>js/</p>
+          <p class="level-2"><span class="file-dot js-dot"></span>app.js <small>interaction</small></p>
+          <p class="level-1"><span class="folder-dot"></span>assets/images/ <small>visuel local</small></p>
+          <p class="level-1"><span class="file-dot doc-dot"></span>README.md <small>mode d’emploi</small></p>
+        </div>
+        <div class="browser-flow">
+          <article><span>1</span><div><h3>Le navigateur lit</h3><p>Il ouvre le document principal et repère les ressources liées.</p></div></article>
+          <article><span>2</span><div><h3>Il construit le DOM</h3><p>La structure devient une représentation que JavaScript peut observer.</p></div></article>
+          <article><span>3</span><div><h3>Il applique le style</h3><p>Les règles CSS organisent la présentation sur l’écran.</p></div></article>
+          <article><span>4</span><div><h3>Il écoute les événements</h3><p>Le clic déclenche la règle JavaScript prévue.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="processus" class="section process-section" aria-labelledby="process-title">
+      <div class="section-heading light">
+        <p class="eyebrow">Ne pas confondre</p>
+        <h2 id="process-title">Local, prêt à déployer, publié</h2>
+        <p>Un projet ne devient pas public simplement parce qu’il fonctionne dans le navigateur.</p>
+      </div>
+      <ol class="process-grid">
+        <li><span>01</span><h3>Projet local</h3><p>Les fichiers sont présents sur l’ordinateur et ouverts pour être testés.</p><strong>État actuel</strong></li>
+        <li><span>02</span><h3>Paquet contrôlé</h3><p>Les chemins, contenus, interactions et données sensibles sont vérifiés.</p><strong>Action future</strong></li>
+        <li><span>03</span><h3>Validation humaine</h3><p>Le pilote décide si le projet peut être déployé et selon quelles modalités.</p><strong>Décision obligatoire</strong></li>
+        <li><span>04</span><h3>Site publié</h3><p>Les fichiers sont hébergés et l’adresse publique est contrôlée après publication.</p><strong>Hors séance 17</strong></li>
+      </ol>
+    </section>
+
+    <section id="synthese" class="section summary-section" aria-labelledby="summary-title">
+      <div>
+        <p class="eyebrow">Synthèse candidat</p>
+        <h2 id="summary-title">Je peux maintenant expliquer…</h2><p><a class="button primary" href="../../01-SUIVI/carnet-essai-S17.html">Consigner mon essai dans le carnet</a></p>
+      </div>
+      <ul class="summary-list">
+        <li>le rôle de HTML, CSS et JavaScript ;</li>
+        <li>le rôle du navigateur et de la console ;</li>
+        <li>l’organisation minimale d’un mini-site ;</li>
+        <li>la différence entre un projet local et un site publié ;</li>
+        <li>pourquoi la validation finale reste humaine.</li>
+      </ul>
+      <aside class="next-step"><p>Prochaine étape</p><strong>Séance 18 — produire un mini-site V1</strong><span>Après validation du sujet, des contenus et de l’interaction.</span></aside>
+    </section>
+  </main>
+
+  <dialog id="poster-dialog" class="poster-dialog" aria-labelledby="poster-dialog-title">
+    <div class="dialog-header">
+      <h2 id="poster-dialog-title">Affiche — Séance 17</h2>
+      <button id="poster-close" class="dialog-close" type="button" aria-label="Fermer l’affiche agrandie">×</button>
+    </div>
+    <img src="assets/images/affiche-presentation-seance-17.png" alt="Affiche complète de la séance 17 : comprendre les fondations du Web" width="1003" height="1568">
+    <p>HTML organise · CSS présente · JavaScript fait réagir · L’humain contrôle.</p>
+  </dialog>
+
+  <footer class="site-footer">
+    <p><strong>LAB-NUMÉRIQUE-IA</strong> · S17 · Vendredi 20 novembre 2026 · Démonstration locale</p><p>Affiches issues du support d’été fourni ; leurs dates ne désignent pas la séance d’automne.</p><a href="#accueil">Revenir en haut</a>
+    <p>L’IA propose. Le candidat comprend. Le formateur contrôle. Le pilote humain valide.</p>
+  </footer>
+</body>
+</html>

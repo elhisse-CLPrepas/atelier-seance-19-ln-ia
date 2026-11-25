@@ -1,0 +1,324 @@
+{
+  "date": "2026-11-26",
+  "sources_modified": false,
+  "references": [
+    {
+      "session": "S17",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-17-ln-ia\\README.md",
+      "copy": "00-SOURCES/ATELIERS/S17/README.md",
+      "sha256": "270290669af405911db1245f62258685f1a453c17cf0feff977b51fb74947411"
+    },
+    {
+      "session": "S17",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-17-ln-ia\\src\\seance.json",
+      "copy": "00-SOURCES/ATELIERS/S17/src/seance.json",
+      "sha256": "3d055517dca2e6b0537fb8309c4cdca5456830de6faf90f72055206a65fb4072"
+    },
+    {
+      "session": "S17",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-17-ln-ia\\public\\supports\\prompts-S17.md",
+      "copy": "00-SOURCES/ATELIERS/S17/public/supports/prompts-S17.md",
+      "sha256": "a8bee189b691f71e4a84aa57b8e461d12649ea01b038071bb9dea33b3ac8dc42"
+    },
+    {
+      "session": "S18",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-18-ln-ia\\README.md",
+      "copy": "00-SOURCES/ATELIERS/S18/README.md",
+      "sha256": "5c5ca3331780182d74867ff9244e5891661a123710c0919f7beb04c365cdce75"
+    },
+    {
+      "session": "S18",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-18-ln-ia\\src\\seance.json",
+      "copy": "00-SOURCES/ATELIERS/S18/src/seance.json",
+      "sha256": "adce73749f70244dc7fbfa4fa16e6eda2af1b9e325f5604f37bc8a8c461ca6f8"
+    },
+    {
+      "session": "S18",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-18-ln-ia\\public\\supports\\prompts-S18.md",
+      "copy": "00-SOURCES/ATELIERS/S18/public/supports/prompts-S18.md",
+      "sha256": "d502d78e91170b5f6154869ba6619df0fffb1dc7809e3460c14043dd8a8a66c5"
+    },
+    {
+      "session": "S18",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-18-ln-ia\\INSTRUCTIONS-PARTICIPANTS-S18.md",
+      "copy": "00-SOURCES/ATELIERS/S18/INSTRUCTIONS-PARTICIPANTS-S18.md",
+      "sha256": "2823d0467fffdb237ec8e3bde12555a55a6f9a5c4a2e28137f012130c196475b"
+    },
+    {
+      "session": "S18",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-18-ln-ia\\AGENT.md",
+      "copy": "00-SOURCES/ATELIERS/S18/AGENT.md",
+      "sha256": "523caca48eddc0573f28ad8cd076c27011420d73255740eddefbe72aa827f81e"
+    },
+    {
+      "session": "S18",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-18-ln-ia\\PROMPT-MAITRE-PRODUCTION-S18.md",
+      "copy": "00-SOURCES/ATELIERS/S18/PROMPT-MAITRE-PRODUCTION-S18.md",
+      "sha256": "45301c033a6b621bcec274e57171bd19ebf20dd43521ca087370cc2a4cc04eaa"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\README.md",
+      "copy": "00-SOURCES/ATELIERS/S19/README.md",
+      "sha256": "26c1bb240484da77d0f6bf8595ee739893c9c4b4bd8528d8c2b8907dbcb85247"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\src\\seance.json",
+      "copy": "00-SOURCES/ATELIERS/S19/src/seance.json",
+      "sha256": "1b0c6db50b8395e064032566d74c480b9f4619dc1a0cddd2fd3945ad4b4deb63"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\public\\supports\\prompts-S19.md",
+      "copy": "00-SOURCES/ATELIERS/S19/public/supports/prompts-S19.md",
+      "sha256": "e7bd5abd5be14e333852a33d587356f74baee8500d04ab017e88c9ea761c0cd5"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\seance-19-json-pwa-v2.md",
+      "copy": "00-SOURCES/ATELIERS/S19/seance-19-json-pwa-v2.md",
+      "sha256": "b90ba8be5d67961c15bf5ba9662b59c6ab84c71f3db7085170867c347d6669b5"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-seance-19-V2\\README.md",
+      "copy": "00-SOURCES/ATELIERS/S19/05-EXEMPLES-CODE/mini-site-seance-19-V2/README.md",
+      "sha256": "0965090b1282721d476b47ac6617a6c7b97ca74c7e7f066ea60d1b284ae8e2ef"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\pack-documentaire-seance-19-v1-a-valider\\SOURCES-ET-SYNCHRONISATION.md",
+      "copy": "00-SOURCES/ATELIERS/S19/pack-documentaire-seance-19-v1-a-valider/SOURCES-ET-SYNCHRONISATION.md",
+      "sha256": "ddf8639ebe19258445f9ffe90bd8e3c5b68324ccf45196773f119c797125679b"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\README.md",
+      "copy": "00-SOURCES/ATELIERS/S20/README.md",
+      "sha256": "2bb2e949ede43d15a9398c2d5fa285b1ce83fec920a45889c4c7b7550a6ffe07"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\src\\seance.json",
+      "copy": "00-SOURCES/ATELIERS/S20/src/seance.json",
+      "sha256": "eaaa14f7691276d6e8ab7857ef631ed6291b2d9f97d3f3807c60228090b9252f"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\prompts-S20.md",
+      "copy": "00-SOURCES/ATELIERS/S20/public/supports/prompts-S20.md",
+      "sha256": "83184f701e056f19d313046e10b4c4bc6a573c65743251ffed3f7725744ac70f"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\src\\exports.js",
+      "copy": "00-SOURCES/ATELIERS/S20/src/exports.js",
+      "sha256": "ddb6331cf3dda3c15ef46a2f402d03d0055e95885a39fe18dff83ae46841993b"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\checklist-paquet-S20.md",
+      "copy": "00-SOURCES/ATELIERS/S20/public/supports/checklist-paquet-S20.md",
+      "sha256": "27a80e5d2318d70ce6824292b0ea3ddf7f68870e4e50c36a18f10b65328d538e"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\trame-orale-S20.md",
+      "copy": "00-SOURCES/ATELIERS/S20/public/supports/trame-orale-S20.md",
+      "sha256": "34079ca3dc5202ff8edcf2aff47727d836af85c5331b8af00764495fa9088c91"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\recette-PWA-S20.md",
+      "copy": "00-SOURCES/ATELIERS/S20/public/supports/recette-PWA-S20.md",
+      "sha256": "fd3927c31e7760d3733c8475bd34fe247f3d801621f19e27025315352b099ecf"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-seance-19-V2\\api.php",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/laboratoire-v2/api.php",
+      "sha256": "833510458c960cfd7d4141fbc9682168b44c4345069c17a63bc9598a9b661bb2"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-seance-19-V2\\index.html",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/laboratoire-v2/index.html",
+      "sha256": "933b29e75222130e4d985b10c33a9e561adcb1def0bd5d32086871245461b4f6"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-seance-19-V2\\preparation-pwa.html",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/laboratoire-v2/preparation-pwa.html",
+      "sha256": "7ab843cedc50ae93cefb65f6f5c0251694aadb9afc45abd41366a4d90688b06a"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-seance-19-V2\\preuve-19-json-pwa.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/laboratoire-v2/preuve-19-json-pwa.md",
+      "sha256": "46722f5d8f6e47d6ec88a5717c72386773582374366e0fe83a23234d784d76f4"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-seance-19-V2\\README.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/laboratoire-v2/README.md",
+      "sha256": "0965090b1282721d476b47ac6617a6c7b97ca74c7e7f066ea60d1b284ae8e2ef"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-seance-19-V2\\css\\styles.css",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/laboratoire-v2/css/styles.css",
+      "sha256": "fe1e1ba4e652e44c71743cbb596a2c16cd48418c118cf74c4e8e54fac31f914d"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-seance-19-V2\\data\\projets.json",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/laboratoire-v2/data/projets.json",
+      "sha256": "9cf01916abbf187abd7cefbcf952a90869e480534bc1bc61a75720ac586a5e8f"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-seance-19-V2\\data\\pwa-content-inventory.json",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/laboratoire-v2/data/pwa-content-inventory.json",
+      "sha256": "6f5d5a6a7feab266e46c04c97aebfdd8ca3dcfac4fe67fcf77c57ff25d8de198"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-seance-19-V2\\js\\app.js",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/laboratoire-v2/js/app.js",
+      "sha256": "929ff83afe03e42cde30ee5dc2866878092f3e5cacfa3e5180374aad39540bfe"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\index.html",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/index.html",
+      "sha256": "0222ba00e16102d3638e445beafafd17adf466bd939ee8356a13c90fd9957998"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\preparation-pwa.html",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/preparation-pwa.html",
+      "sha256": "7ab843cedc50ae93cefb65f6f5c0251694aadb9afc45abd41366a4d90688b06a"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\preuve-19-json-pwa.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/preuve-19-json-pwa.md",
+      "sha256": "4b1653580e6fe0c917be131058b00b9eef32b5119e3ed863ac8d90ee9c0df1f2"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\RAPPORT-CORRECTIONS.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/RAPPORT-CORRECTIONS.md",
+      "sha256": "025c9bba37b45ef4767f0b3ef4ea1c82a55b4225453bb1e3bb4d4b64b8e99aff"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\README.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/README.md",
+      "sha256": "a94b192f5985a096e018bfcb6b22304472dd03abfa22fadbafa40ccaf59baf37"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\resultats-fichiers.json",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/resultats-fichiers.json",
+      "sha256": "398a72633d25739699d28582db4c23017d424bac69dbe4430575f766b1749750"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\resultats-tests.json",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/resultats-tests.json",
+      "sha256": "59ff3ab2ebe8ab848988603b1f0c9db33eafb0d69c03cd4da633c0870ed6c8c0"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\css\\styles.css",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/css/styles.css",
+      "sha256": "346796b728ae4256639565594e068a850b5a1b7c36216a9bc662889dc1c8b544"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\data\\projets.json",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/data/projets.json",
+      "sha256": "5e134d7f90d45768a72e80bdbd13870393a0a743a0cab8387f6506ee68d5c187"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\data\\pwa-content-inventory.json",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/data/pwa-content-inventory.json",
+      "sha256": "6f5d5a6a7feab266e46c04c97aebfdd8ca3dcfac4fe67fcf77c57ff25d8de198"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\js\\app.js",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/js/app.js",
+      "sha256": "bc973f9f992bd6aa3ef222b2d3cc9a759450386da565dab62b5f64ad4b23f290"
+    },
+    {
+      "session": "S19",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-19-ln-ia\\05-EXEMPLES-CODE\\mini-site-json-seance-19-v1-a-valider\\js\\demo-data.js",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S19/json-minimal/js/demo-data.js",
+      "sha256": "2c21eeaf97817a3ac2229f88b274b118d3dca7292332e1164c5a6f58a2e533ae"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\cas\\cap-etudes\\LISEZ-MOI.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S20/cap-etudes/LISEZ-MOI.md",
+      "sha256": "a6af539943afc70c1042807c7131245257293acbb5cc8390389c3c64feeeabc9"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\cas\\cap-etudes\\04-WEB\\page-simple-v1.html",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S20/cap-etudes/04-WEB/page-simple-v1.html",
+      "sha256": "81e569a079797848e72141e8fe2dfdb0529ded2d8b037d294642850815517ae0"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\cas\\cap-etudes\\04-WEB\\page-simple-v1.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S20/cap-etudes/04-WEB/page-simple-v1.md",
+      "sha256": "ac683fd138983489b742d9ed06912bb128ed27b38c1d2b323146067e50c4bb5a"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\cas\\cap-etudes\\04-WEB\\page-simple-v2.html",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S20/cap-etudes/04-WEB/page-simple-v2.html",
+      "sha256": "f13127f54c0de4c8818fce83b7b228740b82fccd42090ad56982a95f23244a4e"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\cas\\cap-etudes\\04-WEB\\page-simple-v2.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S20/cap-etudes/04-WEB/page-simple-v2.md",
+      "sha256": "8bcd2a7547c0448ba13a685eb717f2d24d2485d938b7aed7f695653c50d99423"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\cas\\cap-etudes\\06-PORTFOLIO\\index-portfolio.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S20/cap-etudes/06-PORTFOLIO/index-portfolio.md",
+      "sha256": "89c4bde6a71d2ea922fbf49b3e8b7bdefcd86d5658bac7f4dc3b8c4f3a9a476d"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\cas\\cap-etudes\\06-PORTFOLIO\\preuve-S20.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S20/cap-etudes/06-PORTFOLIO/preuve-S20.md",
+      "sha256": "3a663ac2eb8da2ee162055f2ee9c37bf16857f774e2c9d67d7da552198af9943"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\cas\\cap-etudes\\06-PORTFOLIO\\preuves-module-05.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S20/cap-etudes/06-PORTFOLIO/preuves-module-05.md",
+      "sha256": "425c41b4e9b5594a102fe2dcfa58d5c698edfd0c4652b32886b99bd6882a89a8"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\cas\\cap-etudes\\06-PORTFOLIO\\relais-S21.md",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S20/cap-etudes/06-PORTFOLIO/relais-S21.md",
+      "sha256": "331b79bebc80a09af00e7270cb3a654874a970b05ed57862f82a0557e8ecfdf2"
+    },
+    {
+      "session": "S20",
+      "source": "D:\\ATELIERS-Challenge-100-AUTOMNE\\ATELIERS-MODULE-05\\atelier-seance-20-ln-ia\\public\\supports\\cas\\cap-etudes\\04-WEB\\pieces\\fiche-preparation.html",
+      "copy": "04-WEB/EXEMPLES-ATELIERS/S20/cap-etudes/04-WEB/pieces/fiche-preparation.html",
+      "sha256": "f61549ba48797fa7786f45f6cb8265d733a7cc783708363459cc7d4ad8e8acad"
+    }
+  ]
+}

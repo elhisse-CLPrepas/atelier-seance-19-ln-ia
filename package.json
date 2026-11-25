@@ -1,0 +1,20 @@
+{
+  "name": "atelier-seance-19-ln-ia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "node tools/generate.mjs && vite --host 0.0.0.0",
+    "build": "node tools/generate.mjs && python tools/build-documents.py && node tools/generate.mjs && vite build && node tools/portable.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "node tools/check.mjs"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.9",
+    "bootstrap-icons": "1.13.1"
+  },
+  "devDependencies": {
+    "vite": "7.3.8"
+  }
+}

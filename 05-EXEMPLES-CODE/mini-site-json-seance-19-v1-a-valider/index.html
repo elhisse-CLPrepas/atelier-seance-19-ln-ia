@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Rechercher, recharger et tester les quatre états du JSON local. Séance 19, 27 novembre 2026.">
+<title>S19 · Laboratoire JSON local et préparation PWA</title>
+<link rel="stylesheet" href="./css/styles.css">
+<script src="./js/demo-data.js" defer></script><script src="./js/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Aller au laboratoire</a>
+<header class="hero"><div class="container">
+<p class="eyebrow">LAB-NUMÉRIQUE-IA · Séance 19 · 27 novembre 2026</p>
+<h1>Des données aux cartes</h1>
+<p>Lire le JSON, modifier une donnée et observer le résultat. Comprendre les quatre états avant de préparer une PWA.</p>
+<nav aria-label="Parcours"><a href="#laboratory">Tester le JSON</a><a href="#source">Lire les données</a><a href="./preparation-pwa.html">Préparer la PWA →</a></nav>
+</div></header>
+<main class="container" id="main">
+<noscript><p class="status error">Activez JavaScript pour charger les cartes et utiliser les boutons.</p></noscript>
+<p id="environment" class="status">Vérification du mode d’ouverture…</p>
+<details class="note"><summary>Démarrer avec le serveur local</summary>
+<p>Depuis ce dossier, lancez <code>python -m http.server 8080 --bind 127.0.0.1</code> puis ouvrez <a href="http://127.0.0.1:8080/">http://127.0.0.1:8080/</a>. Python doit être déjà disponible. Arrêtez le serveur avec Ctrl+C.</p>
+<p>En double-clic, un exemple intégré permet de découvrir les commandes. Pour lire les modifications du vrai fichier <code>data/projets.json</code>, utilisez le serveur ou importez votre JSON ci-dessous.</p></details>
+<section id="laboratory" aria-labelledby="projects-title">
+<div class="section-heading"><div><p class="eyebrow dark">01 · Observer et chercher</p><h2 id="projects-title">Projets de démonstration</h2></div><button id="reload-button" type="button">Recharger les données</button></div>
+<div class="toolbar">
+<div><label for="search">Rechercher dans les projets</label><input id="search" type="search" placeholder="Titre, catégorie ou description…" autocomplete="off"></div>
+<div><label for="category">Catégorie</label><select id="category"><option value="">Toutes les catégories</option></select></div>
+<button id="clear-search" class="secondary" type="button">Effacer les filtres</button></div>
+<p id="status" class="status" role="status" aria-live="polite">Préparation du chargement…</p>
+<button id="retry-button" type="button" hidden>Réessayer</button>
+<p id="result-count" class="muted" aria-live="polite"></p><div id="projects" class="grid" aria-busy="true"></div>
+</section>
+<section class="panel" aria-labelledby="scenario-title">
+<p class="eyebrow dark">02 · Comprendre les quatre états</p><h2 id="scenario-title">Provoquer une situation</h2>
+<p>Les simulations ne modifient jamais le fichier JSON. Après un essai, rétablissez les données pour retrouver les cartes.</p>
+<label for="scenario">Situation à tester</label><div class="toolbar">
+<select id="scenario"><option value="success">Succès : charger le fichier</option><option value="slow">Chargement lent : délai simulé de 1,5 s</option><option value="empty">Vide : tableau sans objet</option><option value="http">Erreur : chemin absent (HTTP 404)</option><option value="invalid">Erreur : syntaxe JSON invalide</option><option value="schema">Erreur : champs absents ou invalides</option></select>
+<button id="run-scenario" type="button">Lancer le test</button><button id="restore-button" class="secondary" type="button">Rétablir les données</button></div>
+</section>
+<section id="source" class="panel" aria-labelledby="source-title">
+<p class="eyebrow dark">03 · Lire et manipuler</p><h2 id="source-title">Les données derrière les cartes</h2>
+<p>Un tableau d’objets avec trois textes non vides : <code>title</code>, <code>category</code>, <code>description</code>. L’import reste dans cette page et ne remplace aucun fichier sur votre disque.</p>
+<label for="import-json">Importer votre JSON (1 Mo maximum)</label><input type="file" id="import-json" accept=".json,application/json">
+<details open><summary>Voir le JSON chargé ou le diagnostic</summary><pre id="json-preview" tabindex="0">En attente…</pre></details>
+<div class="actions"><button id="copy-json" type="button">Copier le texte</button><button id="download-json" class="secondary" type="button">Exporter les données JSON</button></div>
+<p id="copy-status" role="status" aria-live="polite"></p>
+</section>
+<section class="note" aria-labelledby="pwa-title"><h2 id="pwa-title">Et ensuite, la PWA ?</h2><p>Le manifeste décrit l’application ; le service worker et le cache demandent leurs propres tests. Découvrez leurs rôles avec des simulations.</p><a href="./preparation-pwa.html">Ouvrir la préparation PWA →</a></section>
+</main><footer><div class="container">LN-IA · Exemple fictif · JSON local et préparation PWA · Aucun service worker actif.</div></footer>
+</body></html>

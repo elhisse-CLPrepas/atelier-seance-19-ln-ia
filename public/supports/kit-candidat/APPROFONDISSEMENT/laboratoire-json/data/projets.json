@@ -1,0 +1,23 @@
+[
+  {
+    "id": "declic-web",
+    "titre": "Déclic Web",
+    "description": "Déclic Web met à disposition des porteurs de projet une fiche de lecture sur les contenus et les liens. Elle réunit ces deux points sur une même page.",
+    "action": "Lire la fiche de contrôle",
+    "lien": "pieces/fiche-controle.html"
+  },
+  {
+    "id": "cap-etudes",
+    "titre": "Cap Études",
+    "description": "Cap Études propose une fiche de préparation à un entretien. Elle comporte une trame de présentation personnelle et des questions à préparer.",
+    "action": "Lire la fiche de préparation",
+    "lien": "pieces/fiche-preparation.html"
+  },
+  {
+    "id": "terre-argile",
+    "titre": "Terre d’Argile",
+    "description": "Terre d’Argile présente un nuancier de trois teintes. Chaque teinte est accompagnée d’un nom et d’un aperçu pour préparer le choix.",
+    "action": "Consulter le nuancier",
+    "lien": "pieces/nuancier.html"
+  }
+]

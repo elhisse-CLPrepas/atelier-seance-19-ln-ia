@@ -1,0 +1,8 @@
+node_modules/
+OUVRIR-SEANCE-19.html
+PROJECTION-SEANCE-19.html
+__pycache__/
+tmp/
+.DS_Store
+docs/sauvegardes/
+/*.zip

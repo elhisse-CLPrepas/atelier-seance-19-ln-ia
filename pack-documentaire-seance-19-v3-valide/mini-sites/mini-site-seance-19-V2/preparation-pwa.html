@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Présentation pédagogique du manifeste, du service worker, du cache et de HTTPS, sans activation PWA.">
+<title>Préparer une PWA — Séance 19</title>
+<link rel="stylesheet" href="./css/styles.css">
+<style>
+.pwa-hero{padding:3.5rem 0;background:linear-gradient(135deg,#071631,#173477);color:#fff}.pwa-hero h1{font-size:clamp(2rem,5vw,3.8rem);line-height:1.08;margin:.5rem 0}.back{display:inline-block;color:#f1cf7a;font-weight:800}.lead{max-width:800px}.warning{padding:1rem;border-left:5px solid var(--gold);background:#fff8e5;border-radius:10px;margin:1.5rem 0}.concepts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:1rem}.concept{background:#fff;padding:1.2rem;border-radius:var(--radius);box-shadow:0 10px 30px #17203312;border-top:4px solid var(--gold)}.concept h2{margin-top:0;color:var(--navy)}.demo{margin:1.5rem 0;padding:1.25rem;background:#fff;border-radius:var(--radius);box-shadow:0 10px 30px #17203312}.demo-output{margin-top:1rem;padding:1rem;background:#e9f0ff;border-radius:10px;min-height:3.5rem}.flow{display:flex;flex-wrap:wrap;gap:.55rem;align-items:center}.step{padding:.65rem .8rem;border:2px solid #c8d4e6;border-radius:10px;background:#fff}.step.active{border-color:var(--gold);background:#fff8e5;font-weight:800}.cache-box{display:flex;flex-wrap:wrap;gap:.5rem;min-height:70px;padding:1rem;border:2px dashed #9eb0c8;border-radius:12px}.cache-item{padding:.4rem .7rem;background:#e9f0ff;border-radius:999px}.button-row{display:flex;flex-wrap:wrap;gap:.6rem}.button-row button.secondary{background:#dfe7f3;color:var(--navy)}select,textarea{width:100%;font:inherit;padding:.75rem;border:1px solid #b9c5d6;border-radius:10px}.inventory{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.result-list{white-space:pre-wrap}.badge{display:inline-block;padding:.3rem .65rem;border-radius:999px;background:#e9f0ff;color:#173477;font-weight:800}@media(max-width:650px){.inventory{grid-template-columns:1fr}}@media print{button,select,textarea,.back{display:none!important}.demo{box-shadow:none;border:1px solid #ccc}}
+</style>
+</head>
+<body>
+<p class="status" style="margin:1rem">S19 · 27 novembre 2026 · JSON local et préparation PWA · <a href="../../OUVRIR-LE-PACK.html">Retour au pack</a></p>
+<header class="pwa-hero"><div class="container">
+<a class="back" href="./index.html">← Retour au mini-site JSON</a>
+<p class="eyebrow">LAB-NUMÉRIQUE-IA · Séance 19</p>
+<h1>Préparer une PWA avant de la construire</h1>
+<p class="lead">Comprendre le manifeste, le service worker, le cache et HTTPS à travers des démonstrations simples, sans activer de composant PWA.</p>
+</div></header>
+<main class="container">
+<div class="warning"><strong>Important :</strong> cette page ne contient aucun manifeste actif, n’enregistre aucun service worker et n’utilise pas l’API Cache. Toutes les démonstrations sont des simulations pédagogiques.</div>
+<section class="concepts" aria-label="Quatre concepts PWA">
+<article class="concept"><span class="badge">1</span><h2>Manifeste</h2><p>Décrit l’identité et la présentation installable du site : nom, couleurs, démarrage et icônes.</p></article>
+<article class="concept"><span class="badge">2</span><h2>Service worker</h2><p>Script séparé qui peut intercepter des requêtes et choisir entre réseau, cache ou solution de secours.</p></article>
+<article class="concept"><span class="badge">3</span><h2>Cache</h2><p>Conserve des copies sélectionnées. Il doit être limité, versionné et contrôlé.</p></article>
+<article class="concept"><span class="badge">4</span><h2>HTTPS</h2><p>Fournit le contexte sécurisé attendu en production. Localhost est l’exception de développement.</p></article>
+</section>
+
+<section class="demo" id="manifest-demo"><h2>Démonstration 1 — Lire un manifeste fictif</h2><p>Cette fiche illustre cinq informations, sans créer de fichier actif.</p><div class="button-row"><button type="button" id="manifestBtn">Lire la fiche</button></div><div id="manifestOutput" class="demo-output" role="status">Cliquez pour expliquer le rôle des champs.</div></section>
+
+<section class="demo"><h2>Démonstration 2 — Parcours simulé du service worker</h2><div class="flow" id="swFlow"><span class="step">Enregistrement</span><span>→</span><span class="step">Installation</span><span>→</span><span class="step">Activation</span><span>→</span><span class="step">Requête</span><span>→</span><span class="step">Réseau ou cache</span></div><div class="button-row"><button type="button" id="nextStep">Étape suivante</button><button type="button" class="secondary" id="resetFlow">Recommencer</button></div><div id="flowOutput" class="demo-output" role="status">Aucun service worker réel n’est enregistré.</div></section>
+
+<section class="demo"><h2>Démonstration 3 — Cache fictif en mémoire</h2><p>Ajoutez des noms de ressources dans une boîte simulée. Le navigateur ne met réellement aucun fichier en cache.</p><div class="button-row"><button type="button" data-resource="index.html">Ajouter index.html</button><button type="button" data-resource="css/styles.css">Ajouter styles.css</button><button type="button" data-resource="data/projets.json">Ajouter projets.json</button><button type="button" class="secondary" id="clearCache">Vider la simulation</button></div><div id="cacheBox" class="cache-box" aria-live="polite"><span>Aucune ressource simulée.</span></div></section>
+
+<section class="demo"><h2>Démonstration 4 — Contexte sécurisé</h2><label for="contextSelect"><strong>Choisir une adresse :</strong></label><select id="contextSelect"><option value="">Sélectionner</option><option value="https">https://exemple.test</option><option value="localhost">http://localhost:8000</option><option value="http">http://exemple.test</option></select><div id="contextOutput" class="demo-output" role="status">Le résultat expliquera si le contexte convient au développement d’un service worker.</div></section>
+
+<section class="demo"><h2>Préparer la future liste de contenus</h2><p>Cette préparation aide à la séance 20. Elle ne crée pas encore la liste définitive du cache.</p><p><a href="./data/pwa-content-inventory.json">Consulter l'inventaire JSON proposé</a> — liste de cadrage sans effet actif sur le cache.</p><div class="inventory"><div><label for="essential"><strong>Ressources indispensables</strong></label><textarea id="essential" placeholder="index.html&#10;css/styles.css"></textarea></div><div><label for="offline"><strong>Ressources utiles hors connexion</strong></label><textarea id="offline" placeholder="logo.png&#10;offline.html"></textarea></div></div><div class="button-row"><button type="button" id="previewList">Prévisualiser la liste</button></div><div id="listOutput" class="demo-output result-list" role="status">La liste restera uniquement dans cette page pendant la session.</div></section>
+
+<section class="note"><h2>À savoir expliquer</h2><ol><li>Le manifeste décrit l’application mais ne fournit pas seul le mode hors connexion.</li><li>Le service worker suit un cycle et doit être testé.</li><li>Le cache contient seulement les ressources choisies.</li><li>HTTPS protège le transport ; localhost facilite les essais locaux.</li><li>La séance 20 décidera des vrais fichiers et de la stratégie.</li></ol></section>
+</main>
+<footer><div class="container">Préparation conceptuelle V1 — aucun composant PWA actif.</div></footer>
+<script>
+"use strict";
+const manifestOutput=document.querySelector("#manifestOutput");
+document.querySelector("#manifestBtn").addEventListener("click",()=>{manifestOutput.textContent="name : identité complète · short_name : nom court · start_url : point de départ · display : apparence · theme_color : couleur du navigateur. Ces champs décrivent ; ils ne mettent rien en cache."});
+const steps=[...document.querySelectorAll("#swFlow .step")];let current=-1;
+const explanations=["Le navigateur reçoit une demande d’enregistrement.","Le script prépare les ressources prévues.","La nouvelle version devient active selon le cycle du navigateur.","Une page demande une ressource.","La stratégie décide : réseau, cache ou réponse de secours."];
+document.querySelector("#nextStep").addEventListener("click",()=>{current=(current+1)%steps.length;steps.forEach((s,i)=>s.classList.toggle("active",i===current));document.querySelector("#flowOutput").textContent=explanations[current]+" Simulation seulement : aucun service worker actif."});
+document.querySelector("#resetFlow").addEventListener("click",()=>{current=-1;steps.forEach(s=>s.classList.remove("active"));document.querySelector("#flowOutput").textContent="Aucun service worker réel n’est enregistré."});
+const simulated=new Set();const cacheBox=document.querySelector("#cacheBox");
+function renderCache(){cacheBox.replaceChildren();if(!simulated.size){const s=document.createElement("span");s.textContent="Aucune ressource simulée.";cacheBox.append(s);return}simulated.forEach(name=>{const s=document.createElement("span");s.className="cache-item";s.textContent=name;cacheBox.append(s)})}
+document.querySelectorAll("[data-resource]").forEach(btn=>btn.addEventListener("click",()=>{simulated.add(btn.dataset.resource);renderCache()}));
+document.querySelector("#clearCache").addEventListener("click",()=>{simulated.clear();renderCache()});
+document.querySelector("#contextSelect").addEventListener("change",e=>{const messages={https:"HTTPS : contexte sécurisé attendu en production.",localhost:"Localhost : exception autorisée pour développer et tester localement.",http:"HTTP distant : contexte non sécurisé, normalement incompatible avec l’enregistrement d’un service worker."};document.querySelector("#contextOutput").textContent=messages[e.target.value]||"Sélectionnez une adresse."});
+document.querySelector("#previewList").addEventListener("click",()=>{const essential=document.querySelector("#essential").value.trim();const offline=document.querySelector("#offline").value.trim();document.querySelector("#listOutput").textContent=`RESSOURCES INDISPENSABLES\n${essential||"À compléter"}\n\nUTILES HORS CONNEXION\n${offline||"À compléter"}\n\nDécision finale réservée à la séance 20.`});
+</script>
+</body></html>

@@ -1,0 +1,87 @@
+{
+  "import_files": 24,
+  "json_files_parsed": 9,
+  "javascript_syntax_checks": 5,
+  "html_pages_checked": 6,
+  "markdown_files_checked": 22,
+  "broken_local_targets": [],
+  "http_checks": [
+    {
+      "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/assets/images/affiche-presentation-module-05.png",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/assets/images/affiche-presentation-seance-17.png",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/assets/images/logo-LN-IA.png",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/css/styles.css",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/index.html",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/js/app.js",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/css/styles.css",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/data/projets.json",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/data/pwa-content-inventory.json",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/index.html",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/js/app.js",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/preparation-pwa.html",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-seance-19-V2/css/styles.css",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-seance-19-V2/data/projets.json",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-seance-19-V2/data/pwa-content-inventory.json",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-seance-19-V2/index.html",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-seance-19-V2/js/app.js",
+      "status": 200
+    },
+    {
+      "path": "mini-sites/mini-site-seance-19-V2/preparation-pwa.html",
+      "status": 200
+    }
+  ],
+  "behavior_tests": 28,
+  "browser_visual_test": "non exécuté",
+  "php_execution": "non exécutée",
+  "archive_crc": "réussi, contrôlé après génération",
+  "archive_contents": "identiques au dossier, contrôlé après génération"
+}

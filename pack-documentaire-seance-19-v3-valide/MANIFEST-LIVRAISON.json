@@ -1,0 +1,186 @@
+[
+  {
+    "path": "01-support-formateur-seance-19-v3-valide.md",
+    "sha256": "a03e430ffbf7006b7d0c19b6bc00814410b96d99c9da5cd71941988c244522ad"
+  },
+  {
+    "path": "02-fiche-candidat-json-seance-19-v3-valide.md",
+    "sha256": "e9bf30b6f672a279f827e37ece928364a26e599ad44720bc0ad462d68efdcf47"
+  },
+  {
+    "path": "03-prompts-candidats-seance-19-v3-valide.md",
+    "sha256": "38f463051ce475be052d06cc16280a6443898589080e4e29216f935523bf3260"
+  },
+  {
+    "path": "04-grille-validation-donnees-seance-19-v3-valide.md",
+    "sha256": "344bed0b71589faf2742b1b0ee10c53f3bfb16bcb4e0165565e45081620f1141"
+  },
+  {
+    "path": "05-modele-preuve-19-json-pwa-v3-valide.md",
+    "sha256": "088c40234ac77f4243c5a9a906cc69ea99a9a1b469de1eec8bc4a88a6085c3fe"
+  },
+  {
+    "path": "06-cahier-charges-exemple-json-seance-19-v3-valide.md",
+    "sha256": "bfdee73bc5a183ba1c62101716ae99e0296f7679c84b799f97e0cdc948e43794"
+  },
+  {
+    "path": "07-fiche-demonstration-api-php-facultative-v3-valide.md",
+    "sha256": "2cf78cec03b74796ed0ee9aac5ea4e82331aaa30c7b65da8398d3cdf5b8a5183"
+  },
+  {
+    "path": "08-reference-guide-html-interactif-seance-19.md",
+    "sha256": "5a64caf68d93795d74803a53920ce64aa3be889af7de63590ba96f1cd405417c"
+  },
+  {
+    "path": "09-support-preparation-pwa-seance-19-v3-valide.md",
+    "sha256": "bea815d876f10c3fe8d23759be021d4d9edc8c0744803a7a0487998735ff782e"
+  },
+  {
+    "path": "10-liste-contenus-future-pwa-v3-valide.md",
+    "sha256": "38d075b5d6aa2df58c53b3acb6fb52c81da4b3b9eb2bd76b76cbba619450a491"
+  },
+  {
+    "path": "11-decisions-p0-future-pwa-validees-2026-07-27.md",
+    "sha256": "85d01c61afd90f14fdf421f8a6a6df36e4ec3235cda5f66111710a5c97bff0ea"
+  },
+  {
+    "path": "12-fiche-depart-projet-activite-pwa-v3-valide.md",
+    "sha256": "24d2ddf289274fba509493c962d78e7b0f75adc65a686bff26420fc18d576fb6"
+  },
+  {
+    "path": "CONTROLE-ALIGNEMENT.md",
+    "sha256": "095b1dba1eea8445aff4e89665b6d5ba02a31bb6fa67aafdc325cb7836031e29"
+  },
+  {
+    "path": "MANIFEST-IMPORT-S19.json",
+    "sha256": "5f2c287b93f6b1a299d69b219a550328f154bd8fe2db673ab5694f2946c96965"
+  },
+  {
+    "path": "manifest-sources-documentaires.json",
+    "sha256": "dafd27b5cb803c32f7488a892ef211fe437c3c529eae6a54b021f085cd234a8d"
+  },
+  {
+    "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/assets/images/affiche-presentation-module-05.png",
+    "sha256": "96ca430e9a72e1d17906ae2e2ff30b19647ebaa2bfc72c04be9103cae291a33a"
+  },
+  {
+    "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/assets/images/affiche-presentation-seance-17.png",
+    "sha256": "3df9fafcbfdb5d592d42852deb7f14dad580eddbb1d5392e6c5d771605117395"
+  },
+  {
+    "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/assets/images/logo-LN-IA.png",
+    "sha256": "c5deb19a2d80b8c53939844fbdcd3ed80ff5adcdd2f865e77f22ffa176e4c963"
+  },
+  {
+    "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/css/styles.css",
+    "sha256": "a548b08925d252d7f480c8f93dd641d2728292289ea99d68c0be8a595fa6978a"
+  },
+  {
+    "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/index.html",
+    "sha256": "76dcbc26ef7dfc5b867d8ee3809094bf7a0f1fa02db54ca7e9e5fad1c1b8ae6c"
+  },
+  {
+    "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/js/app.js",
+    "sha256": "480871f12e228821481778349861b6be612229db490fb3c2ec4b038c4ea6ac4e"
+  },
+  {
+    "path": "mini-sites/mini-site-demonstration-seance-17-v1-a-valider/README.md",
+    "sha256": "4f3fe7fff707c38975076b1b4a12ff81ad379b228049b1b9d59ba51b60951db1"
+  },
+  {
+    "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/css/styles.css",
+    "sha256": "37c26b8fdc5f928bc81d10ff4a6c455eb2a1efa2e43dc47699fcc033084b6223"
+  },
+  {
+    "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/data/projets.json",
+    "sha256": "1b4c338478ef5b35ae5d7a8f3b3d67992f8f60f21fa95c1d3ab0a370c5700103"
+  },
+  {
+    "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/data/pwa-content-inventory.json",
+    "sha256": "c56d9c65380c52461c47d9423cf8e2a1d4b9cc5adb42609532cf1c443509feba"
+  },
+  {
+    "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/index.html",
+    "sha256": "d66fddd77a8f22f99161cb663ef9c32f7b83513d42944d4ad20b9c47e08677c8"
+  },
+  {
+    "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/js/app.js",
+    "sha256": "6771579fd4abe18005ea70b3d2cde921cc48641289116801deec6cc3f192014f"
+  },
+  {
+    "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/preparation-pwa.html",
+    "sha256": "3287eb655972fc20ad660d0f76cd0487a39251530b736b11771c59c5bef3e99b"
+  },
+  {
+    "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/preuve-19-json-pwa.md",
+    "sha256": "2bc04b040e1a144a50855b6c802285cfb37029073b321f6edb3d7a03942baa52"
+  },
+  {
+    "path": "mini-sites/mini-site-json-seance-19-v1-a-valider/README.md",
+    "sha256": "81caebb327fb9b437ba717005f5ec2ff4da0bf0036e6697cbe330578ddf27acd"
+  },
+  {
+    "path": "mini-sites/mini-site-seance-19-V2/api.php",
+    "sha256": "833510458c960cfd7d4141fbc9682168b44c4345069c17a63bc9598a9b661bb2"
+  },
+  {
+    "path": "mini-sites/mini-site-seance-19-V2/css/styles.css",
+    "sha256": "fe1e1ba4e652e44c71743cbb596a2c16cd48418c118cf74c4e8e54fac31f914d"
+  },
+  {
+    "path": "mini-sites/mini-site-seance-19-V2/data/projets.json",
+    "sha256": "9cf01916abbf187abd7cefbcf952a90869e480534bc1bc61a75720ac586a5e8f"
+  },
+  {
+    "path": "mini-sites/mini-site-seance-19-V2/data/pwa-content-inventory.json",
+    "sha256": "c56d9c65380c52461c47d9423cf8e2a1d4b9cc5adb42609532cf1c443509feba"
+  },
+  {
+    "path": "mini-sites/mini-site-seance-19-V2/index.html",
+    "sha256": "48b5872821aabf682f9ff86b0412525fa808f62217ba38f2b09e879649d65627"
+  },
+  {
+    "path": "mini-sites/mini-site-seance-19-V2/js/app.js",
+    "sha256": "929ff83afe03e42cde30ee5dc2866878092f3e5cacfa3e5180374aad39540bfe"
+  },
+  {
+    "path": "mini-sites/mini-site-seance-19-V2/preparation-pwa.html",
+    "sha256": "3287eb655972fc20ad660d0f76cd0487a39251530b736b11771c59c5bef3e99b"
+  },
+  {
+    "path": "mini-sites/mini-site-seance-19-V2/preuve-19-json-pwa.md",
+    "sha256": "2bc04b040e1a144a50855b6c802285cfb37029073b321f6edb3d7a03942baa52"
+  },
+  {
+    "path": "mini-sites/mini-site-seance-19-V2/README.md",
+    "sha256": "28da0fd5dc5872b5c91e7f358157c272921bd6af45e595559fa254fec82c7929"
+  },
+  {
+    "path": "OUVRIR-LE-PACK.html",
+    "sha256": "74f0fa075f98f67531b4c02767c51a0f790c7c63d2bb0fe6e2d0a965cc8e7790"
+  },
+  {
+    "path": "PROMPT-CADRAGE-S19-27-NOVEMBRE-2026.md",
+    "sha256": "5b1dbc76e4d795f1401a3e4ac894eddf948dc86b7724464f3fdf3fe5da303548"
+  },
+  {
+    "path": "README.md",
+    "sha256": "b4f3038c21175eed502dea342272e4829299c72afdc77a3ef5623f8e16da02d6"
+  },
+  {
+    "path": "resultats-controles.json",
+    "sha256": "232abbc7366b3e708efb27e84ebc56f00d38b8633c301b2665c36604621f5d0a"
+  },
+  {
+    "path": "resultats-tests-comportement.json",
+    "sha256": "409ae1d2040b138ced4e6870aa292bc10ec23794fd0131d673d7b07936ba0918"
+  },
+  {
+    "path": "SOURCES-ET-SYNCHRONISATION.md",
+    "sha256": "de020c29a612dff8ca229f2f3b501e2c4692a7b20689df056617187f5c4a742e"
+  },
+  {
+    "path": "VALIDATION-V3.md",
+    "sha256": "49a7eb2e9b6c0f62d669dd0bddd7f5a886a4dc7fcb1ba216c104095e303f59c2"
+  }
+]

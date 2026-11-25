@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+__pycache__/
+node_modules/
+.env
+.env.*
+!.env.example
+/05-AUTEUR-LN-IA/

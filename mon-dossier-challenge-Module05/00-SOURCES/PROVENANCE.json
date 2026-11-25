@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "sources": [
+    {
+      "path": "04-WEB/mini-site-demonstration/",
+      "origin": "mini-site-demonstration-seance-17-v1-a-valider/ fourni dans S17",
+      "changes": "Navigation, accès dossier et carnet, contexte automne."
+    },
+    {
+      "path": "01-SUIVI/carnet-essai-S17.html",
+      "origin": "Carnet S17 créé pour observer le support fourni",
+      "status": "Observations à compléter"
+    }
+  ]
+}

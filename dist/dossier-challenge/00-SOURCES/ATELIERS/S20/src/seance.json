@@ -1,0 +1,973 @@
+{
+  "meta": {
+    "title": "Une V2 éprouvée par un lecteur",
+    "subtitle": "Corriger votre page et clôturer le Module 05",
+    "session": 20,
+    "module": 5,
+    "week": 10,
+    "date": "2026-11-30",
+    "dateLabel": "Lundi 30 novembre 2026",
+    "duration": 90,
+    "version": "1.0",
+    "status": "À VALIDER",
+    "author": "Prof. Abderrahman EL HISSE",
+    "description": "Faites essayer votre page V1 à un lecteur extérieur, justifiez une correction et comparez la V2. Conservez les quatre preuves du Module 05 et préparez S21."
+  },
+  "slides": [
+    {
+      "id": "S20-01",
+      "title": "Une V2 éprouvée par un lecteur",
+      "lead": "Corriger votre page et clôturer le Module 05",
+      "points": [
+        [
+          "Module 05",
+          "Pages web simples et présence numérique"
+        ],
+        [
+          "Lundi 30 novembre 2026",
+          "Semaine 10 · 90 minutes proposées"
+        ]
+      ],
+      "gesture": "Votre point de départ est la V1 et sa fiche conservées en S19.",
+      "note": "Ouvrez V1, fiche et preuve S19. Annoncez le test : le lecteur explique le projet et atteint la fiche sans aide orale. La durée est proposée. L’horaire reste à communiquer.",
+      "layout": "cover",
+      "dark": true
+    },
+    {
+      "id": "S20-02",
+      "title": "Le lecteur retrouve-t-il votre action ?",
+      "lead": "Le test commence avant vos explications.",
+      "points": [
+        [
+          "Consigne identique",
+          "Expliquez le projet puis ouvrez la fiche."
+        ],
+        [
+          "Observation réelle",
+          "Notez les mots, le clic et l’hésitation."
+        ]
+      ],
+      "gesture": "Laissez le lecteur agir sans lui montrer le bouton.",
+      "note": "Laissez trente secondes au groupe pour prévoir une difficulté. Ne donnez ni le chemin du bouton ni le résultat attendu au lecteur. Le silence fait partie du protocole.",
+      "layout": "split",
+      "dark": true
+    },
+    {
+      "id": "S20-03",
+      "title": "Les pièces héritées de S19",
+      "lead": "La V1 reste disponible pendant toute la séance.",
+      "points": [
+        [
+          "Page V1",
+          "04-WEB/page-simple-v1.html ou .md"
+        ],
+        [
+          "Fiche cible",
+          "04-WEB/pieces/nom-de-la-fiche"
+        ],
+        [
+          "Preuve S19",
+          "06-PORTFOLIO/preuve-S19.md"
+        ]
+      ],
+      "gesture": "Rouvrez les trois pièces depuis votre copie.",
+      "note": "Accordez deux minutes. Si une pièce manque, notez-la. Utilisez le cas fictif pour pratiquer puis complétez votre projet personnel.",
+      "layout": "rows",
+      "dark": false
+    },
+    {
+      "id": "S20-04",
+      "title": "Le résultat de la séance",
+      "lead": "Un lecteur peut expliquer le projet et atteindre la fiche.",
+      "points": [
+        [
+          "V1 conservée",
+          "Le point de comparaison"
+        ],
+        [
+          "V2 produite",
+          "Une correction motivée"
+        ],
+        [
+          "Preuve S20",
+          "Les deux essais et la décision"
+        ]
+      ],
+      "gesture": "Nommez le fichier V2 que vous rouvrirez devant le pilote.",
+      "note": "La présence d’une V2 ne prouve pas sa réussite. La preuve décrit l’essai réel. Une hésitation persistante appelle une autre correction.",
+      "layout": "three",
+      "dark": false
+    },
+    {
+      "id": "S20-05",
+      "title": "Une observation exploitable",
+      "lead": "Un fait situé aide à décider.",
+      "points": [
+        [
+          "Trop vague",
+          "La page est meilleure."
+        ],
+        [
+          "À renseigner",
+          "Version, appareil, consigne, geste et résultat."
+        ]
+      ],
+      "gesture": "Notez le titre de la fiche atteinte et une parole du lecteur.",
+      "note": "Comparez ces deux formes de trace. Aucun exemple ne doit devenir une observation réelle par simple copie. Demandez les mots exacts ou une description fidèle du geste.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S20-06",
+      "title": "Le lecteur et le protocole",
+      "lead": "Une même tâche rend la comparaison utile.",
+      "points": [
+        [
+          "Lecteur extérieur",
+          "Une personne qui découvre la page"
+        ],
+        [
+          "Conditions",
+          "Même consigne et largeur comparable"
+        ],
+        [
+          "Deuxième essai",
+          "Nouveau lecteur si possible"
+        ]
+      ],
+      "gesture": "Identifiez le lecteur et le contexte de chaque essai.",
+      "note": "Le même lecteur peut apprendre le chemin. Si vous le gardez, notez cette limite. Un nouvel essai avec une autre personne ne démontre pas à lui seul une causalité générale.",
+      "layout": "three",
+      "dark": false
+    },
+    {
+      "id": "S20-07",
+      "title": "Une correction à la fois",
+      "lead": "Le motif doit rester lié à l’observation.",
+      "points": [
+        [
+          "Écart",
+          "L’action paraît difficile à retrouver."
+        ],
+        [
+          "Modification proposée",
+          "Déplacer le même lien sous l’accroche."
+        ],
+        [
+          "Éléments conservés",
+          "Libellé, fiche et faits de la source."
+        ]
+      ],
+      "gesture": "Écrivez ce que vous changez et ce que vous gardez.",
+      "note": "Dans Roue libre, le déplacement est une hypothèse. Si le premier lecteur réussit, consignez-le et choisissez un autre point réellement observé. Évitez une refonte sans rapport avec l’essai.",
+      "layout": "three",
+      "dark": false
+    },
+    {
+      "id": "S20-08",
+      "title": "La méthode de correction",
+      "lead": "Chaque étape laisse une pièce à rouvrir.",
+      "points": [
+        [
+          "Conserver",
+          "Garder la V1 et sa fiche."
+        ],
+        [
+          "Observer",
+          "Faire essayer sans aide orale."
+        ],
+        [
+          "Décider",
+          "Choisir un seul changement."
+        ],
+        [
+          "Produire",
+          "Exporter la V2 séparément."
+        ],
+        [
+          "Rejouer",
+          "Redonner la même consigne."
+        ],
+        [
+          "Prouver",
+          "Consigner puis faire relire."
+        ]
+      ],
+      "gesture": "Prévoyez le deuxième essai avant de modifier la page.",
+      "note": "Montrez le carnet puis le dossier réel. Le bouton de sauvegarde du carnet ne constitue pas une preuve de réussite.",
+      "layout": "six",
+      "dark": false
+    },
+    {
+      "id": "S20-09",
+      "title": "Roue libre : le périmètre conservé",
+      "lead": "Cas fictif repris depuis S17.",
+      "points": [
+        [
+          "Source",
+          "La fiche de Roue libre réunit deux points : les pneus et les freins. L’action reste « Lire la fiche de contrôle »."
+        ]
+      ],
+      "gesture": "Relisez la source avant de modifier la présentation.",
+      "note": "Montrez la fiche fournie. N’ajoutez ni réservation ni révision complète ni promesse de sécurité. La correction S20 concerne l’accès à une ressource existante.",
+      "layout": "quote",
+      "dark": false
+    },
+    {
+      "id": "S20-10",
+      "title": "Roue libre V1 : le lien en bas",
+      "lead": "Scénario à éprouver sur téléphone.",
+      "points": [
+        [
+          "État initial",
+          "L’action suit le contenu de la page."
+        ],
+        [
+          "Hypothèse",
+          "Le lecteur peut chercher le lien avant de faire défiler."
+        ]
+      ],
+      "gesture": "Ouvrez la V1 et recueillez une observation réelle.",
+      "note": "L’hésitation n’est pas un résultat acquis. Faites essayer la V1 par un volontaire. Notez réussite ou difficulté sans suggérer la réponse.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S20-11",
+      "title": "Roue libre V2 : le même lien plus haut",
+      "lead": "La proposition déplace une seule action.",
+      "points": [
+        [
+          "Modification",
+          "Le lien passe sous l’accroche."
+        ],
+        [
+          "Motif proposé",
+          "Rendre l’accès à la fiche visible plus tôt."
+        ]
+      ],
+      "gesture": "Comparez les deux pages puis confiez la V2 à un lecteur.",
+      "note": "Ouvrez les deux fichiers. Montrez que l’URL et le libellé restent identiques. Attendez le deuxième essai pour conclure sur cette situation.",
+      "layout": "split",
+      "dark": true
+    },
+    {
+      "id": "S20-12",
+      "title": "La comparaison V1 / V2",
+      "lead": "L’amélioration se documente après le deuxième essai.",
+      "points": [
+        [
+          "V1",
+          "Parole du lecteur et résultat à renseigner."
+        ],
+        [
+          "V2",
+          "Même tâche, résultat à renseigner."
+        ],
+        [
+          "Décision",
+          "Conserver, reprendre ou compléter l’essai."
+        ]
+      ],
+      "gesture": "Distinguez l’effet attendu de l’effet observé.",
+      "note": "Si le résultat ne change pas, notez-le. Il peut rester utile de garder la correction pour une autre raison explicitée. Ne transformez pas une préférence en résultat de test.",
+      "layout": "three",
+      "dark": false
+    },
+    {
+      "id": "S20-13",
+      "title": "Trois autres cas fictifs",
+      "lead": "Une observation conduit à un changement ciblé.",
+      "points": [
+        [
+          "Cap Études",
+          "Un titre qui nomme la préparation."
+        ],
+        [
+          "Terre d’Argile",
+          "Un libellé qui annonce le nuancier."
+        ],
+        [
+          "Studio Nadia",
+          "Un paragraphe raccourci sans fait ajouté."
+        ]
+      ],
+      "gesture": "Choisissez le cas qui ressemble à votre difficulté.",
+      "note": "Chaque dossier fournit V1, V2 et la fiche. Les corrections sont des propositions pédagogiques. Les observations du lecteur restent vierges.",
+      "layout": "three",
+      "dark": false
+    },
+    {
+      "id": "S20-14",
+      "title": "Votre page personnelle",
+      "lead": "Le dossier candidat reprend le même geste.",
+      "points": [
+        [
+          "Entrée",
+          "Votre V1 et sa source relue"
+        ],
+        [
+          "Correction",
+          "Une décision justifiée"
+        ],
+        [
+          "Sortie",
+          "Votre V2 et sa preuve distincte"
+        ]
+      ],
+      "gesture": "Reprenez le carnet S19 ou importez votre page HTML autonome.",
+      "note": "Le carnet S19 fournit les champs. L’import HTML conserve aussi le fichier original quand il respecte le format simple prévu. Sans import, reconstituez puis figez la V1 avant d’éditer la V2.",
+      "layout": "three",
+      "dark": true
+    },
+    {
+      "id": "S20-15",
+      "title": "Les deux versions dans le dossier",
+      "lead": "La V2 conserve un nom distinct.",
+      "points": [
+        [
+          "Avant",
+          "04-WEB/page-simple-v1.html"
+        ],
+        [
+          "Après",
+          "04-WEB/page-simple-v2.html"
+        ],
+        [
+          "Preuve",
+          "06-PORTFOLIO/preuve-S20.md"
+        ]
+      ],
+      "gesture": "Extrayez le ZIP et rouvrez les deux versions.",
+      "note": "L’export contient la fiche commune. Les dossiers des preuves antérieures doivent être complétés avec les vrais fichiers S17 à S19. Le pack ne les invente pas.",
+      "layout": "rows",
+      "dark": false
+    },
+    {
+      "id": "S20-16",
+      "title": "La revue des sept gestes",
+      "lead": "Le pilote examine les fichiers et les observations.",
+      "points": [
+        [
+          "01 · Entrée",
+          "Retrouver V1 et fiche."
+        ],
+        [
+          "02 · Essai",
+          "Montrer le premier résultat."
+        ],
+        [
+          "03 · Correction",
+          "Nommer le changement."
+        ],
+        [
+          "04 · V2",
+          "Rouvrir la nouvelle page."
+        ],
+        [
+          "05 · Reprise",
+          "Montrer le second essai."
+        ],
+        [
+          "06 · Module",
+          "Rouvrir les quatre preuves."
+        ],
+        [
+          "07 · Décision",
+          "Dater la revue du pilote."
+        ]
+      ],
+      "gesture": "Présentez les pièces dans l’ordre de l’index.",
+      "note": "Les cases servent au contrôle. Le statut VALIDÉ exige une décision motivée avec nom et date. La décision de diffusion se consigne à part.",
+      "layout": "seven",
+      "dark": false
+    },
+    {
+      "id": "S20-17",
+      "title": "Quatre preuves pour clôturer le module",
+      "lead": "Le portfolio rend la progression vérifiable.",
+      "points": [
+        [
+          "S17",
+          "Plan et action unique"
+        ],
+        [
+          "S18",
+          "Contenu et bénéfice étayé"
+        ],
+        [
+          "S19",
+          "V1 et fiche accessible"
+        ],
+        [
+          "S20",
+          "V2 et comparaison lecteur"
+        ]
+      ],
+      "gesture": "Ouvrez chaque preuve depuis votre index.",
+      "note": "Les trois premières preuves sont celles du candidat. Ne distribuez pas de preuves fictives validées. Consignez la pièce absente et l’action de reprise.",
+      "layout": "four",
+      "dark": false
+    },
+    {
+      "id": "S20-18",
+      "title": "La présentation en trois minutes",
+      "lead": "Une démonstration courte s’appuie sur les pièces.",
+      "points": [
+        [
+          "30 secondes",
+          "Public, besoin et action"
+        ],
+        [
+          "45 secondes",
+          "V1 et observation"
+        ],
+        [
+          "60 secondes",
+          "V2, motif et nouvel essai"
+        ],
+        [
+          "45 secondes",
+          "Preuves, statut et suite"
+        ]
+      ],
+      "gesture": "Montrez le vrai lien et la pièce atteinte pendant votre oral.",
+      "note": "Le total est exactement 180 secondes. Préparez les fenêtres avant de commencer. Si le temps manque, montrez l’écart et le résultat avant de détailler le code.",
+      "layout": "four",
+      "dark": false
+    },
+    {
+      "id": "S20-19",
+      "title": "La recette du paquet",
+      "lead": "Prêt à servir se distingue de publié.",
+      "points": [
+        [
+          "Fichiers",
+          "Page, fiche, ressources et README"
+        ],
+        [
+          "Contrôles",
+          "Liens, clavier, mobile et exports"
+        ],
+        [
+          "Décision",
+          "Essais documentés puis choix du pilote"
+        ]
+      ],
+      "gesture": "Extrayez le paquet dans un autre dossier pour la dernière revue.",
+      "note": "Une archive n’est pas une publication. Le paquet peut être techniquement préparé tout en gardant des essais à faire. Ne marquez pas un essai réussi par défaut.",
+      "layout": "three",
+      "dark": false
+    },
+    {
+      "id": "S20-20",
+      "title": "L’approfondissement PWA",
+      "lead": "Un dossier séparé pour la portée et le cache.",
+      "points": [
+        [
+          "Manifeste",
+          "Nom, démarrage, portée et icônes"
+        ],
+        [
+          "Service worker",
+          "Ressources du dossier de démonstration"
+        ],
+        [
+          "Essai hors ligne",
+          "Première visite, coupure, réouverture"
+        ]
+      ],
+      "gesture": "Servez le dossier sur localhost avant d’activer l’essai PWA.",
+      "note": "La PWA ne s’active pas dans le mini-site de séance. Le dossier fourni possède sa propre activation. Installation et hors connexion doivent être réellement observés sur le navigateur utilisé.",
+      "layout": "three",
+      "dark": true
+    },
+    {
+      "id": "S20-21",
+      "title": "Le cache et la mise à jour",
+      "lead": "Une ancienne version peut rester affichée.",
+      "points": [
+        [
+          "Version",
+          "Changer le nom du cache de démonstration."
+        ],
+        [
+          "Actualisation",
+          "Rechercher puis appliquer la version en attente."
+        ],
+        [
+          "Preuve",
+          "Nom du cache et contenu réellement affiché."
+        ]
+      ],
+      "gesture": "Revenez en ligne et rejouez une mise à jour contrôlée.",
+      "note": "Le nettoyage reste limité au préfixe du dossier d’essai. Conservez les caches des autres modules. Le protocole précise la reprise et les résultats à relever.",
+      "layout": "three",
+      "dark": false
+    },
+    {
+      "id": "S20-22",
+      "title": "Le relais vers S21 et le Module 06",
+      "lead": "Le projet devient un dossier à organiser et suivre.",
+      "points": [
+        [
+          "À rouvrir",
+          "V1, V2, fiche et quatre preuves"
+        ],
+        [
+          "Premier geste",
+          "Inventorier les fichiers et choisir la racine"
+        ],
+        [
+          "Suite",
+          "Préparer le suivi avec Git et GitHub"
+        ]
+      ],
+      "gesture": "Transmettez les chemins réels et les points encore ouverts.",
+      "note": "Aucune date S21 n’est inventée. L’entrée est le dossier clôturé du Module 05. Le prochain travail organise et versionne le projet. Une publication demande sa propre décision.",
+      "layout": "three",
+      "dark": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "roue-libre",
+      "title": "Roue libre",
+      "sector": "Fiche pratique",
+      "public": "Cyclistes qui cherchent les deux points de lecture",
+      "need": "Retrouver les points pneus et freins au même endroit",
+      "source": "Roue libre met à disposition des cyclistes une fiche de lecture sur les pneus et les freins. Elle réunit ces deux points sur une même page.",
+      "before": "end",
+      "action": "Lire la fiche de contrôle",
+      "other": "https://adresse-a-inventer.invalid/fiche",
+      "target": "fiche-controle",
+      "expect": "un résultat ou un service plus large que celui décrit dans la source",
+      "why": "Déplacer le même lien sous l’accroche.",
+      "titlePage": "Pneus et freins dans une même fiche",
+      "hook": "Une fiche pour retrouver les points pneus et freins.",
+      "problem": "Les points de lecture sont plus faciles à retrouver quand ils sont réunis. Avant de consulter la fiche, prenez le temps de définir ce que vous souhaitez retrouver. La page présente le besoin du lecteur puis la proposition et l’usage possible de la ressource. La fiche demeure le document de référence pour les deux points annoncés.",
+      "promise": "Cette fiche réunit les points de lecture sur les pneus et les freins.",
+      "benefit": "Vous retrouvez les deux points dans une même fiche.",
+      "items": [
+        [
+          "Pneus",
+          "Premier point cité dans le passage S16."
+        ],
+        [
+          "Freins",
+          "Second point cité dans le passage S16."
+        ]
+      ],
+      "after": "start",
+      "hookA": "Tout savoir pour rouler sans problème.",
+      "hookB": "Une fiche pour retrouver les points pneus et freins.",
+      "reason": "Déplacer le même lien sous l’accroche.",
+      "defect": "Le lecteur peut chercher le lien après un long texte.",
+      "changeKey": "actionPosition",
+      "expected": "Le lecteur atteint la fiche sans explication orale.",
+      "actionPosition": "end",
+      "targetPath": "pieces/fiche-controle.html"
+    },
+    {
+      "id": "cap-etudes",
+      "title": "Cap Études",
+      "sector": "Accompagnement scolaire",
+      "public": "Étudiants qui préparent leur premier entretien",
+      "need": "Préparer les informations à apporter à un entretien",
+      "source": "Cap Études propose une fiche de préparation à un entretien. Elle comporte une trame de présentation personnelle et des questions à préparer.",
+      "before": "Bienvenue dans mon projet",
+      "action": "Lire la fiche de préparation",
+      "other": "https://adresse-a-inventer.invalid/fiche",
+      "target": "fiche-preparation",
+      "expect": "un résultat ou un service plus large que celui décrit dans la source",
+      "why": "Remplacer le titre général par un titre qui nomme la préparation.",
+      "titlePage": "Préparer votre premier entretien",
+      "hook": "Une trame pour préparer votre entretien.",
+      "problem": "Avant un premier échange, l’étudiant doit rassembler ses informations.",
+      "promise": "La fiche propose des questions pour préparer un entretien.",
+      "benefit": "Vous disposez d’une trame pour préparer votre entretien.",
+      "items": [
+        [
+          "Présentation personnelle",
+          "Trame fictive : parcours, objectif et un exemple à expliquer."
+        ],
+        [
+          "Questions à préparer",
+          "Trame fictive : attentes de la formation et modalités de l’entretien."
+        ]
+      ],
+      "after": "Préparer votre entretien",
+      "hookA": "La méthode pour réussir à coup sûr.",
+      "hookB": "Une trame pour préparer votre entretien.",
+      "reason": "Remplacer le titre général par un titre qui nomme la préparation.",
+      "defect": "Le titre peut ne pas permettre de nommer le projet.",
+      "changeKey": "title",
+      "expected": "Le lecteur explique le sujet avant de cliquer.",
+      "actionPosition": "end",
+      "targetPath": "pieces/fiche-preparation.html"
+    },
+    {
+      "id": "terre-argile",
+      "title": "Terre d’Argile",
+      "sector": "Activité artisanale",
+      "public": "Personnes qui souhaitent comparer des couleurs de céramique",
+      "need": "Repérer les couleurs disponibles dans le nuancier du cas",
+      "source": "Terre d’Argile présente un nuancier de trois teintes. Chaque teinte est accompagnée d’un nom et d’un aperçu pour préparer le choix.",
+      "before": "En savoir plus",
+      "action": "Consulter le nuancier",
+      "other": "https://adresse-a-inventer.invalid/fiche",
+      "target": "nuancier",
+      "expect": "un résultat ou un service plus large que celui décrit dans la source",
+      "why": "Nommer le nuancier dans le libellé.",
+      "titlePage": "Les couleurs de la collection",
+      "hook": "Trois teintes à comparer pour préparer votre choix.",
+      "problem": "Le lecteur a besoin de repérer les trois couleurs du cas.",
+      "promise": "Le nuancier présente les trois couleurs de la collection fictive.",
+      "benefit": "Vous pouvez comparer les trois teintes proposées.",
+      "items": [
+        [
+          "Argile",
+          "Aperçu fictif : teinte ocre."
+        ],
+        [
+          "Craie",
+          "Aperçu fictif : teinte claire."
+        ],
+        [
+          "Ardoise",
+          "Aperçu fictif : teinte grise."
+        ]
+      ],
+      "after": "Consulter le nuancier",
+      "hookA": "La couleur parfaite sans aucun essai.",
+      "hookB": "Trois teintes à comparer pour préparer votre choix.",
+      "reason": "Nommer le nuancier dans le libellé.",
+      "defect": "Le lecteur peut ignorer ce qui se trouve derrière le lien.",
+      "changeKey": "action",
+      "expected": "Le lecteur prévoit puis ouvre le nuancier.",
+      "actionPosition": "end",
+      "targetPath": "pieces/nuancier.html"
+    },
+    {
+      "id": "studio-nadia",
+      "title": "Studio Nadia",
+      "sector": "Portfolio professionnel",
+      "public": "Lecteurs qui découvrent un portfolio de mise en page",
+      "need": "Comprendre le type de travail montré",
+      "source": "Studio Nadia présente trois réalisations visuelles. Chaque réalisation est accompagnée du contexte du projet.",
+      "before": "Vous préparez une communication visuelle et vous souhaitez examiner des réalisations avant de préciser votre demande. Pour vous aider à commencer cette réflexion et à aborder la préparation de votre projet, plusieurs présentations peuvent être consultées dans une fiche qui rassemble les exemples disponibles.",
+      "action": "Découvrir les trois réalisations",
+      "other": "https://adresse-a-inventer.invalid/fiche",
+      "target": "realisations",
+      "expect": "un résultat ou un service plus large que celui décrit dans la source",
+      "why": "Raccourcir le paragraphe sans ajouter de réalisation.",
+      "titlePage": "Trois réalisations de mise en page",
+      "hook": "Trois réalisations pour découvrir le travail du studio.",
+      "problem": "Le lecteur veut comprendre le travail à partir d’exemples.",
+      "promise": "La page présente trois réalisations fictives.",
+      "benefit": "Vous pouvez examiner trois exemples du travail du studio.",
+      "items": [
+        [
+          "Affiche",
+          "Projet fictif : annoncer un atelier."
+        ],
+        [
+          "Dépliant",
+          "Projet fictif : présenter une activité."
+        ],
+        [
+          "Page de présentation",
+          "Projet fictif : montrer un service."
+        ]
+      ],
+      "after": "Vous préparez une communication visuelle. Consultez les trois réalisations disponibles avant de préciser votre demande.",
+      "hookA": "Des créations qui assurent votre succès.",
+      "hookB": "Trois réalisations pour découvrir le travail du studio.",
+      "reason": "Raccourcir le paragraphe sans ajouter de réalisation.",
+      "defect": "Le lecteur peut perdre le besoin dans une phrase longue.",
+      "changeKey": "problem",
+      "expected": "Le lecteur reformule le besoin et ouvre les trois réalisations.",
+      "actionPosition": "end",
+      "targetPath": "pieces/realisations.html"
+    }
+  ],
+  "cards": [
+    [
+      "Que conserve-t-on avant de corriger ?",
+      "La V1, sa fiche cible et la preuve S19. La V2 reçoit un nom distinct."
+    ],
+    [
+      "Qu’est-ce qu’un lecteur extérieur ?",
+      "Une personne qui découvre la page et accomplit la tâche sans guidage oral."
+    ],
+    [
+      "Que doit contenir une observation ?",
+      "Version, lecteur, date, appareil, consigne, geste et résultat réel."
+    ],
+    [
+      "Pourquoi limiter la correction ?",
+      "Un changement ciblé permet de relier plus clairement le motif à l’écart observé."
+    ],
+    [
+      "Que faire si la V1 réussit ?",
+      "Consigner la réussite. Chercher un autre point réellement observé ou conserver cette partie."
+    ],
+    [
+      "Quel risque avec le même lecteur ?",
+      "Il peut mémoriser le chemin. Noter cette limite et chercher un autre lecteur si possible."
+    ],
+    [
+      "Quelle différence entre résultat attendu et observé ?",
+      "Le premier est une prédiction. Le second décrit ce qui s’est réellement passé."
+    ],
+    [
+      "Que rassemble la preuve S20 ?",
+      "V1, V2, extrait avant/après, motif, deux essais, statut et revue du pilote."
+    ],
+    [
+      "Que signifie la portée d’un service worker ?",
+      "Le périmètre d’URL qu’il peut contrôler. Dans ce pack, il reste dans le dossier PWA."
+    ],
+    [
+      "Pourquoi versionner le cache ?",
+      "Identifier les ressources d’une édition et supprimer uniquement les anciens caches du même dossier."
+    ],
+    [
+      "Quand le paquet est-il publié ?",
+      "Après un déploiement effectivement exécuté. Préparer un ZIP ne publie rien."
+    ],
+    [
+      "Quelle entrée pour S21 ?",
+      "Le dossier Module 05, son index, ses quatre preuves et les points restant à traiter."
+    ]
+  ],
+  "quiz": [
+    [
+      "Un lecteur hésite. Quel relevé aide à corriger ?",
+      [
+        "La page est mauvaise.",
+        "Sur V1 mobile, il cherche le lien puis demande où cliquer.",
+        "La V2 sera forcément meilleure."
+      ],
+      1,
+      [
+        "Ce jugement ne situe pas le geste.",
+        "La trace situe version, appareil et comportement observé.",
+        "Cette prédiction ne décrit aucun essai."
+      ]
+    ],
+    [
+      "Roue libre : le lien est difficile à retrouver. Que changer en premier ?",
+      [
+        "Ajouter un bouton Réserver.",
+        "Réécrire toute la fiche.",
+        "Déplacer le même lien sous l’accroche."
+      ],
+      2,
+      [
+        "La source ne prévoit pas de réservation.",
+        "Cette refonte ne traite pas l’emplacement observé.",
+        "La modification vise l’accès au lien et conserve sa destination."
+      ]
+    ],
+    [
+      "Le premier lecteur réussit. Que consigner ?",
+      [
+        "Sa réussite réelle et un autre point éventuel à relire.",
+        "Une hésitation inventée pour justifier V2.",
+        "Un échec obligatoire parce que S20 demande une correction."
+      ],
+      0,
+      [
+        "Le résultat doit rester fidèle à l’essai.",
+        "Une difficulté inventée fausse la preuve.",
+        "La séance ne transforme pas une réussite en échec."
+      ]
+    ],
+    [
+      "Le même lecteur trouve plus vite le lien de V2. Quelle conclusion ?",
+      [
+        "La correction fonctionne pour tous.",
+        "Le résultat est favorable ici, avec un possible effet de mémorisation.",
+        "Le deuxième essai annule le premier."
+      ],
+      1,
+      [
+        "Un essai ne permet pas cette généralisation.",
+        "La conclusion tient compte des conditions du test.",
+        "Les deux essais restent utiles à comparer."
+      ]
+    ],
+    [
+      "Comment garder les versions ?",
+      [
+        "Remplacer V1 par V2 sans copie.",
+        "Effacer la fiche pour alléger le ZIP.",
+        "Conserver V1, V2 et la fiche dans le dossier."
+      ],
+      2,
+      [
+        "La comparaison devient impossible si V1 disparaît.",
+        "Le lecteur ne peut plus atteindre la pièce promise.",
+        "Le dossier garde les pièces nécessaires aux deux essais."
+      ]
+    ],
+    [
+      "Qu’examine le pilote à la clôture ?",
+      [
+        "Les quatre preuves ouvertes, les versions et les observations.",
+        "Seulement le score du quiz.",
+        "Le nom du ZIP suffit."
+      ],
+      0,
+      [
+        "Le pilote peut retrouver la progression et motiver sa décision.",
+        "Le score porte sur des notions, pas sur les fichiers du candidat.",
+        "Un nom de fichier ne démontre ni contenu ni fonctionnement."
+      ]
+    ],
+    [
+      "La PWA affiche une ancienne version. Quel geste est pertinent ?",
+      [
+        "Supprimer tous les caches du navigateur.",
+        "Contrôler la version et la mise à jour du cache de ce dossier.",
+        "Déclarer la nouvelle version active sans la rouvrir."
+      ],
+      1,
+      [
+        "Cela affecterait les autres applications.",
+        "Le contrôle reste limité au périmètre de l’essai.",
+        "La version doit être observée après l’actualisation."
+      ]
+    ],
+    [
+      "Le paquet local est terminé. Quel statut de diffusion est exact ?",
+      [
+        "Publié partout.",
+        "Validé automatiquement.",
+        "Préparé localement, publication non effectuée."
+      ],
+      2,
+      [
+        "Aucune URL publique ne découle de la création du ZIP.",
+        "La revue humaine reste distincte.",
+        "Cette formulation décrit ce qui a effectivement été fait."
+      ]
+    ]
+  ],
+  "criteria": [
+    "Rouvrir V1, fiche cible et preuve S19.",
+    "Montrer le premier essai sans aide orale et son contexte.",
+    "Relier la correction à une observation précise.",
+    "Rouvrir V2 et atteindre sa fiche.",
+    "Comparer les deux essais en notant leurs conditions.",
+    "Rouvrir les quatre preuves S17 à S20 depuis l’index.",
+    "Présenter le paquet, le README et la décision datée du pilote."
+  ],
+  "phases": [
+    {
+      "time": "0–8",
+      "verb": "Rouvrir",
+      "slides": "01–04",
+      "trainer": "Montrer les pièces héritées.",
+      "candidate": "Retrouver V1, fiche et preuve S19.",
+      "observe": "Les fichiers s’ouvrent.",
+      "relance": "Quelle version votre lecteur va-t-il recevoir ?"
+    },
+    {
+      "time": "8–20",
+      "verb": "Comprendre",
+      "slides": "05–08",
+      "trainer": "Distinguer prédiction, observation et motif.",
+      "candidate": "Préparer une consigne identique.",
+      "observe": "La tâche ne donne pas la réponse.",
+      "relance": "Que pouvez-vous noter sans interpréter ?"
+    },
+    {
+      "time": "20–35",
+      "verb": "Démontrer",
+      "slides": "09–13",
+      "trainer": "Faire essayer Roue libre puis montrer la V2 proposée.",
+      "candidate": "Prédire, observer et nommer le changement.",
+      "observe": "Le libellé et la fiche restent identiques.",
+      "relance": "Quel élément avez-vous vraiment modifié ?"
+    },
+    {
+      "time": "35–65",
+      "verb": "Produire",
+      "slides": "14–15",
+      "trainer": "Accompagner la copie V1 et l’export V2.",
+      "candidate": "Tester V1, corriger, exporter puis rejouer.",
+      "observe": "Les deux versions existent séparément.",
+      "relance": "Pouvez-vous rouvrir votre V1 intacte ?"
+    },
+    {
+      "time": "65–80",
+      "verb": "Comparer",
+      "slides": "16–18",
+      "trainer": "Organiser la revue et la présentation courte.",
+      "candidate": "Comparer les essais et ouvrir les quatre preuves.",
+      "observe": "Le motif correspond au résultat noté.",
+      "relance": "Votre conclusion dépasse-t-elle ce test ?"
+    },
+    {
+      "time": "80–90",
+      "verb": "Clôturer",
+      "slides": "19–22",
+      "trainer": "Examiner le paquet et préparer S21.",
+      "candidate": "Compléter la preuve globale et le relais.",
+      "observe": "Les points ouverts sont nommés.",
+      "relance": "Quel dossier ouvrirez-vous au début de S21 ?"
+    }
+  ],
+  "prompts": [
+    {
+      "title": "Reprendre après la séance ou le replay",
+      "input": "V1, fiche, preuve S19 et passage du replay utile",
+      "limit": "Conserver les faits de la source",
+      "output": "Liste des pièces puis première tâche lecteur",
+      "test": "Un lecteur explique le projet et ouvre la fiche sans aide",
+      "text": "Vous êtes mon assistant de correction LN-IA. L’humain décide. Ne fabriquez ni observation ni validation. Distinguez résultat attendu et résultat réel. Je reprends S20. Voici ma V1 et sa fiche : [fichiers]. Voici ma source : [passage]. Listez les pièces disponibles et manquantes. Proposez une consigne neutre pour le lecteur. Donnez une grille vierge avec version, date, appareil, geste et résultat. Ne remplissez pas l’essai."
+    },
+    {
+      "title": "Prompt maître de correction S20",
+      "input": "V1, source, observation réelle et contrainte",
+      "limit": "Une modification motivée et V1 conservée",
+      "output": "V2 HTML ou Markdown et preuve distincte",
+      "test": "Rejouer la même tâche et rouvrir les deux versions",
+      "text": "Vous êtes mon assistant de correction LN-IA. L’humain décide. Ne fabriquez ni observation ni validation. Distinguez résultat attendu et résultat réel. Projet : [sujet]. Public et besoin : [public]. Source : [passage]. V1 : [fichier]. Action et fiche : [libellé, chemin]. Observation du lecteur : [fait]. Mission : proposer une correction unique puis produire page-simple-v2.html ou .md. Conservez V1, la fiche et le périmètre de la source. Expliquez le changement. Séparez la page et preuve-S20.md. Laissez le second résultat à renseigner. Préparez la revue des quatre preuves et le relais S21. Ne publiez rien."
+    },
+    {
+      "title": "Lire",
+      "input": "V1 et fiche cible",
+      "limit": "Décrire avant de conseiller",
+      "output": "Inventaire des éléments visibles",
+      "test": "Retrouver chaque élément dans le fichier",
+      "text": "Vous êtes mon assistant de correction LN-IA. L’humain décide. Ne fabriquez ni observation ni validation. Distinguez résultat attendu et résultat réel. Lisez ma V1 [contenu]. Indiquez public, besoin, promesse appuyée et action unique. Relevez la destination annoncée. Signalez les informations absentes sans les compléter. Terminez par la pièce à ouvrir."
+    },
+    {
+      "title": "Comparer",
+      "input": "V1, V2 et observation",
+      "limit": "Ne pas confondre préférence et résultat",
+      "output": "Table avant/après avec motif",
+      "test": "Une ligne correspond à la correction choisie",
+      "text": "Vous êtes mon assistant de correction LN-IA. L’humain décide. Ne fabriquez ni observation ni validation. Distinguez résultat attendu et résultat réel. Comparez ces deux versions [V1, V2]. Dressez un tableau : élément, avant, après, motif, effet attendu. Identifiez les changements non demandés. Ne concluez pas à une amélioration sans résultat lecteur."
+    },
+    {
+      "title": "Éprouver",
+      "input": "V1, V2 et tâche à accomplir",
+      "limit": "Aucune aide orale pendant le geste",
+      "output": "Protocole et tableau de deux essais vierges",
+      "test": "Même consigne et conditions consignées",
+      "text": "Vous êtes mon assistant de correction LN-IA. L’humain décide. Ne fabriquez ni observation ni validation. Distinguez résultat attendu et résultat réel. Préparez un test de ma page [projet]. Le lecteur doit expliquer le projet puis ouvrir [fiche]. Décrivez les étapes sans lui montrer le lien. Prévoyez appareil, version, lecteur, date, résultat, hésitation et titre atteint. Mentionnez l’apprentissage possible si la même personne teste deux fois."
+    },
+    {
+      "title": "Relire",
+      "input": "Quatre preuves, index, README et paquet",
+      "limit": "Ne pas valider à la place du pilote",
+      "output": "Écarts, pièces absentes et relais S21",
+      "test": "Chaque ligne de l’index mène à une pièce réelle",
+      "text": "Vous êtes mon assistant de correction LN-IA. L’humain décide. Ne fabriquez ni observation ni validation. Distinguez résultat attendu et résultat réel. Relisez mon dossier Module 05 [inventaire et extraits]. Vérifiez S17 plan, S18 contenu, S19 V1, S20 V2, fiche et preuves. Distinguez prêt à relire, testé et publié. Listez les points ouverts. Préparez un relais S21 avec chemins et premier geste. Laissez la décision au pilote nommé et daté."
+    }
+  ]
+}

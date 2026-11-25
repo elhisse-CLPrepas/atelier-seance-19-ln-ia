@@ -1,0 +1,43 @@
+{
+  "pages": [
+    {
+      "page": "index.html",
+      "buttons_with_id": 7,
+      "local_links": "valides"
+    },
+    {
+      "page": "preparation-pwa.html",
+      "buttons_with_id": 5,
+      "local_links": "valides"
+    }
+  ],
+  "http": [
+    {
+      "resource": "index.html",
+      "http": 200
+    },
+    {
+      "resource": "preparation-pwa.html",
+      "http": 200
+    },
+    {
+      "resource": "js/app.js",
+      "http": 200
+    },
+    {
+      "resource": "js/demo-data.js",
+      "http": 200
+    },
+    {
+      "resource": "css/styles.css",
+      "http": 200
+    },
+    {
+      "resource": "data/projets.json",
+      "http": 200
+    }
+  ],
+  "demo_data_matches_json": true,
+  "syntax": "réussie",
+  "browser_visual": "non exécuté"
+}

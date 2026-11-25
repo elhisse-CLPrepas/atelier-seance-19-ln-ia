@@ -1,0 +1,20 @@
+* text=auto eol=lf
+*.md whitespace=-blank-at-eol
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.pptx binary
+*.zip binary
+
+# ATTRIBUTS-S18:START
+# Preserve the bytes declared in the synchronized SHA-256 manifests.
+02-PROMPTS/S18/** -text whitespace=cr-at-eol
+02-PROMPTS/S18/**/*.md whitespace=cr-at-eol,-blank-at-eol
+04-WEB/livrables-S18/** -text whitespace=cr-at-eol
+01-SUIVI/productions-S18.md -text
+04-WEB/contenu-page-projet-S18-declic-web.md -text
+06-PORTFOLIO/rapport-production-S18-declic-web.md -text
+06-PORTFOLIO/relais-production-S18-S19.md -text
+00-SOURCES/S18/SYNCHRONISATION-S18.json -text
+# ATTRIBUTS-S18:END

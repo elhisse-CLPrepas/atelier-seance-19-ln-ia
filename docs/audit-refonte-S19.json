@@ -1,0 +1,18 @@
+{
+  "html_pages_checked": 8,
+  "broken_local_links": [],
+  "pdf_pages": {
+    "presentation-S19.pdf": 22,
+    "conducteur-S19.pdf": 2,
+    "fiche-candidat-S19.pdf": 2,
+    "revision-S19.pdf": 5
+  },
+  "pdf_out_of_bounds": [],
+  "pptx_slides": 22,
+  "zip_entries": {
+    "kit-candidat-S19.zip": 17,
+    "laboratoire-json-S19.zip": 9
+  },
+  "browser_report": "recette-navigateur-S19.json",
+  "visual_previews": "tmp/qa-refonte-S19/"
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Démonstration pédagogique du chargement de données JSON locales.">
+  <title>Projets fictifs — Démonstration JSON</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/app.js" defer></script>
+</head>
+<body>
+<p class="status" style="margin:1rem">S19 · 27 novembre 2026 · JSON local et préparation PWA · <a href="../../OUVRIR-LE-PACK.html">Retour au pack</a></p>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">LAB-NUMÉRIQUE-IA · Séance 19</p>
+      <h1>Charger des projets depuis un JSON local</h1>
+      <p>Démonstration avec trois contenus fictifs et quatre états visibles.</p>
+    </div>
+  </header>
+  <main class="container">
+    <section aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div>
+          <h2 id="projects-title">Projets de démonstration</h2>
+          <p>Les cartes ci-dessous sont créées à partir de <code>data/projets.json</code>.</p>
+        </div>
+        <button id="reload-button" type="button">Recharger</button>
+      </div>
+      <p id="status" class="status" role="status" aria-live="polite">Préparation du chargement…</p>
+      <div id="projects" class="grid" aria-busy="true"></div>
+    </section>
+    <section class="note" aria-labelledby="pwa-title">
+      <h2 id="pwa-title">Préparer la future PWA</h2>
+      <p>Une présentation interactive explique le manifeste, le service worker, le cache et HTTPS sans activer de composant PWA.</p>
+      <p><a href="./preparation-pwa.html">Ouvrir la préparation PWA →</a></p>
+    </section>    <aside class="note">
+      <h2>À observer</h2>
+      <ul>
+        <li>le message pendant le chargement ;</li>
+        <li>les cartes lorsque les données arrivent ;</li>
+        <li>le message si le tableau est vide ;</li>
+        <li>le message si le fichier est introuvable.</li>
+      </ul>
+    </aside>
+  </main>
+  <footer><div class="container">Exemple pédagogique V1 — aucune donnée réelle.</div></footer>
+</body>
+</html>

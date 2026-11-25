@@ -1,0 +1,135 @@
+{
+  "source_root": "C:\\DEV\\CHALLENGE-01-Juin-2026\\05-PROGRAMME-PEDAGOGIQUE\\MODULE-05",
+  "files": [
+    {
+      "path": "01-SEANCES/seance-19-json-pwa-v2-a-valider.md",
+      "sha256": "b90ba8be5d67961c15bf5ba9662b59c6ab84c71f3db7085170867c347d6669b5"
+    },
+    {
+      "path": "02-PROMPTS/prompt-maitre-json-pwa-seance-19-v1-a-valider.md",
+      "sha256": "c171de0082fa9f15fc1e2067fa696145258a5b28731c87f60a3cec719451c66b"
+    },
+    {
+      "path": "06-RAPPORTS/rapport-production-pack-documentaire-seance-19-2026-07-27.md",
+      "sha256": "b21f78a8d657eb8260530b3766dc388bc12e51a68fe1bc0bf494feb784d170c4"
+    },
+    {
+      "path": "06-RAPPORTS/rapport-execution-prompts-seance-19-2026-07-27.md",
+      "sha256": "f4e71a55b011e5e2f1a6e955da09a8091cec171c2993ac353b9e064ae440985a"
+    },
+    {
+      "path": "05-EXEMPLES-CODE/mini-site-seance-19-V2/README.md",
+      "sha256": "0965090b1282721d476b47ac6617a6c7b97ca74c7e7f066ea60d1b284ae8e2ef"
+    },
+    {
+      "path": "05-EXEMPLES-CODE/mini-site-json-seance-19-v1-a-valider/data/projets.json",
+      "sha256": "5e134d7f90d45768a72e80bdbd13870393a0a743a0cab8387f6506ee68d5c187"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/01-support-formateur-seance-19-v1-a-valider.md",
+      "sha256": "ddabaaa79bbb5bce502d9b6d309a6248174ddea0cb6f94d63b113e0a517d2b49"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/02-fiche-candidat-json-seance-19-v1-a-valider.md",
+      "sha256": "46e57351111bb2708b08afac155239835cf4b2be362ec90e09ed6a19f7b51ebc"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/03-prompts-candidats-seance-19-v1-a-valider.md",
+      "sha256": "e4f7c48be7cb8b811c7be848c9aa59aa93f8d2fb4734405f86153308af12d8e3"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/04-grille-validation-donnees-seance-19-v1-a-valider.md",
+      "sha256": "b9cf82a80addfda6b94976c9dfc0112ed6a0eddd61a91ba503a2c2425edc2571"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/05-modele-preuve-19-json-pwa-v1-a-valider.md",
+      "sha256": "27145aed5081045e53f9b19c9345986d0115d6eabd307da6c2226fede06fbe72"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/06-cahier-charges-exemple-json-seance-19-v1-a-valider.md",
+      "sha256": "b72b8337bf066ff98de12d7bd9d6760e819e056754debed31175c3e101606193"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/07-fiche-demonstration-api-php-facultative-v1-a-valider.md",
+      "sha256": "a3bdecf22a712be69fdfffc28a68f2bc5d7d5898e27aa8350eb373021eee0f8e"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/08-reference-guide-html-interactif-seance-19.md",
+      "sha256": "f1a9152effa0ea07c66c59b4de09e09efcebf2380921164962d77e4d376b9c11"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/09-support-preparation-pwa-seance-19-v1-a-valider.md",
+      "sha256": "dd2425abafa1ffe09d81fefabb37641e2558568d61388683a9d711d1dc5745ca"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/10-liste-contenus-future-pwa-v1-a-valider.md",
+      "sha256": "c44ea3da3e8468ac5fb2b9ea622e3419861e2e5b4664bd4d21c3d5dba73f37df"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/11-decisions-p0-future-pwa-validees-2026-07-27.md",
+      "sha256": "89bc1cacde951dd309a095a8134f358c31a23a1a0e3822025e098bb814bc3e3d"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/12-fiche-depart-projet-activite-pwa-v1-a-valider.md",
+      "sha256": "a75f66dec7be4d547ec531342af4a25d9b59b254c5afc3d241eb67e862edc2bf"
+    },
+    {
+      "path": "01-SEANCES/pack-documentaire-seance-19-v1-a-valider/README.md",
+      "sha256": "51cc87da75035c915763b5d508a4e50cc3e1e7e7ee9719dc954f8697e5e37634"
+    }
+  ],
+  "comparison_before_rebuild": [
+    {
+      "file": "01-support-formateur-seance-19-v1-a-valider.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "02-fiche-candidat-json-seance-19-v1-a-valider.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "03-prompts-candidats-seance-19-v1-a-valider.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "04-grille-validation-donnees-seance-19-v1-a-valider.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "05-modele-preuve-19-json-pwa-v1-a-valider.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "06-cahier-charges-exemple-json-seance-19-v1-a-valider.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "07-fiche-demonstration-api-php-facultative-v1-a-valider.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "08-reference-guide-html-interactif-seance-19.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "09-support-preparation-pwa-seance-19-v1-a-valider.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "10-liste-contenus-future-pwa-v1-a-valider.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "11-decisions-p0-future-pwa-validees-2026-07-27.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "12-fiche-depart-projet-activite-pwa-v1-a-valider.md",
+      "identical_before_rebuild": false
+    },
+    {
+      "file": "README.md",
+      "identical_before_rebuild": false
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "method": "Scripts réels, DOM simulé Node ; pas de recette visuelle navigateur",
+  "results": [
+    {
+      "test": "succès HTTP : trois cartes",
+      "status": "réussi"
+    },
+    {
+      "test": "recherche sans accents et casse",
+      "status": "réussi"
+    },
+    {
+      "test": "recherche sans résultat",
+      "status": "réussi"
+    },
+    {
+      "test": "effacer filtres et focus",
+      "status": "réussi"
+    },
+    {
+      "test": "filtre catégorie",
+      "status": "réussi"
+    },
+    {
+      "test": "recharger efface filtres et relit la source",
+      "status": "réussi"
+    },
+    {
+      "test": "scénario empty",
+      "status": "réussi"
+    },
+    {
+      "test": "scénario http",
+      "status": "réussi"
+    },
+    {
+      "test": "scénario invalid",
+      "status": "réussi"
+    },
+    {
+      "test": "scénario schema",
+      "status": "réussi"
+    },
+    {
+      "test": "scénario slow",
+      "status": "réussi"
+    },
+    {
+      "test": "rétablir après erreur",
+      "status": "réussi"
+    },
+    {
+      "test": "erreur réseau puis réessayer",
+      "status": "réussi"
+    },
+    {
+      "test": "JSON HTTP invalide",
+      "status": "réussi"
+    },
+    {
+      "test": "import valide et export",
+      "status": "réussi"
+    },
+    {
+      "test": "copie presse-papiers",
+      "status": "réussi"
+    },
+    {
+      "test": "copie de secours sans permission",
+      "status": "réussi"
+    },
+    {
+      "test": "import invalide et export désactivé",
+      "status": "réussi"
+    },
+    {
+      "test": "import trop volumineux",
+      "status": "réussi"
+    },
+    {
+      "test": "résultat ancien ignoré après deux recharges",
+      "status": "réussi"
+    },
+    {
+      "test": "mode file sans fetch et recharge opérationnelle",
+      "status": "réussi"
+    },
+    {
+      "test": "PWA : lire manifeste",
+      "status": "réussi"
+    },
+    {
+      "test": "PWA : étapes et recommencer",
+      "status": "réussi"
+    },
+    {
+      "test": "PWA : ajouter ressources sans doublon et vider",
+      "status": "réussi"
+    },
+    {
+      "test": "PWA : choix de contexte",
+      "status": "réussi"
+    },
+    {
+      "test": "PWA : prévisualiser liste",
+      "status": "réussi"
+    }
+  ]
+}

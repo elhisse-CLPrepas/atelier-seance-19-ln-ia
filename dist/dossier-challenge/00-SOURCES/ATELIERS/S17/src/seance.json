@@ -1,0 +1,842 @@
+{
+  "meta": {
+    "title": "Comprendre les fondations du Web",
+    "subtitle": "Observer, expliquer, essayer",
+    "session": 17,
+    "module": 5,
+    "week": 9,
+    "date": "2026-11-20",
+    "dateLabel": "Vendredi 20 novembre 2026",
+    "duration": 90,
+    "version": "3.0",
+    "author": "Prof. Abderrahman EL HISSE",
+    "description": "Comprendre HTML, CSS, JavaScript et le navigateur à partir du mini-site fourni, puis conserver ses observations dans le carnet d’essai du Module 05."
+  },
+  "slides": [
+    {
+      "id": "S17-01",
+      "title": "Comprendre les fondations du Web",
+      "lead": "Observer, expliquer, essayer",
+      "points": [
+        [
+          "Module 05",
+          "HTML, CSS, JavaScript et navigateur"
+        ],
+        [
+          "S17 · 20 novembre 2026",
+          "90 minutes · démonstration locale"
+        ]
+      ],
+      "gesture": "Ouvrez le dossier Challenge et le mini-site fourni.",
+      "note": "Présentez S17 comme une séance de compréhension. Le mini-site fourni sert de support commun. Le candidat conserve ses propres observations dans son dossier.",
+      "layout": "cover",
+      "dark": true
+    },
+    {
+      "id": "S17-02",
+      "title": "Ce que la page permet d’observer",
+      "lead": "Regardez le résultat avant d’ouvrir le code",
+      "points": [
+        [
+          "Contenu",
+          "Titres, textes, images et liens"
+        ],
+        [
+          "Comportement",
+          "Navigation et bouton afficher/masquer"
+        ]
+      ],
+      "gesture": "Décrivez un élément visible et une réaction attendue.",
+      "note": "Demandez ce que chacun voit sans annoncer la technologie. Distinguez une observation d’une supposition.",
+      "layout": "split",
+      "dark": true
+    },
+    {
+      "id": "S17-03",
+      "title": "Le dossier de travail",
+      "lead": "Un point d’entrée pour retrouver les pièces",
+      "points": [
+        [
+          "Accueil",
+          "mon-dossier-challenge-Module05/index.html"
+        ],
+        [
+          "Démonstration",
+          "04-WEB/mini-site-demonstration/index.html"
+        ],
+        [
+          "Carnet",
+          "01-SUIVI/carnet-essai-S17.html"
+        ]
+      ],
+      "gesture": "Partez de l’accueil du dossier pour ouvrir la démonstration.",
+      "note": "Montrez les liens vers le mini-site, le carnet et le portfolio. Le dossier fourni contient des modèles, pas des résultats d’essai.",
+      "layout": "rows",
+      "dark": false,
+      "resource": "dossier-challenge/index.html",
+      "resourceLabel": "Ouvrir le dossier Challenge"
+    },
+    {
+      "id": "S17-04",
+      "title": "Le parcours du Module 05",
+      "lead": "Comprendre avant de produire",
+      "points": [
+        [
+          "S17",
+          "Comprendre et consigner un essai"
+        ],
+        [
+          "S18",
+          "Préparer le contenu du projet"
+        ],
+        [
+          "S19",
+          "Assembler et contrôler une V1"
+        ],
+        [
+          "S20",
+          "Corriger et comparer les versions"
+        ]
+      ],
+      "gesture": "Gardez une question à reprendre en S18.",
+      "note": "Le mini-site de démonstration d’été apporte les notions de S17. Les dates d’animation restent celles de la relance d’automne. La préparation du plan vient après la compréhension.",
+      "layout": "timeline",
+      "dark": false
+    },
+    {
+      "id": "S17-05",
+      "title": "Les trois fichiers du mini-site",
+      "lead": "Chaque fichier a un rôle principal",
+      "points": [
+        [
+          "index.html",
+          "Structure et contenu"
+        ],
+        [
+          "css/styles.css",
+          "Présentation et adaptation à l’écran"
+        ],
+        [
+          "js/app.js",
+          "Événements et changements d’état"
+        ]
+      ],
+      "gesture": "Associez un élément observé à l’un des fichiers.",
+      "note": "Ouvrez les trois fichiers réels fournis. Faites retrouver un titre, une couleur puis le gestionnaire du bouton.",
+      "layout": "rows",
+      "dark": false
+    },
+    {
+      "id": "S17-06",
+      "title": "Le parcours de navigation",
+      "lead": "Retrouver une étape sans parcourir toute la page",
+      "points": [
+        [
+          "Accueil",
+          "Objectif de la démonstration"
+        ],
+        [
+          "Observer",
+          "Affiche et responsabilités"
+        ],
+        [
+          "Essayer",
+          "Bouton afficher/masquer"
+        ],
+        [
+          "Fichiers",
+          "Arborescence du mini-site"
+        ],
+        [
+          "Local ou publié",
+          "États du projet"
+        ],
+        [
+          "Carnet",
+          "Observation et question à conserver"
+        ]
+      ],
+      "gesture": "Utilisez le menu puis revenez à l’accueil.",
+      "note": "Montrez les ancres, le lien de retour et les accès au carnet. Demandez à un lecteur de retrouver une section sans aide orale.",
+      "layout": "six",
+      "dark": false
+    },
+    {
+      "id": "S17-07",
+      "title": "HTML organise le contenu",
+      "lead": "Le document donne une structure à la page",
+      "points": [
+        [
+          "Dans le fichier",
+          "Un titre h1 et des sections identifiées"
+        ],
+        [
+          "Dans le navigateur",
+          "Un titre lisible et des liens vers les sections"
+        ]
+      ],
+      "gesture": "Retrouvez le même titre dans le code et à l’écran.",
+      "note": "Utilisez index.html du mini-site. Une ancre relie href=\"#roles\" à une section id=\"roles\". Le saut de section ne demande pas nécessairement JavaScript.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S17-08",
+      "title": "CSS présente la page",
+      "lead": "Les règles visuelles rendent le contenu lisible",
+      "points": [
+        [
+          "Couleur",
+          "Bleu nuit, doré et contraste"
+        ],
+        [
+          "Disposition",
+          "Espacements et largeur de lecture"
+        ],
+        [
+          "Écran",
+          "Adaptation de la navigation sur mobile"
+        ]
+      ],
+      "gesture": "Réduisez la fenêtre et décrivez ce qui se réorganise.",
+      "note": "Ouvrez css/styles.css. Comparez grand écran et mobile. CSS change la présentation, le contenu du HTML reste repérable.",
+      "layout": "three",
+      "dark": false
+    },
+    {
+      "id": "S17-09",
+      "title": "Le mini-site fourni",
+      "lead": "Le support commun de la démonstration",
+      "points": [
+        [
+          "Objectif",
+          "Observer comment contenu, style et interaction coopèrent dans une page web."
+        ]
+      ],
+      "gesture": "Ouvrez « Les trois rôles » depuis le menu.",
+      "note": "Source : mini-site-demonstration-seance-17-v1-a-valider/index.html fourni dans S17. La copie de travail se trouve dans 04-WEB/mini-site-demonstration du dossier Challenge.",
+      "layout": "quote",
+      "dark": false,
+      "resource": "dossier-challenge/04-WEB/mini-site-demonstration/index.html",
+      "resourceLabel": "Explorer le mini-site fourni"
+    },
+    {
+      "id": "S17-10",
+      "title": "JavaScript réagit au clic",
+      "lead": "Prédisez ce que fera « Afficher l’explication »",
+      "points": [
+        [
+          "Avant",
+          "La zone explicative est masquée"
+        ],
+        [
+          "Après le clic",
+          "La zone apparaît et le libellé change"
+        ]
+      ],
+      "gesture": "Écrivez votre prédiction avant d’activer le bouton.",
+      "note": "Testez le bouton à la souris puis au clavier. Faites retrouver aria-expanded et la propriété hidden dans js/app.js. Ne renseignez pas une réussite à la place du candidat.",
+      "layout": "split",
+      "dark": true,
+      "resource": "dossier-challenge/04-WEB/mini-site-demonstration/index.html#interaction",
+      "resourceLabel": "Essayer le bouton"
+    },
+    {
+      "id": "S17-11",
+      "title": "Un événement et un nouvel état",
+      "lead": "Le navigateur exécute la règle prévue",
+      "points": [
+        [
+          "Événement",
+          "Activation du bouton"
+        ],
+        [
+          "Règle",
+          "Inverser l’état visible ou masqué"
+        ],
+        [
+          "Résultat",
+          "Zone et libellé mis à jour"
+        ]
+      ],
+      "gesture": "Activez une seconde fois et comparez.",
+      "note": "Expliquez que HTML définit le bouton, CSS son apparence et JavaScript sa réaction. Demandez de décrire les deux états dans le carnet.",
+      "layout": "comparison",
+      "dark": false
+    },
+    {
+      "id": "S17-12",
+      "title": "Le navigateur assemble",
+      "lead": "Un fichier principal et ses ressources",
+      "points": [
+        [
+          "Lire",
+          "Ouvrir index.html"
+        ],
+        [
+          "Charger",
+          "Retrouver CSS, JavaScript et images"
+        ],
+        [
+          "Afficher",
+          "Construire la page visible"
+        ],
+        [
+          "Réagir",
+          "Exécuter le code lors d’un événement"
+        ]
+      ],
+      "gesture": "Ouvrez la console et relevez ce qui apparaît.",
+      "note": "La console aide à lire messages et erreurs. Elle n’est pas la page HTML. Le mini-site fourni écrit un message informatif lors de l’interaction.",
+      "layout": "four",
+      "dark": false
+    },
+    {
+      "id": "S17-13",
+      "title": "Les 90 minutes de S17",
+      "lead": "Six phases pour observer et expliquer",
+      "points": [
+        [
+          "8 min",
+          "Ouvrir le dossier et le support"
+        ],
+        [
+          "12 min",
+          "Repérer les trois fichiers"
+        ],
+        [
+          "15 min",
+          "Observer la démonstration"
+        ],
+        [
+          "30 min",
+          "Essayer et renseigner le carnet"
+        ],
+        [
+          "15 min",
+          "Faire expliquer par un binôme"
+        ],
+        [
+          "10 min",
+          "Conserver les traces et préparer S18"
+        ]
+      ],
+      "gesture": "Le carnet rassemble ce qui a été réellement essayé.",
+      "note": "Ajustez les durées au groupe. Le but est de pouvoir expliquer un comportement à partir du support, sans exiger une page complète en S17.",
+      "layout": "six",
+      "dark": false
+    },
+    {
+      "id": "S17-14",
+      "title": "La copie dans votre dossier",
+      "lead": "Un exemple pédagogique à faire évoluer",
+      "points": [
+        [
+          "Source fournie",
+          "Mini-site de démonstration de S17"
+        ],
+        [
+          "Copie de travail",
+          "04-WEB/mini-site-demonstration/"
+        ],
+        [
+          "Trace personnelle",
+          "Carnet d’essai puis preuve S17"
+        ]
+      ],
+      "gesture": "Retrouvez ces trois emplacements depuis l’accueil.",
+      "note": "L’exemple repose sur les fichiers fournis. Il ne décrit aucune entreprise inventée. Le contenu personnel du projet reste à choisir par le candidat.",
+      "layout": "three",
+      "dark": false
+    },
+    {
+      "id": "S17-15",
+      "title": "Le carnet d’essai",
+      "lead": "Décrire avant de conclure",
+      "points": [
+        [
+          "Prédire",
+          "Ce que vous attendez avant le clic"
+        ],
+        [
+          "Observer",
+          "Ce qui change réellement à l’écran"
+        ],
+        [
+          "Expliquer",
+          "Le fichier et la règle associés"
+        ]
+      ],
+      "gesture": "Notez un exemple pour HTML, CSS et JavaScript.",
+      "note": "Ouvrez le carnet autonome dans le dossier Challenge, ou la rubrique Carnet d’essai de l’atelier. Les réponses d’observation restent vierges au chargement de l’exemple.",
+      "layout": "rows",
+      "dark": false,
+      "resource": "dossier-challenge/01-SUIVI/carnet-essai-S17.html",
+      "resourceLabel": "Ouvrir le carnet d’essai"
+    },
+    {
+      "id": "S17-16",
+      "title": "Une question précise pour l’IA",
+      "lead": "Demander une explication que vous pouvez vérifier",
+      "points": [
+        [
+          "Entrée",
+          "Un extrait du fichier fourni"
+        ],
+        [
+          "Question",
+          "Quel est le rôle de ce code ?"
+        ],
+        [
+          "Limite",
+          "Conserver les faits observables"
+        ],
+        [
+          "Contrôle",
+          "Relier la réponse à un essai réel"
+        ]
+      ],
+      "gesture": "Copiez un extrait court et vérifiez l’explication.",
+      "note": "Les prompts aident à comprendre le support. Faites demander une explication simple puis comparer avec le comportement réel. L’IA ne remplace pas l’essai.",
+      "layout": "four",
+      "dark": false
+    },
+    {
+      "id": "S17-17",
+      "title": "Le test de navigation",
+      "lead": "Un lecteur retrouve une étape sans aide",
+      "points": [
+        [
+          "Consigne",
+          "Retrouvez l’interaction puis le carnet"
+        ],
+        [
+          "Observation",
+          "Chemin emprunté et hésitations"
+        ],
+        [
+          "Trace",
+          "Mots du lecteur et point à améliorer"
+        ]
+      ],
+      "gesture": "Testez aussi le menu avec Tab et Entrée.",
+      "note": "N’indiquez pas l’emplacement avant la réponse. Notez si l’en-tête masque un titre, si un lien est ambigu ou si le retour est difficile.",
+      "layout": "rows",
+      "dark": false
+    },
+    {
+      "id": "S17-18",
+      "title": "Une amélioration à vérifier",
+      "lead": "Une disposition doit faciliter une action concrète",
+      "points": [
+        [
+          "Disposition proposée",
+          "Menu visible, liens explicites et retour en haut"
+        ],
+        [
+          "Nouvel essai",
+          "Rejouer le même parcours après modification"
+        ]
+      ],
+      "gesture": "Comparez l’attente, le premier essai et le nouvel essai.",
+      "note": "La présence d’un menu ne prouve pas que la navigation est comprise. Faites noter une réussite ou une difficulté réellement observée.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S17-19",
+      "title": "Les traces à conserver",
+      "lead": "Le dossier reste utilisable après fermeture",
+      "points": [
+        [
+          "01-SUIVI/carnet-essai-S17.html",
+          "Saisie, sauvegarde JSON et export Markdown"
+        ],
+        [
+          "06-PORTFOLIO/preuve-S17.md",
+          "Observation, explication et question pour S18"
+        ]
+      ],
+      "gesture": "Exportez le carnet puis rouvrez votre fichier.",
+      "note": "Le navigateur conserve les saisies quand le stockage est disponible. Le JSON permet une reprise. Le Markdown conserve une trace lisible dans le portfolio.",
+      "layout": "files",
+      "dark": false
+    },
+    {
+      "id": "S17-20",
+      "title": "Sept repères de compréhension",
+      "lead": "Chaque repère demande un exemple observé",
+      "points": [
+        [
+          "HTML",
+          "Retrouver un titre et une section"
+        ],
+        [
+          "CSS",
+          "Expliquer une disposition"
+        ],
+        [
+          "JavaScript",
+          "Décrire les deux états du bouton"
+        ],
+        [
+          "Navigateur",
+          "Distinguer fichier, page et console"
+        ],
+        [
+          "Navigation",
+          "Atteindre une section et revenir"
+        ],
+        [
+          "Local",
+          "Expliquer pourquoi rien n’est publié"
+        ],
+        [
+          "Carnet",
+          "Rouvrir une trace d’essai"
+        ]
+      ],
+      "gesture": "Le pilote consigne une observation, son nom et la date.",
+      "note": "Les cases et le quiz soutiennent la revue. La compréhension s’apprécie en faisant expliquer le support ouvert.",
+      "layout": "seven",
+      "dark": false
+    },
+    {
+      "id": "S17-21",
+      "title": "Local, contrôlé, publié",
+      "lead": "Ces états correspondent à des actions distinctes",
+      "points": [
+        [
+          "Local",
+          "Fichiers ouverts sur votre ordinateur"
+        ],
+        [
+          "Contrôlé",
+          "Contenus, chemins et interactions vérifiés"
+        ],
+        [
+          "Décision humaine",
+          "Choix du pilote avant diffusion"
+        ],
+        [
+          "Publié",
+          "Hébergement et adresse publique vérifiés"
+        ]
+      ],
+      "gesture": "Indiquez l’état actuel du support dans le carnet.",
+      "note": "La démonstration est locale. Aucune publication n’est réalisée dans cet atelier. Les dates anciennes de l’affiche appartiennent au support d’été.",
+      "layout": "four",
+      "dark": false
+    },
+    {
+      "id": "S17-22",
+      "title": "Préparer S18",
+      "lead": "Utiliser ce que vous savez maintenant expliquer",
+      "points": [
+        [
+          "À reprendre",
+          "Le carnet, une question et le dossier Challenge"
+        ],
+        [
+          "À préparer",
+          "Le sujet personnel et le contenu de la future page"
+        ]
+      ],
+      "gesture": "Conservez une question et une amélioration à poursuivre.",
+      "note": "Faites rouvrir le carnet et la preuve depuis l’accueil du dossier. Le plan de page est un outil de préparation de S18. Ne remplacez pas les observations par un corrigé.",
+      "layout": "closing",
+      "dark": true
+    }
+  ],
+  "phases": [
+    {
+      "time": "00–08",
+      "verb": "Ouvrir",
+      "slides": "1–3",
+      "trainer": "Ouvrir l’accueil du dossier Challenge et la démonstration.",
+      "candidate": "Retrouver le support et le carnet.",
+      "observe": "Les deux pièces sont accessibles depuis l’accueil.",
+      "relance": "Quel fichier venez-vous d’ouvrir ?"
+    },
+    {
+      "time": "08–20",
+      "verb": "Repérer",
+      "slides": "4–8",
+      "trainer": "Montrer les trois fichiers et leurs rôles.",
+      "candidate": "Associer un titre, une couleur et une interaction à un fichier.",
+      "observe": "Le candidat explique un exemple par technologie.",
+      "relance": "Quel fichier porte ce changement ?"
+    },
+    {
+      "time": "20–35",
+      "verb": "Observer",
+      "slides": "9–12",
+      "trainer": "Faire prédire puis activer le bouton.",
+      "candidate": "Décrire l’état avant et après et ouvrir la console.",
+      "observe": "Prédiction et observation sont distinguées.",
+      "relance": "Qu’est-ce qui a changé ?"
+    },
+    {
+      "time": "35–65",
+      "verb": "Essayer",
+      "slides": "13–16",
+      "trainer": "Accompagner le carnet et les essais de navigation.",
+      "candidate": "Tester souris, clavier et largeur mobile ; noter ses observations.",
+      "observe": "Une observation réelle et une explication sont consignées.",
+      "relance": "Pouvez-vous montrer ce que vous expliquez ?"
+    },
+    {
+      "time": "65–80",
+      "verb": "Expliquer",
+      "slides": "17–18",
+      "trainer": "Confier le parcours à un binôme sans aide orale.",
+      "candidate": "Retrouver l’interaction et le carnet puis proposer une amélioration.",
+      "observe": "Le chemin et les hésitations sont relevés.",
+      "relance": "Quel libellé vous a aidé ?"
+    },
+    {
+      "time": "80–90",
+      "verb": "Conserver",
+      "slides": "19–22",
+      "trainer": "Faire exporter puis rouvrir les traces.",
+      "candidate": "Conserver carnet et preuve, préparer une question pour S18.",
+      "observe": "La trace est retrouvable depuis le portfolio.",
+      "relance": "Que souhaitez-vous approfondir en S18 ?"
+    }
+  ],
+  "cards": [
+    [
+      "Quel est le rôle de HTML ?",
+      "Organiser et donner du sens au contenu : titres, sections, liens et boutons."
+    ],
+    [
+      "Quel est le rôle de CSS ?",
+      "Présenter le contenu : couleurs, espacements, disposition et adaptation à l’écran."
+    ],
+    [
+      "Quel est le rôle de JavaScript ?",
+      "Réagir à des événements et modifier un état de la page."
+    ],
+    [
+      "Que fait le navigateur ?",
+      "Il lit le HTML, charge les ressources, affiche la page et exécute JavaScript."
+    ],
+    [
+      "À quoi sert la console ?",
+      "À consulter les messages et erreurs et à examiner le comportement du code."
+    ],
+    [
+      "Comment un lien interne atteint-il une section ?",
+      "Son href pointe vers l’identifiant de la section, par exemple #roles."
+    ],
+    [
+      "Pourquoi prédire avant le clic ?",
+      "Pour comparer ce que vous attendiez avec ce que vous observez réellement."
+    ],
+    [
+      "Que signifie aria-expanded ?",
+      "Cet attribut indique si la zone associée au bouton est déployée."
+    ],
+    [
+      "Que tester au clavier ?",
+      "Le parcours avec Tab, le focus visible et l’activation avec Entrée ou Espace selon le contrôle."
+    ],
+    [
+      "Une page ouverte localement est-elle publiée ?",
+      "Non. Elle reste un ensemble de fichiers locaux tant qu’aucun hébergement public n’a été mis en place."
+    ],
+    [
+      "Que conserver dans le carnet ?",
+      "La prédiction, l’observation, l’explication, les difficultés et la question pour la suite."
+    ],
+    [
+      "Que prépare S17 ?",
+      "La compréhension nécessaire pour choisir le contenu et préparer le projet en S18."
+    ]
+  ],
+  "quiz": [
+    [
+      "Quel fichier organise les titres et sections ?",
+      [
+        "index.html",
+        "css/styles.css",
+        "js/app.js"
+      ],
+      0,
+      [
+        "HTML structure les contenus.",
+        "CSS règle la présentation.",
+        "JavaScript porte les réactions."
+      ]
+    ],
+    [
+      "Quelle modification relève de CSS ?",
+      [
+        "Le texte d’un titre",
+        "L’espacement entre les sections",
+        "Le changement d’état au clic"
+      ],
+      1,
+      [
+        "Le texte appartient au contenu HTML.",
+        "Les espacements relèvent de la présentation.",
+        "Une réaction programmée relève de JavaScript."
+      ]
+    ],
+    [
+      "Que fait le bouton « Afficher l’explication » ?",
+      [
+        "Il publie le site",
+        "Il envoie un formulaire",
+        "Il rend visible une zone locale"
+      ],
+      2,
+      [
+        "Aucun déploiement n’est déclenché.",
+        "Ce bouton n’envoie pas de formulaire.",
+        "La zone et le libellé changent dans la page."
+      ]
+    ],
+    [
+      "À quoi sert le navigateur ?",
+      [
+        "Uniquement à stocker le CSS",
+        "À lire les fichiers et afficher leur résultat",
+        "À valider automatiquement le projet"
+      ],
+      1,
+      [
+        "Il assemble plusieurs types de ressources.",
+        "Il charge, affiche et permet les interactions.",
+        "La décision pédagogique reste humaine."
+      ]
+    ],
+    [
+      "Que fait href=\"#roles\" ?",
+      [
+        "Il atteint la section id=\"roles\"",
+        "Il ouvre un serveur public",
+        "Il modifie la feuille CSS"
+      ],
+      0,
+      [
+        "Le fragment identifie une section de la page.",
+        "Un lien interne ne publie rien.",
+        "La navigation ne change pas la feuille de style."
+      ]
+    ],
+    [
+      "Comment observer une navigation compréhensible ?",
+      [
+        "Expliquer chaque clic au lecteur",
+        "Masquer les liens",
+        "Laisser un lecteur retrouver une section puis relever son chemin"
+      ],
+      2,
+      [
+        "L’aide orale masque les difficultés.",
+        "Le lecteur doit disposer de liens identifiables.",
+        "Un parcours réel révèle les hésitations."
+      ]
+    ],
+    [
+      "Que notez-vous après l’essai ?",
+      [
+        "Le résultat espéré",
+        "Ce qui a réellement changé et votre explication",
+        "Une validation automatique"
+      ],
+      1,
+      [
+        "L’attente se note avant l’essai.",
+        "L’observation et l’explication restent distinctes.",
+        "La validation demande une revue humaine."
+      ]
+    ],
+    [
+      "Quel est l’état de la démonstration fournie ?",
+      [
+        "Locale, à examiner",
+        "Publiée parce qu’elle s’ouvre",
+        "Validée pour tous les candidats"
+      ],
+      0,
+      [
+        "Ouvrir les fichiers ne les publie pas.",
+        "Un navigateur peut afficher des fichiers locaux.",
+        "Chaque candidat doit produire sa propre trace."
+      ]
+    ]
+  ],
+  "criteria": [
+    "Retrouver un titre et une section dans le HTML du mini-site.",
+    "Associer une couleur ou une disposition à la feuille CSS.",
+    "Décrire les deux états du bouton et le rôle de JavaScript.",
+    "Expliquer le rôle du navigateur et de la console.",
+    "Atteindre une section puis le carnet au clavier ou à la souris.",
+    "Distinguer les fichiers locaux d’un site publié.",
+    "Exporter puis rouvrir le carnet et sa preuve depuis le dossier."
+  ],
+  "prompts": [
+    {
+      "id": "autonomie",
+      "title": "Reprendre après la séance",
+      "kind": "Comprendre le support",
+      "input": "Le mini-site et mon carnet.",
+      "limit": "Utiliser les fichiers fournis et distinguer les hypothèses.",
+      "output": "Une observation par technologie.",
+      "test": "Je vérifie dans le fichier et par un essai.",
+      "text": "Ouvrez le mini-site fourni depuis le dossier Challenge. Repérez un titre HTML, une disposition CSS et le bouton JavaScript. Prédisez puis testez le bouton. Notez ce que vous avez réellement observé, expliquez local et publié, exportez le carnet et préparez une question pour S18."
+    },
+    {
+      "id": "maitre",
+      "title": "Expliquer le mini-site",
+      "kind": "Comprendre le support",
+      "input": "Les trois fichiers du support.",
+      "limit": "Utiliser les fichiers fournis et distinguer les hypothèses.",
+      "output": "Une explication simple de chaque rôle.",
+      "test": "Je vérifie dans le fichier et par un essai.",
+      "text": "Aidez-moi à comprendre ce mini-site : [extraits HTML, CSS, JavaScript]. Expliquez le rôle de chaque fichier avec un élément visible. Proposez un essai court que je peux réaliser. Ne supposez aucun résultat d’essai et n’ajoutez aucun projet inventé."
+    },
+    {
+      "id": "lire",
+      "title": "Lire le HTML",
+      "kind": "Comprendre le support",
+      "input": "Un extrait index.html.",
+      "limit": "Utiliser les fichiers fournis et distinguer les hypothèses.",
+      "output": "Le rôle des titres, liens et sections.",
+      "test": "Je vérifie dans le fichier et par un essai.",
+      "text": "Expliquez cet extrait HTML avec des mots simples : [extrait]. Montrez quel lien rejoint quelle section. Je vérifierai les identifiants et le parcours dans le navigateur."
+    },
+    {
+      "id": "comparer",
+      "title": "Comprendre une règle CSS",
+      "kind": "Comprendre le support",
+      "input": "Une règle de styles.css.",
+      "limit": "Utiliser les fichiers fournis et distinguer les hypothèses.",
+      "output": "L’effet attendu sur la présentation.",
+      "test": "Je vérifie dans le fichier et par un essai.",
+      "text": "Expliquez cette règle CSS : [règle]. Que devrait-elle changer à l’écran ? Proposez une seule modification réversible. Je comparerai avant et après."
+    },
+    {
+      "id": "eprouver",
+      "title": "Comprendre le bouton",
+      "kind": "Comprendre le support",
+      "input": "Le gestionnaire de clic de app.js.",
+      "limit": "Utiliser les fichiers fournis et distinguer les hypothèses.",
+      "output": "Événement, règle et nouvel état.",
+      "test": "Je vérifie dans le fichier et par un essai.",
+      "text": "Expliquez ce code JavaScript : [extrait]. Distinguez l’événement, la règle et les propriétés modifiées. Je testerai les deux états et je noterai mon observation réelle."
+    },
+    {
+      "id": "relire",
+      "title": "Améliorer la navigation",
+      "kind": "Comprendre le support",
+      "input": "Le menu et une difficulté observée.",
+      "limit": "Utiliser les fichiers fournis et distinguer les hypothèses.",
+      "output": "Une disposition à tester.",
+      "test": "Je vérifie dans le fichier et par un essai.",
+      "text": "Voici le menu et une difficulté réellement observée : [extrait et observation]. Proposez une amélioration limitée : libellé, accès direct ou retour. Expliquez son effet attendu. Je déciderai et referai le même essai au clavier et sur mobile."
+    }
+  ]
+}

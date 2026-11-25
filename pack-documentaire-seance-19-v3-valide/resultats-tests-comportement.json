@@ -1,0 +1,145 @@
+{
+  "method": "Node vm, DOM simulé ; aucun navigateur réel",
+  "results": [
+    {
+      "site": "mini-site-json-seance-19-v1-a-valider",
+      "test": "succès",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-json-seance-19-v1-a-valider",
+      "test": "chargement observable",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-json-seance-19-v1-a-valider",
+      "test": "tableau vide",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-json-seance-19-v1-a-valider",
+      "test": "erreur HTTP",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-json-seance-19-v1-a-valider",
+      "test": "erreur réseau",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-json-seance-19-v1-a-valider",
+      "test": "JSON invalide",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-json-seance-19-v1-a-valider",
+      "test": "racine non tableau",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-json-seance-19-v1-a-valider",
+      "test": "champ absent",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-json-seance-19-v1-a-valider",
+      "test": "champ vide",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-json-seance-19-v1-a-valider",
+      "test": "retour au succès",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "succès",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "chargement observable",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "tableau vide",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "erreur HTTP",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "erreur réseau",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "JSON invalide",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "racine non tableau",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "champ absent",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "champ vide",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "retour au succès",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "scénario empty",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "scénario 404",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "scénario invalid-json",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "scénario not-array",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "scénario schema",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "scénario dangerous",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "scénario success",
+      "status": "réussi"
+    },
+    {
+      "site": "mini-site-seance-19-V2",
+      "test": "flashcard ouverture/fermeture",
+      "status": "réussi"
+    }
+  ]
+}

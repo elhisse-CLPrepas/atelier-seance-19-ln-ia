@@ -1,0 +1,862 @@
+{
+  "meta": {
+    "title": "Approfondir : JSON local et préparation PWA",
+    "subtitle": "Comprendre les mécanismes Web, observer et manipuler",
+    "session": 19,
+    "module": 5,
+    "week": 10,
+    "date": "2026-11-27",
+    "dateLabel": "Vendredi 27 novembre 2026",
+    "duration": 110,
+    "version": "3.0",
+    "status": "Cadrage validé par le pilote ; productions candidates à contrôler",
+    "author": "Prof. Abderrahman EL HISSE",
+    "description": "Comprenez JSON, fetch, HTTP et le DOM. Manipulez les quatre états, les flashcards et sept scénarios ; comparez API, CORS et PHP, puis préparez la PWA."
+  },
+  "slides": [
+    {
+      "id": "S19-01",
+      "title": "JSON local et préparation PWA",
+      "lead": "Comprendre les mécanismes, puis les mettre à l’épreuve.",
+      "points": [
+        [
+          "S19 · 27 novembre 2026",
+          "Module 05 · Semaine 10 · 110 minutes"
+        ],
+        [
+          "Point de départ",
+          "Un mini-site connu ou le laboratoire V2 fourni"
+        ],
+        [
+          "Résultat",
+          "Expliquer, manipuler et conserver une preuve"
+        ]
+      ],
+      "gesture": "Ouvrir le laboratoire et la console.",
+      "note": "Présenter le parcours sans demander une PWA complète.",
+      "layout": "cards",
+      "dark": true
+    },
+    {
+      "id": "S19-02",
+      "title": "Pourquoi séparer les données ?",
+      "lead": "Changer un contenu sans réécrire la structure de chaque carte.",
+      "points": [
+        [
+          "HTML",
+          "Décrit la structure de la page."
+        ],
+        [
+          "CSS",
+          "Met les éléments en forme."
+        ],
+        [
+          "JavaScript et JSON",
+          "Le script charge et affiche ; le JSON décrit les contenus."
+        ]
+      ],
+      "gesture": "Retrouver un titre dans projets.json et sur la carte.",
+      "note": "Faire prédire l’effet d’une modification de titre.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-03",
+      "title": "Une URL désigne une ressource",
+      "lead": "Le navigateur demande une adresse à un serveur.",
+      "points": [
+        [
+          "Origine",
+          "Protocole, nom d’hôte et port."
+        ],
+        [
+          "Chemin relatif",
+          "./data/projets.json se résout depuis la page."
+        ],
+        [
+          "Serveur local",
+          "http://127.0.0.1:8080/ pour les essais"
+        ]
+      ],
+      "gesture": "Désigner l’origine et le chemin de l’URL locale.",
+      "note": "Écrire l’URL complète avant de parler de fetch.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-04",
+      "title": "La chaîne de chargement",
+      "lead": "Chaque étape peut réussir ou échouer.",
+      "points": [
+        [
+          "Demander",
+          "URL → requête HTTP"
+        ],
+        [
+          "Lire",
+          "Réponse → statut → parsing JSON"
+        ],
+        [
+          "Afficher",
+          "Validation des champs → DOM → état visible"
+        ]
+      ],
+      "gesture": "Reformuler la chaîne sans lire la diapositive.",
+      "note": "Demander où chercher si la page reste sur Chargement.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-05",
+      "title": "JSON : un format de données",
+      "lead": "Un tableau rassemble des objets qui portent des clés et des valeurs.",
+      "points": [
+        [
+          "Tableau",
+          "[ ... ] regroupe les ressources."
+        ],
+        [
+          "Objet",
+          "{ ... } décrit une ressource."
+        ],
+        [
+          "Valeur",
+          "Chaîne, nombre, booléen, null, objet ou tableau"
+        ]
+      ],
+      "gesture": "Montrer title, sa valeur et son type.",
+      "note": "Faire distinguer les accolades des crochets.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-06",
+      "title": "La syntaxe peut être invalide",
+      "lead": "Le parsing transforme un texte JSON en valeur JavaScript.",
+      "points": [
+        [
+          "Guillemets doubles",
+          "Obligatoires pour les clés et les chaînes."
+        ],
+        [
+          "Virgules",
+          "Séparent les éléments, sans virgule finale."
+        ],
+        [
+          "JSON.parse",
+          "Échoue si le texte ne respecte pas la syntaxe."
+        ]
+      ],
+      "gesture": "Corriger un guillemet et une virgule finale.",
+      "note": "Ne pas assimiler syntaxe valide et données utilisables.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-07",
+      "title": "Le schéma exprime nos attentes",
+      "lead": "Un JSON parsable peut rester inutilisable pour la page.",
+      "points": [
+        [
+          "Racine",
+          "Un tableau est attendu ici, pas un objet isolé."
+        ],
+        [
+          "Contrat simple",
+          "title, category, description : chaînes non vides"
+        ],
+        [
+          "Contrat du laboratoire",
+          "Ajoute id, level, objectives, activity, deliverable, question et answer."
+        ]
+      ],
+      "gesture": "Repérer pourquoi un champ manquant bloque une ressource.",
+      "note": "Expliquer que le contrôle est effectué par des fonctions JavaScript.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-08",
+      "title": "fetch() demande une ressource",
+      "lead": "Son résultat est une réponse, pas encore le tableau des projets.",
+      "points": [
+        [
+          "Asynchrone",
+          "La page peut montrer un message pendant l’attente."
+        ],
+        [
+          "response.ok",
+          "Vaut vrai pour une réponse HTTP de succès (200 à 299)."
+        ],
+        [
+          "response.json()",
+          "Parse le corps ; peut lui aussi échouer."
+        ]
+      ],
+      "gesture": "Trouver les deux await et la vérification HTTP.",
+      "note": "Préciser que fetch ne rejette pas automatiquement une réponse 404.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-09",
+      "title": "Le statut HTTP aide au diagnostic",
+      "lead": "Distinguer réponse en erreur et absence de réponse.",
+      "points": [
+        [
+          "200",
+          "Le serveur a fourni une réponse de succès."
+        ],
+        [
+          "404",
+          "Le chemin demandé ne correspond pas à une ressource trouvée."
+        ],
+        [
+          "Échec réseau",
+          "Aucune réponse exploitable ; ce n’est pas forcément une 404."
+        ]
+      ],
+      "gesture": "Lire le statut et l’URL dans l’onglet Réseau.",
+      "note": "Utiliser le scénario 404 et comparer à un arrêt du serveur.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-10",
+      "title": "file:// et HTTP local",
+      "lead": "Le mode d’ouverture change les possibilités de chargement.",
+      "points": [
+        [
+          "Double-clic",
+          "Le navigateur peut bloquer fetch vers un fichier local."
+        ],
+        [
+          "Serveur statique",
+          "Sert HTML, CSS, JavaScript et JSON sur HTTP."
+        ],
+        [
+          "Reprise",
+          "Lancer le serveur déjà disponible et recharger la bonne URL."
+        ]
+      ],
+      "gesture": "Ouvrir le laboratoire sur le port 8080.",
+      "note": "Le mode intégré hors ligne de l’atelier sera toujours signalé comme une simulation.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-11",
+      "title": "Quatre états à rendre visibles",
+      "lead": "Le lecteur doit savoir ce qui se passe.",
+      "points": [
+        [
+          "Chargement",
+          "La requête est en cours."
+        ],
+        [
+          "Succès et vide",
+          "Afficher les cartes ou expliquer que la liste est vide."
+        ],
+        [
+          "Erreur",
+          "Donner un diagnostic et permettre une nouvelle tentative."
+        ]
+      ],
+      "gesture": "Prédire le message avant chaque scénario.",
+      "note": "Ne pas remplacer un échec par un écran vide.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-12",
+      "title": "Observer le succès et le vide",
+      "lead": "Zéro résultat peut être une réponse correcte.",
+      "points": [
+        [
+          "Succès",
+          "Les six ressources du laboratoire sont affichées."
+        ],
+        [
+          "Vide",
+          "[] est un tableau valide sans élément."
+        ],
+        [
+          "Nettoyage",
+          "Retirer les anciennes cartes avant un nouvel affichage."
+        ]
+      ],
+      "gesture": "Passer du succès au vide puis revenir au succès.",
+      "note": "Demander pourquoi le vide ne doit pas afficher une erreur HTTP.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-13",
+      "title": "Lire trois familles d’erreurs",
+      "lead": "Le lieu de l’échec indique ce qu’il faut vérifier.",
+      "points": [
+        [
+          "HTTP",
+          "Statut 404 : vérifier le chemin."
+        ],
+        [
+          "Syntaxe",
+          "JSON illisible : vérifier guillemets et virgules."
+        ],
+        [
+          "Structure",
+          "Champ absent ou type incorrect : vérifier le contrat."
+        ]
+      ],
+      "gesture": "Comparer JSON invalide et schéma invalide.",
+      "note": "Faire nommer la première étape qui échoue.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-14",
+      "title": "Créer un DOM sûr",
+      "lead": "Les données textuelles ne doivent pas devenir du code HTML.",
+      "points": [
+        [
+          "createElement",
+          "Crée une structure connue."
+        ],
+        [
+          "textContent",
+          "Insère le texte tel quel."
+        ],
+        [
+          "Lien",
+          "Contrôler son type et son protocole avant href."
+        ]
+      ],
+      "gesture": "Tester le refus d’un lien javascript:.",
+      "note": "Ne jamais exécuter le lien dangereux du scénario.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-15",
+      "title": "Cartes et flashcards accessibles",
+      "lead": "L’interaction doit être utilisable sans souris.",
+      "points": [
+        [
+          "Bouton natif",
+          "Entrée et Espace déclenchent l’action."
+        ],
+        [
+          "État annoncé",
+          "aria-expanded suit l’ouverture de la réponse."
+        ],
+        [
+          "Focus",
+          "Le contrôle reste visible au clavier."
+        ]
+      ],
+      "gesture": "Ouvrir puis fermer une flashcard avec le clavier.",
+      "note": "Une animation seule ne permet pas de prouver l’accessibilité.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-16",
+      "title": "Sept scénarios pour comprendre",
+      "lead": "Un scénario change un élément ; le fichier source reste intact.",
+      "points": [
+        [
+          "Données",
+          "Succès, vide et réponse non-tableau"
+        ],
+        [
+          "Erreurs",
+          "404, JSON invalide et schéma invalide"
+        ],
+        [
+          "Sécurité",
+          "Lien dangereux refusé"
+        ]
+      ],
+      "gesture": "Noter attendu, observé, cause et retour au succès.",
+      "note": "Faire distinguer les simulations des requêtes HTTP réelles.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-17",
+      "title": "JSON local et API",
+      "lead": "Un même format peut provenir de sources différentes.",
+      "points": [
+        [
+          "Fichier local servi",
+          "Le serveur renvoie un fichier déjà présent."
+        ],
+        [
+          "API",
+          "Une interface peut calculer ou sélectionner une réponse JSON."
+        ],
+        [
+          "Même vérification",
+          "Contrôler HTTP, parsing et structure dans les deux cas."
+        ]
+      ],
+      "gesture": "Dire si notre laboratoire a besoin d’une API distante.",
+      "note": "Réponse attendue : non, le cœur utilise projets.json.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-18",
+      "title": "CORS concerne les origines",
+      "lead": "Il régit certaines lectures de réponses entre origines.",
+      "points": [
+        [
+          "Origine",
+          "Changer de port peut changer d’origine."
+        ],
+        [
+          "Serveur",
+          "Les en-têtes autorisés se règlent côté serveur concerné."
+        ],
+        [
+          "Limite",
+          "CORS ne protège pas un secret exposé dans JavaScript."
+        ]
+      ],
+      "gesture": "Comparer localhost:8080 et localhost:8081.",
+      "note": "Ne pas proposer de désactiver les protections du navigateur.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-19",
+      "title": "PHP s’exécute côté serveur",
+      "lead": "Un serveur statique ne transforme pas un fichier PHP en réponse calculée.",
+      "points": [
+        [
+          "Python statique",
+          "Sert les fichiers ; n’interprète pas PHP."
+        ],
+        [
+          "Serveur PHP",
+          "php -S 127.0.0.1:8080, si PHP est déjà disponible"
+        ],
+        [
+          "Facultatif",
+          "Arrêter l’autre serveur avant d’utiliser le même port."
+        ]
+      ],
+      "gesture": "Expliquer le message du bouton PHP sous serveur statique.",
+      "note": "La comparaison est guidée ; le candidat n’a pas à installer PHP.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-20",
+      "title": "Passerelle facultative vers la PWA",
+      "lead": "Comprendre les composants avant de les intégrer.",
+      "points": [
+        [
+          "Manifeste",
+          "Décrit identité, lancement et icônes."
+        ],
+        [
+          "Service worker et cache",
+          "Portée, ressources choisies et version à contrôler."
+        ],
+        [
+          "Essais futurs",
+          "localhost ou HTTPS, coupure réseau et mise à jour en S20"
+        ]
+      ],
+      "gesture": "Ouvrir les simulations de préparation PWA.",
+      "note": "Aucun service worker actif ni installation requise dans cette séance.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-21",
+      "title": "Manipuler et expliquer sa correction",
+      "lead": "La réussite doit pouvoir être rejouée par un tiers.",
+      "points": [
+        [
+          "Avant",
+          "Fichier, valeur et comportement initial"
+        ],
+        [
+          "Après",
+          "Correction motivée, état visible et résultat réel"
+        ],
+        [
+          "Rejouer",
+          "Rétablir les données et contrôler le retour au succès"
+        ]
+      ],
+      "gesture": "Faire relire un essai par un binôme.",
+      "note": "L’IA propose ; le candidat teste ; le pilote statue.",
+      "layout": "cards",
+      "dark": false
+    },
+    {
+      "id": "S19-22",
+      "title": "Conserver la preuve et préparer S20",
+      "lead": "Une trace distincte des fichiers de l’application.",
+      "points": [
+        [
+          "Dossier",
+          "JSON, script et page dans la copie V2."
+        ],
+        [
+          "Preuve",
+          "Action, attendu, observé, cause, correction et limites"
+        ],
+        [
+          "Relais",
+          "Composants PWA à préparer et tests encore à faire"
+        ]
+      ],
+      "gesture": "Exporter puis rouvrir la preuve et le relais.",
+      "note": "Ne pas préremplir un résultat humain ou une validation candidate.",
+      "layout": "cards",
+      "dark": true
+    }
+  ],
+  "phases": [
+    {
+      "time": "10",
+      "verb": "Rouvrir",
+      "slides": "1–4",
+      "trainer": "Ouvrir la V1 et le laboratoire, repérer les contenus répétés.",
+      "candidate": "Identifier HTML, script, JSON et URL.",
+      "observe": "Le candidat nomme le fichier et la ressource demandée.",
+      "relance": "Que demande le navigateur ?"
+    },
+    {
+      "time": "20",
+      "verb": "Comprendre JSON",
+      "slides": "5–7",
+      "trainer": "Lire objets, tableaux, valeurs et types.",
+      "candidate": "Retrouver les champs et expliquer le contrat.",
+      "observe": "Syntaxe et structure sont distinguées.",
+      "relance": "Un JSON valide peut-il être inutilisable ?"
+    },
+    {
+      "time": "15",
+      "verb": "Valider",
+      "slides": "6–7, 13",
+      "trainer": "Introduire deux erreurs puis les corriger.",
+      "candidate": "Corriger syntaxe et champ invalide dans une copie.",
+      "observe": "Le contrôle pointe une cause précise.",
+      "relance": "Quelle est la première étape qui échoue ?"
+    },
+    {
+      "time": "20",
+      "verb": "Charger",
+      "slides": "8–10",
+      "trainer": "Observer la requête et sa réponse HTTP locale.",
+      "candidate": "Lancer le serveur, inspecter Réseau et modifier un titre.",
+      "observe": "Le nouveau titre se retrouve dans la carte.",
+      "relance": "Que contient response avant response.json() ?"
+    },
+    {
+      "time": "15",
+      "verb": "Éprouver",
+      "slides": "11–16",
+      "trainer": "Faire prédire puis jouer les sept scénarios.",
+      "candidate": "Tester quatre états, lien refusé et flashcard au clavier.",
+      "observe": "Anciennes cartes retirées, erreur expliquée, succès restauré.",
+      "relance": "Vide et erreur veulent-ils dire la même chose ?"
+    },
+    {
+      "time": "15",
+      "verb": "Relier les notions",
+      "slides": "17–20",
+      "trainer": "Comparer JSON/API/CORS/PHP puis présenter la passerelle PWA.",
+      "candidate": "Reformuler les rôles et utiliser les simulations facultatives.",
+      "observe": "Aucune construction complète de PWA demandée.",
+      "relance": "Quel composant agit côté serveur ?"
+    },
+    {
+      "time": "15",
+      "verb": "Prouver",
+      "slides": "21–22",
+      "trainer": "Faire rejouer un essai et examiner la trace.",
+      "candidate": "Exporter données, preuve, index et relais.",
+      "observe": "Attendu et observé distincts, fichiers rouverts.",
+      "relance": "Un tiers peut-il reproduire votre résultat ?"
+    }
+  ],
+  "cards": [
+    [
+      "Que contient un fichier JSON ?",
+      "Des données structurées, pas du JavaScript à exécuter. Une clé d’objet s’écrit entre guillemets doubles."
+    ],
+    [
+      "Tableau ou objet : quelle différence ?",
+      "Un tableau [ ... ] regroupe des éléments. Un objet { ... } associe des clés à des valeurs."
+    ],
+    [
+      "Syntaxe valide : schéma valide ?",
+      "Non. Le texte peut être parsable alors qu’un champ manque ou possède le mauvais type."
+    ],
+    [
+      "Que renvoie await fetch(url) ?",
+      "Une réponse HTTP. Vérifiez response.ok, puis parsez le corps avec response.json()."
+    ],
+    [
+      "Une 404 provoque-t-elle toujours le rejet de fetch ?",
+      "Non. Il faut vérifier le statut ou response.ok. Un échec réseau peut rejeter la promesse."
+    ],
+    [
+      "Pourquoi servir le JSON sur HTTP local ?",
+      "Le mode file:// peut bloquer fetch. Un serveur local fournit une origine et des réponses HTTP observables."
+    ],
+    [
+      "Quels sont les quatre états ?",
+      "Chargement, succès, vide et erreur. Une liste vide n’est pas à elle seule une erreur."
+    ],
+    [
+      "Pourquoi utiliser textContent ?",
+      "Pour afficher les chaînes comme du texte. Ne pas injecter des données non contrôlées avec innerHTML."
+    ],
+    [
+      "Comment contrôler un lien ?",
+      "Vérifier qu’il s’agit d’un texte et que le protocole résolu est autorisé, ici HTTP ou HTTPS. Refuser javascript:."
+    ],
+    [
+      "À quoi sert CORS ?",
+      "À régir certaines lectures de réponses entre origines. Le port fait partie de l’origine. CORS ne cache pas un secret."
+    ],
+    [
+      "JSON, API et PHP : même chose ?",
+      "JSON est un format. Une API est une interface. PHP est exécuté par un serveur compatible et peut produire du JSON."
+    ],
+    [
+      "Manifeste, service worker, cache ?",
+      "Le manifeste décrit l’application. Le service worker peut traiter des requêtes dans sa portée. Le cache conserve les ressources choisies ; les essais restent à réaliser."
+    ]
+  ],
+  "quiz": [
+    [
+      "Le serveur renvoie 404. fetch a fourni une réponse. Que faire ?",
+      [
+        "Afficher le contenu sans vérifier",
+        "Tester response.ok et signaler le chemin absent",
+        "Désactiver CORS"
+      ],
+      1,
+      [
+        "Le corps d’erreur ne constitue pas les projets attendus.",
+        "Une 404 est une réponse HTTP en erreur : le chemin est à contrôler.",
+        "CORS ne répare pas une ressource absente."
+      ]
+    ],
+    [
+      "Le JSON se parse, mais title vaut 42. Quel contrôle manque ?",
+      [
+        "Le schéma attendu par l’affichage",
+        "La couleur du titre",
+        "L’installation PWA"
+      ],
+      0,
+      [
+        "Notre contrat exige une chaîne non vide pour title.",
+        "La mise en forme ne corrige pas le type de donnée.",
+        "La PWA ne valide pas les champs métiers."
+      ]
+    ],
+    [
+      "Le serveur renvoie []. Quel message afficher ?",
+      [
+        "Une erreur de syntaxe",
+        "Un succès avec les anciennes cartes",
+        "Une liste vide, sans anciennes cartes"
+      ],
+      2,
+      [
+        "Un tableau vide est un JSON valide.",
+        "Les anciennes cartes feraient croire que des données sont présentes.",
+        "Le vide est un état distinct et compréhensible."
+      ]
+    ],
+    [
+      "Une description contient <img onerror=...>. Comment la montrer ?",
+      [
+        "L’injecter dans innerHTML",
+        "La mettre dans textContent",
+        "La placer dans href"
+      ],
+      1,
+      [
+        "Le navigateur pourrait interpréter un balisage dangereux.",
+        "textContent affiche les caractères comme du texte.",
+        "Une description n’est pas une destination de lien."
+      ]
+    ],
+    [
+      "Un lien vaut javascript:alert(1). Que faire ?",
+      [
+        "Le refuser avant de créer le lien",
+        "L’exécuter pour vérifier",
+        "Le mettre en cache"
+      ],
+      0,
+      [
+        "Le protocole ne fait pas partie des protocoles autorisés.",
+        "Le test doit vérifier le refus, sans exécuter ce code.",
+        "Le cache ne neutralise pas un lien dangereux."
+      ]
+    ],
+    [
+      "Le bouton PHP ne reçoit pas de JSON sous serveur Python statique. Pourquoi ?",
+      [
+        "Le JSON nécessite une PWA",
+        "Il faut désactiver la console",
+        "Ce serveur n’interprète pas PHP"
+      ],
+      2,
+      [
+        "JSON fonctionne sans PWA.",
+        "La console aide au diagnostic.",
+        "PHP nécessite un serveur compatible ; la démonstration reste facultative."
+      ]
+    ],
+    [
+      "localhost:8080 et localhost:8081 : même origine ?",
+      [
+        "Oui, car le nom est identique",
+        "Non, le port diffère",
+        "Oui, si le JSON est valide"
+      ],
+      1,
+      [
+        "Le nom d’hôte ne suffit pas : le port compte aussi.",
+        "L’origine comprend protocole, nom d’hôte et port.",
+        "Le format de réponse ne change pas l’origine."
+      ]
+    ],
+    [
+      "Quelle preuve clôt S19 dans ce périmètre ?",
+      [
+        "Une installation PWA annoncée sans essai",
+        "Un score de quiz seul",
+        "Un scénario rejoué avec attendu, observé et correction"
+      ],
+      2,
+      [
+        "La PWA est une passerelle facultative, pas une promesse à inventer.",
+        "Le score n’atteste pas les manipulations.",
+        "Une trace reproductible relie compréhension, fichiers et observation."
+      ]
+    ]
+  ],
+  "criteria": [
+    "Expliquer la chaîne URL → HTTP → parsing JSON → validation → DOM sur une ressource du laboratoire.",
+    "Distinguer tableau, objet, syntaxe et schéma ; corriger un champ absent ou de mauvais type.",
+    "Montrer chargement, succès, vide et erreur, puis rétablir le succès.",
+    "Identifier response.ok, une 404 et une erreur réseau sans les confondre.",
+    "Afficher les textes avec textContent, refuser un lien dangereux et utiliser une flashcard au clavier.",
+    "Distinguer fichier JSON, API, CORS et PHP ; situer la PWA comme passerelle facultative.",
+    "Conserver une trace reproductible : fichier, action, attendu, observé, cause, correction et limite."
+  ],
+  "prompts": [
+    {
+      "code": "19-A",
+      "title": "19-A · Lire et expliquer",
+      "input": "V1 ou laboratoire V2 et README",
+      "limit": "Données fictives ou autorisées ; copie de travail ; aucune installation, API privée, PWA active ou publication.",
+      "output": "Carte des fichiers et chaîne expliquée.",
+      "test": "Un tiers retrouve le JSON et son élément affiché.",
+      "text": "Vous êtes l’assistant pédagogique LN-IA pour S19 du 27 novembre 2026.\nEntrées : V1 ou laboratoire V2 et README.\nMission : Inventoriez les fichiers sans modifier. Reliez URL, requête, réponse, JSON, validation et DOM. Distinguez ce qui est observé de ce qui reste à tester.\nExpliquez avant de proposer un changement. Respectez les autorisations déjà données et conservez les originaux. Ne créez aucun secret ni résultat de test inventé.\nSortie : Carte des fichiers et chaîne expliquée.\nContrôle : Un tiers retrouve le JSON et son élément affiché.\nTerminez par les fichiers concernés, les tests exécutés et les essais restant à faire."
+    },
+    {
+      "code": "19-B",
+      "title": "19-B · Structurer et valider",
+      "input": "Copie du JSON et contrat choisi",
+      "limit": "Données fictives ou autorisées ; copie de travail ; aucune installation, API privée, PWA active ou publication.",
+      "output": "JSON corrigé et explication de chaque écart.",
+      "test": "Un champ invalide est détecté avant affichage.",
+      "text": "Vous êtes l’assistant pédagogique LN-IA pour S19 du 27 novembre 2026.\nEntrées : Copie du JSON et contrat choisi.\nMission : Expliquez objets et types. Vérifiez syntaxe puis champs, types, identifiants et liens selon le contrat simple ou enrichi. Proposez une correction minimale.\nExpliquez avant de proposer un changement. Respectez les autorisations déjà données et conservez les originaux. Ne créez aucun secret ni résultat de test inventé.\nSortie : JSON corrigé et explication de chaque écart.\nContrôle : Un champ invalide est détecté avant affichage.\nTerminez par les fichiers concernés, les tests exécutés et les essais restant à faire."
+    },
+    {
+      "code": "19-C",
+      "title": "19-C · Observer le chargement",
+      "input": "URL locale et js/app.js",
+      "limit": "Données fictives ou autorisées ; copie de travail ; aucune installation, API privée, PWA active ou publication.",
+      "output": "Chaîne commentée et modification de titre vérifiable.",
+      "test": "Le candidat retrouve statut, donnée reçue et carte.",
+      "text": "Vous êtes l’assistant pédagogique LN-IA pour S19 du 27 novembre 2026.\nEntrées : URL locale et js/app.js.\nMission : Expliquez fetch, response.ok, parsing et validation. Observez réseau et console. Proposez un affichage par createElement et textContent.\nExpliquez avant de proposer un changement. Respectez les autorisations déjà données et conservez les originaux. Ne créez aucun secret ni résultat de test inventé.\nSortie : Chaîne commentée et modification de titre vérifiable.\nContrôle : Le candidat retrouve statut, donnée reçue et carte.\nTerminez par les fichiers concernés, les tests exécutés et les essais restant à faire."
+    },
+    {
+      "code": "19-D",
+      "title": "19-D · Tester les scénarios",
+      "input": "Laboratoire et fiche de preuve",
+      "limit": "Données fictives ou autorisées ; copie de travail ; aucune installation, API privée, PWA active ou publication.",
+      "output": "Protocole, attendus et emplacements pour les observations.",
+      "test": "Les quatre états et le retour au succès sont rejouables.",
+      "text": "Vous êtes l’assistant pédagogique LN-IA pour S19 du 27 novembre 2026.\nEntrées : Laboratoire et fiche de preuve.\nMission : Faites prédire puis tester succès, vide, 404, JSON invalide, réponse non-tableau, schéma invalide et lien dangereux. Ne modifiez pas le fichier original pour les simulations.\nExpliquez avant de proposer un changement. Respectez les autorisations déjà données et conservez les originaux. Ne créez aucun secret ni résultat de test inventé.\nSortie : Protocole, attendus et emplacements pour les observations.\nContrôle : Les quatre états et le retour au succès sont rejouables.\nTerminez par les fichiers concernés, les tests exécutés et les essais restant à faire."
+    },
+    {
+      "code": "19-E",
+      "title": "19-E · Auditer et comparer",
+      "input": "Scripts et résultats réellement observés",
+      "limit": "Données fictives ou autorisées ; copie de travail ; aucune installation, API privée, PWA active ou publication.",
+      "output": "Rapport conforme/écart/non testé avec chemins.",
+      "test": "Chaque conclusion possède une preuve ou une limite.",
+      "text": "Vous êtes l’assistant pédagogique LN-IA pour S19 du 27 novembre 2026.\nEntrées : Scripts et résultats réellement observés.\nMission : Auditez sans modifier : textes et liens sûrs, boutons, flashcards, clavier. Expliquez JSON/API/CORS/PHP ; laissez la PWA en préparation facultative.\nExpliquez avant de proposer un changement. Respectez les autorisations déjà données et conservez les originaux. Ne créez aucun secret ni résultat de test inventé.\nSortie : Rapport conforme/écart/non testé avec chemins.\nContrôle : Chaque conclusion possède une preuve ou une limite.\nTerminez par les fichiers concernés, les tests exécutés et les essais restant à faire."
+    },
+    {
+      "code": "19-F",
+      "title": "19-F · Documenter et reprendre",
+      "input": "Essais et revue disponibles",
+      "limit": "Données fictives ou autorisées ; copie de travail ; aucune installation, API privée, PWA active ou publication.",
+      "output": "Fichiers Markdown exportables et liste de reprise.",
+      "test": "Un tiers peut rejouer un essai depuis les fichiers.",
+      "text": "Vous êtes l’assistant pédagogique LN-IA pour S19 du 27 novembre 2026.\nEntrées : Essais et revue disponibles.\nMission : Préparez README, preuve S19 et relais S20 sans inventer de résultat. Séparez attendu, observé, correction et futur essai PWA.\nExpliquez avant de proposer un changement. Respectez les autorisations déjà données et conservez les originaux. Ne créez aucun secret ni résultat de test inventé.\nSortie : Fichiers Markdown exportables et liste de reprise.\nContrôle : Un tiers peut rejouer un essai depuis les fichiers.\nTerminez par les fichiers concernés, les tests exécutés et les essais restant à faire."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "success",
+      "title": "Succès",
+      "expect": "Six ressources et leurs flashcards sont affichées.",
+      "cause": "La requête, le parsing et la validation réussissent."
+    },
+    {
+      "id": "empty",
+      "title": "Tableau vide",
+      "expect": "Message vide, aucune ancienne carte.",
+      "cause": "[] est valide et ne contient aucun élément."
+    },
+    {
+      "id": "404",
+      "title": "Fichier absent · 404",
+      "expect": "Erreur HTTP visible et bouton Réessayer.",
+      "cause": "Le chemin demandé ne correspond pas à une ressource."
+    },
+    {
+      "id": "invalid-json",
+      "title": "JSON invalide",
+      "expect": "Erreur de syntaxe, sans anciennes cartes.",
+      "cause": "Le corps ne peut pas être parsé."
+    },
+    {
+      "id": "not-array",
+      "title": "Réponse non-tableau",
+      "expect": "La structure racine est refusée.",
+      "cause": "Le contrat attend un tableau, pas un objet."
+    },
+    {
+      "id": "schema",
+      "title": "Schéma invalide",
+      "expect": "Le champ question manquant est signalé.",
+      "cause": "Le parsing réussit mais le contrat enrichi échoue."
+    },
+    {
+      "id": "dangerous",
+      "title": "Lien dangereux",
+      "expect": "Le protocole javascript: est refusé.",
+      "cause": "Le lien ne respecte pas les protocoles autorisés."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "source": "Affiche-présentation-MODULE05.png",
+    "file": "module05.png",
+    "title": "Le parcours du Module 05",
+    "caption": "Vue d’ensemble du parcours, en appui à la vue 4."
+  },
+  {
+    "source": "Affiche-présentation-séance-17.png",
+    "file": "seance17.png",
+    "title": "S17 : comprendre les fondations du Web",
+    "caption": "Repère d’ouverture pour observer HTML, CSS et JavaScript."
+  },
+  {
+    "source": "Affiche-Fiche-départ-projet -activité-PWA.png",
+    "file": "fiche-projet.png",
+    "title": "La fiche de départ du projet",
+    "caption": "Support de cadrage pour préparer la suite après les essais S17."
+  },
+  {
+    "source": "Atelier S18 _ du plan au contenu.png",
+    "file": "seance18.png",
+    "title": "Atelier pratique S18 : du plan au contenu",
+    "caption": "Lundi 23 novembre 2026 · Préparons notre mini-site ! Cadrer, rédiger, comparer, guider et préparer."
+  },
+  {
+    "source": "Affiche-presentation-séance-19.png",
+    "file": "seance19.png",
+    "title": "S19 : données locales et préparation PWA",
+    "caption": "Perspective pour la suite du module, au-delà des objectifs de S17."
+  },
+  {
+    "source": "Affiche-01-presentation-séance-20.png",
+    "file": "seance20-01.png",
+    "title": "S20 : produire, contrôler et prouver",
+    "caption": "Premier repère pour les essais et les preuves du livrable final."
+  },
+  {
+    "source": "Affiche-02-presentation-séance-20.png",
+    "file": "seance20-02.png",
+    "title": "S20 : second support de contrôle",
+    "caption": "Variante de l’affiche S20, conservée pour comparaison et discussion."
+  },
+  {
+    "source": "Affiche-produire-livrable-sénce20.png",
+    "file": "livrable20.png",
+    "title": "S20 : mettre en production le livrable",
+    "caption": "Horizon du parcours. Les résultats et la validation restent à établir."
+  }
+]

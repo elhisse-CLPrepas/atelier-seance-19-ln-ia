@@ -1,0 +1,867 @@
+{
+  "meta": {
+    "title": "Du Web au mini-site : préparer, générer, éprouver",
+    "subtitle": "Un prompt maître issu de votre projet",
+    "session": 18,
+    "module": 5,
+    "week": 9,
+    "date": "2026-11-23",
+    "dateLabel": "Lundi 23 novembre 2026",
+    "duration": 90,
+    "version": "2.0",
+    "status": "À VALIDER",
+    "author": "Prof. Abderrahman EL HISSE",
+    "description": "Carnet d’essai S18 : préparer son mini-site avec ses sources, trois documents de production et quatre exemples illustrés, puis éprouver son pack ZIP."
+  },
+  "slides": [
+    {
+      "id": "S18-01",
+      "title": "Du Web au mini-site",
+      "lead": "S18 prolonge les observations de S17.",
+      "points": [
+        [
+          "S17",
+          "HTML, CSS, JavaScript et navigateur"
+        ],
+        [
+          "S18",
+          "Cadrer le contenu et le prompt de production"
+        ]
+      ],
+      "gesture": "Ouvrez le dossier Challenge et votre carnet S17.",
+      "note": "S18 prolonge les observations de S17. Ouvrez le dossier Challenge et votre carnet S17. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": true
+    },
+    {
+      "id": "S18-02",
+      "title": "Que faut-il demander à l’agent ?",
+      "lead": "Un brief précis rend le résultat contrôlable.",
+      "points": [
+        [
+          "Contexte",
+          "Public, besoin, source et limites"
+        ],
+        [
+          "Livraison",
+          "Fichiers locaux, README et archive ZIP"
+        ]
+      ],
+      "gesture": "Distinguez la demande et le résultat réellement obtenu.",
+      "note": "Un brief précis rend le résultat contrôlable. Distinguez la demande et le résultat réellement obtenu. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": true
+    },
+    {
+      "id": "S18-03",
+      "title": "Reprendre S17",
+      "lead": "Expliquer avant de demander une génération.",
+      "points": [
+        [
+          "HTML",
+          "Structure et contenu"
+        ],
+        [
+          "CSS et JS",
+          "Présentation et comportement"
+        ]
+      ],
+      "gesture": "Retrouvez les trois fichiers du support fourni.",
+      "note": "Expliquer avant de demander une génération. Retrouvez les trois fichiers du support fourni. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-04",
+      "title": "Le parcours du Module 05",
+      "lead": "Un dossier suivi de S17 à S20.",
+      "points": [
+        [
+          "S17 et S18",
+          "Comprendre puis préparer la production"
+        ],
+        [
+          "S19 et S20",
+          "Assembler, éprouver et améliorer"
+        ]
+      ],
+      "gesture": "Conservez vos preuves personnelles dans le dossier Challenge.",
+      "note": "Un dossier suivi de S17 à S20. Conservez vos preuves personnelles dans le dossier Challenge. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-05",
+      "title": "Choisir un mini-site",
+      "lead": "Une proposition adaptée à un lecteur.",
+      "points": [
+        [
+          "Public",
+          "À qui s’adresse la page ?"
+        ],
+        [
+          "Besoin",
+          "Que doit pouvoir faire ce lecteur ?"
+        ]
+      ],
+      "gesture": "Nommez votre lecteur avant de choisir une apparence.",
+      "note": "Une proposition adaptée à un lecteur. Nommez votre lecteur avant de choisir une apparence. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-06",
+      "title": "Six sections cohérentes",
+      "lead": "Le plan S17 devient un contenu exploitable.",
+      "points": [
+        [
+          "Début",
+          "Titre, accroche et problème"
+        ],
+        [
+          "Suite",
+          "Promesse, bénéfice et action unique"
+        ]
+      ],
+      "gesture": "Remplissez les six sections avec des faits vérifiables.",
+      "note": "Le plan S17 devient un contenu exploitable. Remplissez les six sections avec des faits vérifiables. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-07",
+      "title": "Source et limites",
+      "lead": "Le prompt garde le périmètre documenté.",
+      "points": [
+        [
+          "Disponible",
+          "Passage, fichier et version"
+        ],
+        [
+          "Manquant",
+          "À compléter, jamais à inventer"
+        ]
+      ],
+      "gesture": "Reliez chaque promesse à son appui.",
+      "note": "Le prompt garde le périmètre documenté. Reliez chaque promesse à son appui. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-08",
+      "title": "Une action et sa destination",
+      "lead": "Un bouton doit atteindre une vraie pièce.",
+      "points": [
+        [
+          "Libellé",
+          "Une action comprise sans commentaire"
+        ],
+        [
+          "Destination",
+          "Chemin relatif vers une fiche locale"
+        ]
+      ],
+      "gesture": "Joignez la fiche au pack à produire.",
+      "note": "Un bouton doit atteindre une vraie pièce. Joignez la fiche au pack à produire. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-09",
+      "title": "Quatre démonstrations",
+      "lead": "Des contextes différents, une méthode commune.",
+      "points": [
+        [
+          "Formation et association",
+          "Déclic Web ; Jardin partagé"
+        ],
+        [
+          "Artisanat et portfolio",
+          "Terre Claire ; Nadia"
+        ]
+      ],
+      "gesture": "Choisissez un exemple puis examinez ses limites.",
+      "note": "Des contextes différents, une méthode commune. Choisissez un exemple puis examinez ses limites. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-10",
+      "title": "Observer Déclic Web",
+      "lead": "Une page pour comprendre les fichiers.",
+      "points": [
+        [
+          "Source",
+          "Trois rôles et une interaction locale"
+        ],
+        [
+          "Correction",
+          "Observer des rôles, sans promettre une maîtrise totale"
+        ]
+      ],
+      "gesture": "Chargez cet exemple dans l’atelier.",
+      "note": "Une page pour comprendre les fichiers. Chargez cet exemple dans l’atelier. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-11",
+      "title": "Observer Jardin partagé",
+      "lead": "Présenter des activités documentées.",
+      "points": [
+        [
+          "Source",
+          "Semis, entretien et compost"
+        ],
+        [
+          "Limite",
+          "Aucune place ni inscription garanties"
+        ]
+      ],
+      "gesture": "Gardez les horaires manquants à compléter.",
+      "note": "Présenter des activités documentées. Gardez les horaires manquants à compléter. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-12",
+      "title": "Observer Terre Claire",
+      "lead": "Une vitrine sans faux service de vente.",
+      "points": [
+        [
+          "Source",
+          "Trois pièces et leurs dimensions"
+        ],
+        [
+          "Limite",
+          "Ni paiement ni disponibilité inventés"
+        ]
+      ],
+      "gesture": "Distinguez consulter un catalogue et commander.",
+      "note": "Une vitrine sans faux service de vente. Distinguez consulter un catalogue et commander. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-13",
+      "title": "Observer le portfolio Nadia",
+      "lead": "Montrer des travaux et leur contexte.",
+      "points": [
+        [
+          "Source",
+          "Affiche, identité et maquette"
+        ],
+        [
+          "Limite",
+          "Aucun résultat commercial mesuré"
+        ]
+      ],
+      "gesture": "Retirez les promesses de performance non documentées.",
+      "note": "Montrer des travaux et leur contexte. Retirez les promesses de performance non documentées. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-14",
+      "title": "Deux portes d’entrée",
+      "lead": "Le même formulaire reste modifiable.",
+      "points": [
+        [
+          "Manuel",
+          "Saisir son projet et les contraintes"
+        ],
+        [
+          "Exemple",
+          "Préremplir puis personnaliser tous les champs"
+        ]
+      ],
+      "gesture": "Choisissez votre point de départ.",
+      "note": "Le même formulaire reste modifiable. Choisissez votre point de départ. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-15",
+      "title": "Choisir les fonctions",
+      "lead": "Des interactions simples à éprouver.",
+      "points": [
+        [
+          "Structure",
+          "Sections, pages et destinations"
+        ],
+        [
+          "Comportement",
+          "Menu, filtre ou détail accessible"
+        ]
+      ],
+      "gesture": "Demandez uniquement des fonctions utiles au lecteur.",
+      "note": "Des interactions simples à éprouver. Demandez uniquement des fonctions utiles au lecteur. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-16",
+      "title": "Choisir le style",
+      "lead": "Une présentation cohérente et lisible.",
+      "points": [
+        [
+          "Identité",
+          "Couleurs, logo et visuels disponibles"
+        ],
+        [
+          "Accessibilité",
+          "Contraste, clavier et écran étroit"
+        ]
+      ],
+      "gesture": "Décrivez vos choix dans les champs du brief.",
+      "note": "Une présentation cohérente et lisible. Décrivez vos choix dans les champs du brief. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-17",
+      "title": "Relire le prompt maître",
+      "lead": "Chaque modification du formulaire actualise le prompt.",
+      "points": [
+        [
+          "Contexte",
+          "Projet, public, contenu et source"
+        ],
+        [
+          "Contrat",
+          "Arborescence, ZIP et contrôles attendus"
+        ]
+      ],
+      "gesture": "Relisez puis exportez le prompt Markdown.",
+      "note": "Chaque modification du formulaire actualise le prompt. Relisez puis exportez le prompt Markdown. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-18",
+      "title": "Passer dans VS Code",
+      "lead": "Utiliser l’agent de votre choix.",
+      "points": [
+        [
+          "Préparation",
+          "Ouvrir un dossier de production distinct"
+        ],
+        [
+          "Agent",
+          "Codex, GPT ou Claude Code reçoit le même prompt"
+        ]
+      ],
+      "gesture": "Joignez les ressources mentionnées au lieu de simples chemins inaccessibles.",
+      "note": "Utiliser l’agent de votre choix. Joignez les ressources mentionnées au lieu de simples chemins inaccessibles. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-19",
+      "title": "Produire le pack ZIP",
+      "lead": "Le prompt demande une archive et les sources.",
+      "points": [
+        [
+          "Fichiers",
+          "index.html, CSS, JS, fiche et README"
+        ],
+        [
+          "Archive",
+          "Un dossier racine avec chemins relatifs"
+        ]
+      ],
+      "gesture": "Le site ne lance pas l’agent ; vérifiez sa livraison.",
+      "note": "Le prompt demande une archive et les sources. Le site ne lance pas l’agent ; vérifiez sa livraison. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-20",
+      "title": "Éprouver après extraction",
+      "lead": "Une archive présente ne prouve pas son fonctionnement.",
+      "points": [
+        [
+          "Essai",
+          "Extraire, déplacer et ouvrir index.html"
+        ],
+        [
+          "Lecture",
+          "Tester clavier, mobile et action principale"
+        ]
+      ],
+      "gesture": "Consignez les observations réelles du binôme.",
+      "note": "Une archive présente ne prouve pas son fonctionnement. Consignez les observations réelles du binôme. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-21",
+      "title": "Conserver les pièces",
+      "lead": "Le dossier Challenge relie les séances.",
+      "points": [
+        [
+          "S18",
+          "Contenu, prompt maître et preuve"
+        ],
+        [
+          "Revue",
+          "Nom, date, observation et décision du pilote"
+        ]
+      ],
+      "gesture": "Sauvegardez le carnet JSON et vos fichiers exportés.",
+      "note": "Le dossier Challenge relie les séances. Sauvegardez le carnet JSON et vos fichiers exportés. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": false
+    },
+    {
+      "id": "S18-22",
+      "title": "Préparer S19",
+      "lead": "Reprendre une livraison identifiable.",
+      "points": [
+        [
+          "À joindre",
+          "Sources, archive, prompt et destination"
+        ],
+        [
+          "À reprendre",
+          "Pièces manquantes et corrections à effectuer"
+        ]
+      ],
+      "gesture": "Le pilote valide les pièces réellement examinées.",
+      "note": "Reprendre une livraison identifiable. Le pilote valide les pièces réellement examinées. Faire expliquer le choix et conserver uniquement les observations réellement réalisées.",
+      "layout": "split",
+      "dark": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "declic-web",
+      "title": "Déclic Web",
+      "sector": "Formation",
+      "public": "Participants débutants du Module 05",
+      "need": "Comprendre le rôle de HTML, CSS, JavaScript et du navigateur",
+      "source": "Le support propose une page locale : HTML organise le contenu, CSS règle la présentation et JavaScript affiche une explication. Aucun compte ni serveur n’est requis.",
+      "before": "Tout maîtriser sur le Web en une séance.",
+      "after": "Observer les rôles de trois fichiers dans une page locale.",
+      "benefit": "Voir une interaction et retrouver le fichier qui la produit.",
+      "action": "Explorer les trois fichiers",
+      "target": "fiche-web",
+      "titlePage": "Déclic Web",
+      "hookA": "Tout maîtriser sur le Web en une séance.",
+      "hookB": "Observer les rôles de trois fichiers dans une page locale.",
+      "problem": "Comprendre le rôle de HTML, CSS, JavaScript et du navigateur",
+      "other": "Une solution complète, sans limites et sans vérification.",
+      "why": "La formulation corrigée décrit uniquement les éléments présents dans la source. Les résultats ou services non documentés restent exclus.",
+      "items": [
+        [
+          "Ce qui est disponible",
+          "Le support propose une page locale : HTML organise le contenu, CSS règle la présentation et JavaScript affiche une explication. Aucun compte ni serveur n’est requis."
+        ],
+        [
+          "Limites à conserver",
+          "Les informations absentes sont à compléter et ne doivent pas être inventées."
+        ]
+      ],
+      "siteType": "pédagogique",
+      "visualStyle": "Bleu nuit, or et blanc ; grands caractères et encadrés lisibles",
+      "interactions": "Bouton Afficher une explication ; navigation par ancres ; mini-quiz corrigé de trois questions",
+      "pages": "index.html avec six sections ; une fiche locale de destination",
+      "assets": "Logo LN-IA fourni ; visuels fournis uniquement ; aucun visuel externe obligatoire",
+      "technical": "HTML, CSS et JavaScript séparés ; chemins relatifs ; fonctionnement hors ligne ; sans installation",
+      "packName": "mini-site-declic-web"
+    },
+    {
+      "id": "jardin-partage",
+      "title": "Jardin partagé",
+      "sector": "Association",
+      "public": "Habitants qui découvrent un jardin associatif",
+      "need": "Comprendre les activités avant de consulter une fiche de participation",
+      "source": "La fiche fictive décrit trois activités : semis, entretien et compost. Les horaires et modalités de participation sont à compléter ; aucune inscription en ligne n’est disponible.",
+      "before": "Votre place au jardin est garantie dès maintenant.",
+      "after": "Découvrir les trois activités présentées par le jardin.",
+      "benefit": "Choisir une activité à propos de laquelle demander des précisions.",
+      "action": "Lire la fiche de participation",
+      "target": "fiche-jardin",
+      "titlePage": "Jardin partagé",
+      "hookA": "Votre place au jardin est garantie dès maintenant.",
+      "hookB": "Découvrir les trois activités présentées par le jardin.",
+      "problem": "Comprendre les activités avant de consulter une fiche de participation",
+      "other": "Une solution complète, sans limites et sans vérification.",
+      "why": "La formulation corrigée décrit uniquement les éléments présents dans la source. Les résultats ou services non documentés restent exclus.",
+      "items": [
+        [
+          "Ce qui est disponible",
+          "La fiche fictive décrit trois activités : semis, entretien et compost. Les horaires et modalités de participation sont à compléter ; aucune inscription en ligne n’est disponible."
+        ],
+        [
+          "Limites à conserver",
+          "Les informations absentes sont à compléter et ne doivent pas être inventées."
+        ]
+      ],
+      "siteType": "associatif",
+      "visualStyle": "Vert profond, blanc et accents terre ; photographies fournies uniquement",
+      "interactions": "Filtres par activité ; accordéon de questions ; bouton ouvrant la fiche locale",
+      "pages": "index.html avec six sections ; une fiche locale de destination",
+      "assets": "Logo LN-IA fourni ; visuels fournis uniquement ; aucun visuel externe obligatoire",
+      "technical": "HTML, CSS et JavaScript séparés ; chemins relatifs ; fonctionnement hors ligne ; sans installation",
+      "packName": "mini-site-jardin-partage"
+    },
+    {
+      "id": "atelier-argile",
+      "title": "Atelier Terre Claire",
+      "sector": "Artisanat",
+      "public": "Personnes intéressées par la céramique artisanale",
+      "need": "Découvrir des réalisations et leurs caractéristiques",
+      "source": "Le catalogue fictif présente trois pièces en céramique : tasse, bol et vase. Les dimensions sont documentées ; prix et disponibilités restent à compléter. Aucun paiement ni commande ne sont proposés.",
+      "before": "Commandez toutes les pièces en stock avec livraison demain.",
+      "after": "Consulter les caractéristiques de trois pièces en céramique.",
+      "benefit": "Comparer les dimensions avant de préparer une question.",
+      "action": "Consulter le catalogue",
+      "target": "catalogue-ceramique",
+      "titlePage": "Atelier Terre Claire",
+      "hookA": "Commandez toutes les pièces en stock avec livraison demain.",
+      "hookB": "Consulter les caractéristiques de trois pièces en céramique.",
+      "problem": "Découvrir des réalisations et leurs caractéristiques",
+      "other": "Une solution complète, sans limites et sans vérification.",
+      "why": "La formulation corrigée décrit uniquement les éléments présents dans la source. Les résultats ou services non documentés restent exclus.",
+      "items": [
+        [
+          "Ce qui est disponible",
+          "Le catalogue fictif présente trois pièces en céramique : tasse, bol et vase. Les dimensions sont documentées ; prix et disponibilités restent à compléter. Aucun paiement ni commande ne sont proposés."
+        ],
+        [
+          "Limites à conserver",
+          "Les informations absentes sont à compléter et ne doivent pas être inventées."
+        ]
+      ],
+      "siteType": "vitrine artisanale",
+      "visualStyle": "Terre cuite, ivoire et anthracite ; galerie de cartes sobres",
+      "interactions": "Filtre tasse, bol, vase ; détail accessible ; aucune commande simulée",
+      "pages": "index.html avec six sections ; une fiche locale de destination",
+      "assets": "Logo LN-IA fourni ; visuels fournis uniquement ; aucun visuel externe obligatoire",
+      "technical": "HTML, CSS et JavaScript séparés ; chemins relatifs ; fonctionnement hors ligne ; sans installation",
+      "packName": "mini-site-atelier-argile"
+    },
+    {
+      "id": "portfolio-nadia",
+      "title": "Portfolio Nadia",
+      "sector": "Portfolio",
+      "public": "Structures recherchant une présentation de travaux graphiques",
+      "need": "Examiner des travaux avant un échange",
+      "source": "Le dossier fictif présente une affiche, une identité visuelle et une maquette web. Chaque travail indique son contexte et le rôle de la créatrice. Les résultats commerciaux ne sont pas mesurés.",
+      "before": "Des créations qui doublent vos ventes.",
+      "after": "Découvrir trois travaux graphiques et leur contexte.",
+      "benefit": "Identifier un travail pertinent pour préparer un échange.",
+      "action": "Voir les réalisations",
+      "target": "realisations-nadia",
+      "titlePage": "Portfolio Nadia",
+      "hookA": "Des créations qui doublent vos ventes.",
+      "hookB": "Découvrir trois travaux graphiques et leur contexte.",
+      "problem": "Examiner des travaux avant un échange",
+      "other": "Une solution complète, sans limites et sans vérification.",
+      "why": "La formulation corrigée décrit uniquement les éléments présents dans la source. Les résultats ou services non documentés restent exclus.",
+      "items": [
+        [
+          "Ce qui est disponible",
+          "Le dossier fictif présente une affiche, une identité visuelle et une maquette web. Chaque travail indique son contexte et le rôle de la créatrice. Les résultats commerciaux ne sont pas mesurés."
+        ],
+        [
+          "Limites à conserver",
+          "Les informations absentes sont à compléter et ne doivent pas être inventées."
+        ]
+      ],
+      "siteType": "portfolio",
+      "visualStyle": "Anthracite, blanc et violet ; priorité aux visuels et aux légendes",
+      "interactions": "Filtres par type de projet ; fiches détaillées ; navigation clavier",
+      "pages": "index.html avec six sections ; une fiche locale de destination",
+      "assets": "Logo LN-IA fourni ; visuels fournis uniquement ; aucun visuel externe obligatoire",
+      "technical": "HTML, CSS et JavaScript séparés ; chemins relatifs ; fonctionnement hors ligne ; sans installation",
+      "packName": "mini-site-portfolio-nadia"
+    }
+  ],
+  "cards": [
+    [
+      "Quel est le rôle de HTML ?",
+      "Organiser le contenu et sa structure."
+    ],
+    [
+      "Quel est le rôle de CSS ?",
+      "Définir la présentation, les couleurs et la mise en page."
+    ],
+    [
+      "Quel est le rôle de JavaScript ?",
+      "Gérer des interactions et les changements d’état."
+    ],
+    [
+      "Que fait le navigateur ?",
+      "Il interprète les fichiers et affiche la page."
+    ],
+    [
+      "Que reprend S18 de S17 ?",
+      "Le support de compréhension, le public, la source et le plan à six sections."
+    ],
+    [
+      "Quelles entrées pour l’atelier ?",
+      "Une saisie manuelle ou un exemple prérempli, ensuite modifiable."
+    ],
+    [
+      "Que décrit le brief ?",
+      "Le projet, le public, le contenu, le style, les pages et les interactions."
+    ],
+    [
+      "Que faire d’une information absente ?",
+      "La laisser à compléter ; ne pas inventer un fait."
+    ],
+    [
+      "Où lancer le prompt ?",
+      "Dans VS Code avec Codex, GPT ou Claude Code, dans un dossier de production."
+    ],
+    [
+      "Que contient le pack demandé ?",
+      "Sources HTML/CSS/JS, ressources locales, destination, README et ZIP."
+    ],
+    [
+      "Comment contrôler le ZIP ?",
+      "Extraire, déplacer, ouvrir la page et tester ses liens et interactions."
+    ],
+    [
+      "Que conserver dans la preuve ?",
+      "Les pièces réellement obtenues, les observations, les corrections et la revue du pilote."
+    ]
+  ],
+  "quiz": [
+    [
+      "Quel fichier structure le contenu ?",
+      [
+        "HTML",
+        "CSS",
+        "Une archive ZIP"
+      ],
+      0,
+      [
+        "Ce choix correspond au parcours demandé.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées."
+      ]
+    ],
+    [
+      "Comment commencer dans l’atelier ?",
+      [
+        "Saisir les champs ou charger un exemple puis les adapter",
+        "Garder tous les exemples inchangés",
+        "Attendre une génération automatique du ZIP par le navigateur"
+      ],
+      0,
+      [
+        "Ce choix correspond au parcours demandé.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées."
+      ]
+    ],
+    [
+      "Une disponibilité manque dans la source. Que demander ?",
+      [
+        "Inventer un stock",
+        "Afficher À compléter",
+        "Garantir la livraison"
+      ],
+      1,
+      [
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix correspond au parcours demandé.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées."
+      ]
+    ],
+    [
+      "Après avoir chargé un exemple, vous changez le public. Que vérifier ?",
+      [
+        "Seulement le nom du fichier",
+        "Le score du quiz",
+        "La cohérence du contenu et du prompt actualisé"
+      ],
+      2,
+      [
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix correspond au parcours demandé."
+      ]
+    ],
+    [
+      "Où exécuter le prompt exporté ?",
+      [
+        "Dans un agent de VS Code avec les ressources jointes",
+        "Dans le compteur de mots",
+        "Dans le visualiseur PDF"
+      ],
+      0,
+      [
+        "Ce choix correspond au parcours demandé.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées."
+      ]
+    ],
+    [
+      "Quel pack est autonome ?",
+      [
+        "Une page avec des chemins absolus sur D:",
+        "HTML/CSS/JS et ressources locales reliés par chemins relatifs",
+        "Un ZIP vide portant le bon nom"
+      ],
+      1,
+      [
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix correspond au parcours demandé.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées."
+      ]
+    ],
+    [
+      "Quel essai prouve une destination ?",
+      [
+        "Le libellé du bouton",
+        "Une case cochée sans essai",
+        "L’ouverture de la pièce après extraction et déplacement"
+      ],
+      2,
+      [
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix correspond au parcours demandé."
+      ]
+    ],
+    [
+      "Que valide le quiz ?",
+      [
+        "Le dossier du pilote",
+        "La présence du ZIP",
+        "Il aide à revoir les notions ; la revue examine les pièces"
+      ],
+      2,
+      [
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix ne suffit pas : retrouver le rôle du fichier, les sources et les pièces réellement vérifiées.",
+        "Ce choix correspond au parcours demandé."
+      ]
+    ]
+  ],
+  "criteria": [
+    "Expliquer les rôles de HTML, CSS, JavaScript et du navigateur à partir de S17.",
+    "Identifier le projet, le public et les sources : guide, affiche ou documents.",
+    "Préparer un contenu fidèle et une action principale vers une cible réelle.",
+    "Conserver les trois documents, le prompt personnalisé et les ressources fournies à l’agent.",
+    "Retrouver le dossier du site, son ZIP, README.md, SOURCES.md et CONTROLE.md.",
+    "Extraire ailleurs et essayer ouverture, images, liens, documents, interactions, clavier et largeur mobile ; noter les résultats réels.",
+    "Conserver la preuve personnelle et préparer les corrections et essais restants pour S19."
+  ],
+  "phases": [
+    {
+      "time": "0–8",
+      "verb": "Reprendre",
+      "slides": "01–04",
+      "candidate": "Ouvrir le support S17 et le dossier Challenge.",
+      "observe": "Le candidat distingue HTML, CSS et JavaScript.",
+      "trainer": "Montrer les pièces et accompagner le geste sans préremplir les résultats.",
+      "relance": "Quelle pièce permet de vérifier ce que vous annoncez ?"
+    },
+    {
+      "time": "8–20",
+      "verb": "Cadrer",
+      "slides": "05–08",
+      "candidate": "Définir le lecteur, les six sections et la destination.",
+      "observe": "La promesse correspond à une source identifiée.",
+      "trainer": "Montrer les pièces et accompagner le geste sans préremplir les résultats.",
+      "relance": "Quelle pièce permet de vérifier ce que vous annoncez ?"
+    },
+    {
+      "time": "20–35",
+      "verb": "Comparer",
+      "slides": "09–13",
+      "candidate": "Explorer quatre exemples et choisir un point de départ.",
+      "observe": "Les limites de chaque exemple sont expliquées.",
+      "trainer": "Montrer les pièces et accompagner le geste sans préremplir les résultats.",
+      "relance": "Quelle pièce permet de vérifier ce que vous annoncez ?"
+    },
+    {
+      "time": "35–65",
+      "verb": "Préparer",
+      "slides": "14–17",
+      "candidate": "Saisir ou charger les champs puis personnaliser le prompt.",
+      "observe": "Le prompt reflète les modifications du formulaire.",
+      "trainer": "Montrer les pièces et accompagner le geste sans préremplir les résultats.",
+      "relance": "Quelle pièce permet de vérifier ce que vous annoncez ?"
+    },
+    {
+      "time": "65–80",
+      "verb": "Produire et éprouver",
+      "slides": "18–20",
+      "candidate": "Exporter le prompt, lancer un agent dans VS Code puis essayer la livraison si disponible.",
+      "observe": "Le ZIP est extrait et les essais réellement effectués sont notés.",
+      "trainer": "Montrer les pièces et accompagner le geste sans préremplir les résultats.",
+      "relance": "Quelle pièce permet de vérifier ce que vous annoncez ?"
+    },
+    {
+      "time": "80–90",
+      "verb": "Conserver",
+      "slides": "21–22",
+      "candidate": "Exporter contenu, prompt, preuve et relais.",
+      "observe": "Les pièces présentes et manquantes sont distinguées.",
+      "trainer": "Montrer les pièces et accompagner le geste sans préremplir les résultats.",
+      "relance": "Quelle pièce permet de vérifier ce que vous annoncez ?"
+    }
+  ],
+  "prompts": [
+    {
+      "kind": "MISSION COURTE",
+      "title": "Reprendre les fondations S17",
+      "input": "Support S17 et champs du projet.",
+      "limit": "Respecter les sources ; ne pas inventer de résultat.",
+      "output": "Explication personnelle",
+      "test": "Rouvrir le fichier et expliquer les choix.",
+      "text": "À partir de mon support S17, aide-moi à distinguer HTML, CSS, JavaScript et le navigateur. Demande un exemple observé et ne remplis pas mes observations."
+    },
+    {
+      "kind": "MISSION COURTE",
+      "title": "Cadrer mon mini-site",
+      "input": "Support S17 et champs du projet.",
+      "limit": "Respecter les sources ; ne pas inventer de résultat.",
+      "output": "Brief de production",
+      "test": "Rouvrir le fichier et expliquer les choix.",
+      "text": "À partir de mon public, de son besoin et de ma source, aide-moi à préciser les six sections, une action unique, sa destination, les pages et les limites du mini-site."
+    },
+    {
+      "kind": "MISSION COURTE",
+      "title": "Comparer deux accroches",
+      "input": "Support S17 et champs du projet.",
+      "limit": "Respecter les sources ; ne pas inventer de résultat.",
+      "output": "Deux propositions motivées",
+      "test": "Rouvrir le fichier et expliquer les choix.",
+      "text": "Propose deux accroches fondées sur ma source. Explique leurs différences et laisse-moi choisir. N’ajoute aucun service ou résultat absent."
+    },
+    {
+      "kind": "MISSION COURTE",
+      "title": "Construire le prompt maître",
+      "input": "Support S17 et champs du projet.",
+      "limit": "Respecter les sources ; ne pas inventer de résultat.",
+      "output": "prompt-maitre-mini-site-S18.md",
+      "test": "Rouvrir le fichier et expliquer les choix.",
+      "text": "Utilise le générateur de la rubrique Atelier : renseigne les champs, examine le prompt actualisé et exporte-le pour VS Code avec Codex, GPT ou Claude Code."
+    },
+    {
+      "kind": "MISSION COURTE",
+      "title": "Contrôler une livraison ZIP",
+      "input": "Support S17 et champs du projet.",
+      "limit": "Respecter les sources ; ne pas inventer de résultat.",
+      "output": "Compte rendu d’essai",
+      "test": "Rouvrir le fichier et expliquer les choix.",
+      "text": "Examine les sources du mini-site et son archive. Contrôle l’arborescence, les chemins relatifs, la destination, l’usage hors ligne, le clavier et la largeur mobile. Sépare les essais effectués de ceux qui restent à faire."
+    },
+    {
+      "kind": "MISSION COURTE",
+      "title": "Préparer la reprise S19",
+      "input": "Support S17 et champs du projet.",
+      "limit": "Respecter les sources ; ne pas inventer de résultat.",
+      "output": "relais-S19.md",
+      "test": "Rouvrir le fichier et expliquer les choix.",
+      "text": "À partir des pièces réellement obtenues, indique le prompt, l’agent, les sources, l’archive, les observations et les corrections encore attendues. Ne déclare aucune validation sans revue humaine."
+    }
+  ]
+}

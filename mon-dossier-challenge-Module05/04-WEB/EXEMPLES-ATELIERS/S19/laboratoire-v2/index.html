@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Démonstrateur autonome de la séance 19 : JSON, fetch, HTTP, erreurs, accessibilité, API, CORS et PHP.">
+  <meta name="theme-color" content="#071631">
+  <title>Séance 19 — Approfondir les notions Web | LN-IA</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div><p class="eyebrow">Module 05 · Séance 19 · V2 à valider</p><h1>Comprendre ce qui se passe derrière une application Web</h1><p>Un démonstrateur autonome pour observer JSON, <code>fetch()</code>, requête, réponse HTTP, validation, DOM, erreurs, API, CORS et PHP — sans dépendre d’une PWA.</p></div>
+      <div class="hero-card"><b>Principe LN-IA</b><p>L’IA propose le code. Le candidat l’explique. Le navigateur le teste. L’humain valide.</p></div>
+    </div>
+  </header>
+  <nav class="nav" aria-label="Navigation principale"><div class="wrap"><a href="#parcours">Parcours</a><a href="#ressources">Ressources</a><a href="#laboratoire">Laboratoire</a><a href="#flashcards">Flashcards</a><a href="#architectures">Architectures</a><a href="#preuve">Preuve</a></div></nav>
+  <main class="wrap">
+    <section id="parcours"><h2>1. La chaîne Web à observer</h2><div class="flow"><span>URL</span><i>→</i><span>requête HTTP</span><i>→</i><span>réponse + statut</span><i>→</i><span>JSON</span><i>→</i><span>validation</span><i>→</i><span>DOM</span></div><div class="grid three concepts"><article><h3>JSON</h3><p>Des données structurées séparées du HTML.</p></article><article><h3>fetch()</h3><p>Une demande asynchrone suivie d’un contrôle de la réponse.</p></article><article><h3>DOM sûr</h3><p>Des éléments créés avec <code>createElement</code> et <code>textContent</code>.</p></article></div></section>
+
+    <section id="ressources" aria-labelledby="resources-title"><div class="section-head"><div><p class="kicker">Données locales</p><h2 id="resources-title">2. Ressources de la séance</h2></div><div class="actions"><span id="network-status" class="network" role="status">Réseau à vérifier</span><button id="reload-button" type="button">Recharger le JSON</button></div></div><p id="status" class="status" role="status" aria-live="polite">Préparation du chargement…</p><button id="retry-button" type="button" hidden>Réessayer</button><div id="filters" class="filters" aria-label="Filtres des ressources"></div><div id="resources-grid" class="grid cards" aria-busy="true"></div></section>
+
+    <section id="laboratoire"><p class="kicker">Manipuler sans casser les fichiers</p><h2>3. Laboratoire des réponses et erreurs</h2><div class="lab-grid"><div class="field"><label for="scenario">Scénario</label><select id="scenario"><option value="success">Succès</option><option value="empty">Tableau vide</option><option value="404">Erreur HTTP 404</option><option value="invalid-json">JSON syntaxiquement invalide</option><option value="not-array">Réponse qui n’est pas un tableau</option><option value="schema">Schéma invalide</option><option value="dangerous">Lien dangereux</option></select></div><button id="run-scenario" type="button">Exécuter le scénario</button></div><p class="hint">Les scénarios sont simulés en mémoire ou par une requête contrôlée. Le fichier JSON original n’est pas modifié.</p><details><summary>Aperçu de la réponse ou de l’erreur</summary><pre id="json-preview">Aucune réponse chargée.</pre></details></section>
+
+    <section id="flashcards"><p class="kicker">Expliquer avec ses mots</p><h2>4. Flashcards générées depuis le même JSON</h2><div id="flashcards-grid" class="grid cards"></div></section>
+
+    <section id="architectures"><h2>5. JSON local, API, CORS et PHP</h2><div class="table-wrap"><table><thead><tr><th>Solution</th><th>Où ?</th><th>Usage</th><th>Limite</th></tr></thead><tbody><tr><td>JSON local</td><td>Dossier public</td><td>Socle de la manipulation</td><td>Données statiques</td></tr><tr><td>API publique</td><td>Serveur distant</td><td>Données mises à jour</td><td>Réseau et CORS</td></tr><tr><td>API protégée</td><td>Serveur sécurisé</td><td>Données contrôlées</td><td>Secret interdit dans le navigateur</td></tr><tr><td>PHP</td><td>Serveur</td><td>Réponse JSON dynamique</td><td>Non interprété par un serveur statique</td></tr></tbody></table></div><div class="callout"><b>À retenir :</b> CORS ne protège pas une clé placée dans JavaScript. Une PWA est une évolution possible, mais cette application de séance fonctionne sans manifeste ni service worker.</div><div class="actions"><button id="test-api" type="button" class="secondary">Tester api.php (facultatif)</button><a class="button-link" href="./preparation-pwa.html">Voir la passerelle PWA</a></div><p id="api-status" class="status" role="status" aria-live="polite"></p></section>
+
+    <section id="preuve"><h2>6. Preuve de compréhension</h2><div class="checklist"><label><input type="checkbox"> Je peux expliquer la chaîne requête → réponse → JSON → DOM.</label><label><input type="checkbox"> Je distingue erreur HTTP, JSON invalide, tableau vide et schéma invalide.</label><label><input type="checkbox"> Je sais pourquoi les données sont validées avant affichage.</label><label><input type="checkbox"> Je peux retourner les flashcards au clavier.</label><label><input type="checkbox"> Je distingue JSON local, API et PHP.</label><label><input type="checkbox"> Je comprends pourquoi une clé privée ne doit pas être dans le navigateur.</label></div><p>Télécharger et compléter : <a href="./preuve-19-json-pwa.md">modèle de preuve 19</a>.</p></section>
+  </main>
+  <footer><div class="wrap"><p><b>Atelier LN-IA — Séance 19</b></p><p>Démonstrateur autonome · Aucun compte · Aucune donnée personnelle · Aucune publication automatique</p></div></footer>
+  <script src="./js/app.js"></script>
+</body>
+</html>
